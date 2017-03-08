@@ -1,0 +1,5 @@
+c:\users\clara\documents\visual studio 2015\Projects\bunny\bunny\bin\Debug\bunny.exe.config
+C:\Users\Clara\Documents\Visual Studio 2015\Projects\bunny\bunny\obj\Debug\bunny.csprojResolveAssemblyReference.cache
+C:\Users\Clara\Documents\Visual Studio 2015\Projects\bunny\bunny\obj\Debug\App.g.cs
+C:\Users\Clara\Documents\Visual Studio 2015\Projects\bunny\bunny\obj\Debug\bunny_MarkupCompile.cache
+C:\Users\User\Desktop\bunny\bunny\bin\Debug\bunny.exe.config
