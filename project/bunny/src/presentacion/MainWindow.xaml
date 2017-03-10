@@ -8,7 +8,7 @@
         Title="MainWindow" Height="600" Width="800">
     <Grid x:Name ="gdEscenario">
         <Grid.Background>
-            <ImageBrush ImageSource="klaaya_s_room_by_ewreilyn-d7judiw.jpg" Stretch="UniformToFill"/>
+            <ImageBrush ImageSource="/bunny;component/img/klaaya_s_room_by_ewreilyn-d7judiw.jpg" Stretch="UniformToFill"/>
         </Grid.Background>
         <Canvas Margin="0,47.6,0,42.8" RenderTransformOrigin="0.337,0.398" Height="480">
             <Canvas x:Name="cvOrejaDerecha" Height="112.252" Canvas.Left="457.888" Canvas.Top="80.052" Width="87.766">
@@ -185,6 +185,16 @@
                         </TransformGroup>
                     </Ellipse.RenderTransform>
                 </Ellipse>
+                <Ellipse Name="parpadoIzq" Fill="#FF3494A0" Height="27" Canvas.Left="5" Stroke="#FF070D0E" Width="25" RenderTransformOrigin="0.785,0.805">
+                    <Ellipse.RenderTransform>
+                        <TransformGroup>
+                            <ScaleTransform ScaleX="-1"/>
+                            <SkewTransform/>
+                            <RotateTransform/>
+                            <TranslateTransform X="-14.25"/>
+                        </TransformGroup>
+                    </Ellipse.RenderTransform>
+                </Ellipse>
             </Canvas>
             <Canvas x:Name="cvMorrito" Height="33.25" Canvas.Left="410.55" Canvas.Top="197.2" Width="31.45">
                 <Ellipse Fill="#FF51A9B6" Height="23.121" Canvas.Left="3.9" Stroke="#FF13454C" Canvas.Top="10.129" Width="15.338" StrokeThickness="2"/>
@@ -283,6 +293,7 @@
                 <Path Data="M374.9,317.85 L393.7,331.25" Fill="#FF13454C" Height="14" Canvas.Left="43.989" Stretch="Fill" Stroke="#FF13454C" StrokeThickness="2" Canvas.Top="35.104" Width="20.6"/>
                 <Path Data="M386.569,309.85 L402.569,323.05" Fill="#FF51A9B6" Height="16.6" Canvas.Left="50.858" Stretch="Fill" Stroke="#FF13454C" StrokeThickness="2" Canvas.Top="25.704" Width="22.8"/>
             </Canvas>
+            <Label x:Name="Timer_counter" Content="Value" Canvas.Left="10" Canvas.Top="10" Background="Transparent" Foreground="White"/>
         </Canvas>
     </Grid>
 </Window>

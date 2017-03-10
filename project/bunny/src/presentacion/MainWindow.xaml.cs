@@ -13,16 +13,34 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
+using bunny.src.presentacion;
+using bunny.src.dominio;
+
 namespace bunny
 {
     /// <summary>
     /// Interaction logic for MainWindow.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class MainWindow : Window, Observador
     {
+        private Temporizador temporizador;
+        private Counter counter;
         public MainWindow()
         {
             InitializeComponent();
+            counter = new Counter();
+            temporizador = new Temporizador(this);
+            Timer_counter.Content = 0;
+        }
+
+        public void update()
+        {
+            counter.increase();
+            Timer_counter.Content = counter.getCounter();
+        }
+        private void Parpadear()
+        {
+            
         }
     }
 }

@@ -3,3 +3,31 @@ C:\Users\Clara\Documents\Visual Studio 2015\Projects\bunny\bunny\obj\Debug\bunny
 C:\Users\Clara\Documents\Visual Studio 2015\Projects\bunny\bunny\obj\Debug\App.g.cs
 C:\Users\Clara\Documents\Visual Studio 2015\Projects\bunny\bunny\obj\Debug\bunny_MarkupCompile.cache
 C:\Users\User\Desktop\bunny\bunny\bin\Debug\bunny.exe.config
+B:\Users\User\GitHub\BunnyTamagochi\project\bunny\bin\Debug\bunny.exe.config
+B:\Users\User\GitHub\BunnyTamagochi\project\bunny\bin\Debug\bunny.exe
+B:\Users\User\GitHub\BunnyTamagochi\project\bunny\bin\Debug\bunny.pdb
+B:\Users\User\GitHub\BunnyTamagochi\project\bunny\obj\Debug\bunny.csprojResolveAssemblyReference.cache
+B:\Users\User\GitHub\BunnyTamagochi\project\bunny\obj\Debug\App.g.cs
+B:\Users\User\GitHub\BunnyTamagochi\project\bunny\obj\Debug\bunny_MarkupCompile.cache
+B:\Users\User\GitHub\BunnyTamagochi\project\bunny\obj\Debug\bunny_MarkupCompile.lref
+B:\Users\User\GitHub\BunnyTamagochi\project\bunny\obj\Debug\bunny.g.resources
+B:\Users\User\GitHub\BunnyTamagochi\project\bunny\obj\Debug\bunny.Properties.Resources.resources
+B:\Users\User\GitHub\BunnyTamagochi\project\bunny\obj\Debug\bunny.csproj.GenerateResource.Cache
+B:\Users\User\GitHub\BunnyTamagochi\project\bunny\obj\Debug\bunny.exe
+B:\Users\User\GitHub\BunnyTamagochi\project\bunny\obj\Debug\bunny.pdb
+B:\Users\User\GitHub\BunnyTamagochi\project\bunny\obj\Debug\src\presentacion\MainWindow.g.cs
+B:\Users\User\GitHub\BunnyTamagochi\project\bunny\obj\Debug\src\presentacion\MainWindow.baml
+B:\Users\User\GitHub\BunnyTamagochi-copia\project\bunny\bin\Debug\bunny.exe.config
+B:\Users\User\GitHub\BunnyTamagochi-copia\project\bunny\obj\Debug\bunny.exe
+B:\Users\User\GitHub\BunnyTamagochi-copia\project\bunny\obj\Debug\bunny.pdb
+B:\Users\User\GitHub\BunnyTamagochi-copia\project\bunny\bin\Debug\bunny.exe
+B:\Users\User\GitHub\BunnyTamagochi-copia\project\bunny\bin\Debug\bunny.pdb
+B:\Users\User\GitHub\BunnyTamagochi-copia\project\bunny\obj\Debug\bunny.csprojResolveAssemblyReference.cache
+B:\Users\User\GitHub\BunnyTamagochi-copia\project\bunny\obj\Debug\src\presentacion\MainWindow.g.cs
+B:\Users\User\GitHub\BunnyTamagochi-copia\project\bunny\obj\Debug\App.g.cs
+B:\Users\User\GitHub\BunnyTamagochi-copia\project\bunny\obj\Debug\bunny_MarkupCompile.cache
+B:\Users\User\GitHub\BunnyTamagochi-copia\project\bunny\obj\Debug\bunny_MarkupCompile.lref
+B:\Users\User\GitHub\BunnyTamagochi-copia\project\bunny\obj\Debug\src\presentacion\MainWindow.baml
+B:\Users\User\GitHub\BunnyTamagochi-copia\project\bunny\obj\Debug\bunny.g.resources
+B:\Users\User\GitHub\BunnyTamagochi-copia\project\bunny\obj\Debug\bunny.Properties.Resources.resources
+B:\Users\User\GitHub\BunnyTamagochi-copia\project\bunny\obj\Debug\bunny.csproj.GenerateResource.Cache
