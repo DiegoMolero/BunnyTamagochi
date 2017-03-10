@@ -15,6 +15,8 @@ using System.Windows.Shapes;
 
 using bunny.src.presentacion;
 using bunny.src.dominio;
+using System.Windows.Media.Animation;
+using bunny.src.presentacion.animations;
 
 namespace bunny
 {
@@ -25,22 +27,22 @@ namespace bunny
     {
         private Temporizador temporizador;
         private Counter counter;
+        private Respirar ani_respirar;
+
         public MainWindow()
         {
             InitializeComponent();
             counter = new Counter();
             temporizador = new Temporizador(this);
             Timer_counter.Content = 0;
+            ani_respirar = new Respirar(cuerpo);
         }
 
         public void update()
         {
             counter.increase();
             Timer_counter.Content = counter.getCounter();
-        }
-        private void Parpadear()
-        {
-            
+            if (counter.getCounter() % 2 == 0) ani_respirar.respirar();
         }
     }
 }
