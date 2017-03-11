@@ -28,6 +28,7 @@ namespace bunny
         private Temporizador temporizador;
         private Counter counter;
         private Respirar ani_respirar;
+        private Parpadear ani_parpadear;
 
         public MainWindow()
         {
@@ -36,13 +37,16 @@ namespace bunny
             temporizador = new Temporizador(this);
             Timer_counter.Content = 0;
             ani_respirar = new Respirar(cuerpo);
+            ani_parpadear = new Parpadear(parpadoIzq,parpadoDer);
         }
 
         public void update()
         {
             counter.increase();
-            Timer_counter.Content = counter.getCounter();
-            if (counter.getCounter() % 5 == 0) ani_respirar.respirar();
+            int counter_aux = counter.getCounter();
+            Timer_counter.Content = counter_aux;
+            if (counter_aux % 4 == 0) ani_respirar.respirarStart();
+            if (counter_aux % 2 == 0) ani_parpadear.parpadearStart();
         }
     }
 }

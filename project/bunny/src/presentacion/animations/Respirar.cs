@@ -58,7 +58,7 @@ namespace bunny.src.presentacion.animations
            Storyboard.SetTargetProperty(widthAnimation, new PropertyPath(Ellipse.WidthProperty));
            Storyboard.SetTargetProperty(canvasLeftAnimation, new PropertyPath(Canvas.LeftProperty));
         }
-        public void respirar()
+        public void respirarStart()
         {
             storyboard.Begin();
         }

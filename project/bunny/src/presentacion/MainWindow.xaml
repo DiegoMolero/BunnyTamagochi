@@ -195,7 +195,17 @@
                         </TransformGroup>
                     </Ellipse.RenderTransform>
                 </Ellipse>
-                <Ellipse Name="parpadoIzq" Fill="#FF3494A0" Height="27" Canvas.Left="5" Stroke="#FF070D0E" Width="25" RenderTransformOrigin="0.785,0.805">
+                <Ellipse Name="parpadoIzq" Fill="#FF3494A0" Height="27" Canvas.Left="5" Stroke="#FF070D0E" Width="25" RenderTransformOrigin="0.785,0.805" Opacity="0">
+                    <Ellipse.RenderTransform>
+                        <TransformGroup>
+                            <ScaleTransform ScaleX="-1"/>
+                            <SkewTransform/>
+                            <RotateTransform/>
+                            <TranslateTransform X="-14.25"/>
+                        </TransformGroup>
+                    </Ellipse.RenderTransform>
+                </Ellipse>
+                <Ellipse x:Name="parpadoDer" Fill="#FF3494A0" Height="27" Canvas.Left="74" Stroke="#FF070D0E" Width="25" RenderTransformOrigin="0.785,0.805" Canvas.Top="1">
                     <Ellipse.RenderTransform>
                         <TransformGroup>
                             <ScaleTransform ScaleX="-1"/>
