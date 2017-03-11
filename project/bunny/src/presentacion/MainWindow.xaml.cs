@@ -45,8 +45,9 @@ namespace bunny
             counter.increase();
             int counter_aux = counter.getCounter();
             Timer_counter.Content = counter_aux;
+            if (counter_aux % 3 == 0) ani_parpadear.parpadearStart();
             if (counter_aux % 4 == 0) ani_respirar.respirarStart();
-            if (counter_aux % 2 == 0) ani_parpadear.parpadearStart();
+            
         }
     }
 }

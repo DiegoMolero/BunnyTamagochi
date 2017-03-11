@@ -21,7 +21,8 @@ namespace bunny.src.presentacion.animations
 {
     class Parpadear
     {
-        private DoubleAnimation parpadearAnimation;
+        private DoubleAnimation parpadearIzqAnimation;
+        private DoubleAnimation parpadearDerAnimation;
         private Storyboard storyboard;
         private Ellipse parpadoIzq;
         private Ellipse parpadoDer;
@@ -32,18 +33,17 @@ namespace bunny.src.presentacion.animations
             this.parpadoDer = parpadoDer;
             storyboard = new Storyboard();
 
-            parpadearAnimation = new DoubleAnimation
-            {
-                From = 0.0,
-                To = 1.0,
-                Duration = new Duration(TimeSpan.FromSeconds(0.5)),
-                AutoReverse = true
-            };
-            storyboard.Children.Add(parpadearAnimation);
+            parpadearIzqAnimation = createAnimation();
+            parpadearDerAnimation = createAnimation();
 
-            Storyboard.SetTargetName(parpadearAnimation, parpadoIzq.Name);
+            storyboard.Children.Add(parpadearIzqAnimation);
+            storyboard.Children.Add(parpadearDerAnimation);
 
-            Storyboard.SetTargetProperty(parpadoIzq, new PropertyPath(Ellipse.OpacityProperty));
+            Storyboard.SetTargetName(parpadearIzqAnimation, parpadoIzq.Name);
+            Storyboard.SetTargetName(parpadearDerAnimation, parpadoDer.Name);
+
+            Storyboard.SetTargetProperty(parpadearIzqAnimation, new PropertyPath(Ellipse.OpacityProperty));
+            Storyboard.SetTargetProperty(parpadearDerAnimation, new PropertyPath(Ellipse.OpacityProperty));
 
         }
 
@@ -51,6 +51,18 @@ namespace bunny.src.presentacion.animations
         {
             storyboard.Begin(parpadoIzq);
         }
+
+        private DoubleAnimation createAnimation() {
+            DoubleAnimation animation = new DoubleAnimation
+            {
+                From = 0.0,
+                To = 1.0,
+                Duration = new Duration(TimeSpan.FromSeconds(0.05)),
+                AutoReverse = true
+            };
+            return animation;
+        }
+
 
     }
 }
