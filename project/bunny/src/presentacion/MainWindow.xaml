@@ -65,7 +65,17 @@
                     </Ellipse.RenderTransform>
                 </Ellipse>
             </Canvas>
-            <Ellipse x:Name="cuerpo" Fill="#FF51A9B6" Height="186.667" Canvas.Left="318.119" Stroke="#FF13454C" StrokeThickness="3" Canvas.Top="245.933" Width="212.52"/>
+            <Ellipse x:Name="cuerpo" Fill="#FF51A9B6" Height="186" Canvas.Left="313" Stroke="#FF13454C" StrokeThickness="3" Canvas.Top="246" Width="223" RenderTransformOrigin="0.5,0.5">
+                <!--<Ellipse x:Name="cuerpo" Fill="#FF51A9B6" Height="186" Canvas.Left="306" Stroke="#FF13454C" StrokeThickness="3" Canvas.Top="246" Width="240" RenderTransformOrigin="0.5,0.5">-->
+                <Ellipse.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform AngleY="0.32"/>
+                        <RotateTransform/>
+                        <TranslateTransform Y="-0.594"/>
+                    </TransformGroup>
+                </Ellipse.RenderTransform>
+            </Ellipse>
             <Ellipse x:Name="cara" Fill="#FF51A9B6" Height="127.467" Canvas.Left="348.267" Stroke="#FF13454C" StrokeThickness="3" Canvas.Top="144.4" Width="156.133"/>
             <Canvas x:Name="cvOjoDerecho" Height="35.702" Canvas.Left="443.443" Canvas.Top="173.8" Width="36.624">
                 <Ellipse Fill="#FF0C0C0C" Height="27.6" Canvas.Left="3.557" Stroke="#FF070D0E" Width="25"/>

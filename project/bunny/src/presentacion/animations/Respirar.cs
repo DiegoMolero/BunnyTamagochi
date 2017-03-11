@@ -22,40 +22,41 @@ namespace bunny.src.presentacion.animations
     class Respirar
     {
         private DoubleAnimation widthAnimation;
-        private DoubleAnimation heightAnimation;
+        private DoubleAnimation canvasLeftAnimation;
         private Storyboard storyboard;
         private Ellipse cuerpo;
-        private double acutalWidthCuerpo;
-        private double actualHeigthCuerpo;
+        private double actualWidthCuerpo;
+        private double actualCanvasLeft;
 
         public Respirar(Ellipse cuerpo)
         {
             this.cuerpo = cuerpo;
             storyboard = new Storyboard();
-            actualHeigthCuerpo = cuerpo.Height;
-            acutalWidthCuerpo = cuerpo.Width;
+            actualCanvasLeft = 313;
+            actualWidthCuerpo = cuerpo.Width;
 
             widthAnimation = new DoubleAnimation
             {
-                From = acutalWidthCuerpo,
-                To = acutalWidthCuerpo,
-                Duration = TimeSpan.FromSeconds(2)
+                From = actualWidthCuerpo,
+                To = actualWidthCuerpo + 10,
+                Duration = TimeSpan.FromSeconds(2),
+                AutoReverse = true
             };
-            heightAnimation = new DoubleAnimation
+            canvasLeftAnimation = new DoubleAnimation
             {
-                From = actualHeigthCuerpo,
-                To = acutalWidthCuerpo,
-                Duration = TimeSpan.FromSeconds(2)
+                From = actualCanvasLeft,
+                To = actualCanvasLeft - 5,
+                Duration = TimeSpan.FromSeconds(2),
+                AutoReverse = true
             };
-            Storyboard.SetTargetProperty(widthAnimation, new PropertyPath(Ellipse.WidthProperty));
-            Storyboard.SetTarget(widthAnimation, cuerpo);
+           storyboard.Children.Add(widthAnimation);
+           storyboard.Children.Add(canvasLeftAnimation);
 
-            Storyboard.SetTargetProperty(heightAnimation, new PropertyPath(Ellipse.HeightProperty));
-            Storyboard.SetTarget(heightAnimation,cuerpo);
+           Storyboard.SetTarget(widthAnimation, cuerpo);
+           Storyboard.SetTarget(canvasLeftAnimation, cuerpo);
 
-            storyboard.Children.Add(widthAnimation);
-            storyboard.Children.Add(heightAnimation);
-
+           Storyboard.SetTargetProperty(widthAnimation, new PropertyPath(Ellipse.WidthProperty));
+           Storyboard.SetTargetProperty(canvasLeftAnimation, new PropertyPath(Canvas.LeftProperty));
         }
         public void respirar()
         {

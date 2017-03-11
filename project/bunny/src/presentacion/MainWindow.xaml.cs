@@ -42,7 +42,7 @@ namespace bunny
         {
             counter.increase();
             Timer_counter.Content = counter.getCounter();
-            if (counter.getCounter() % 2 == 0) ani_respirar.respirar();
+            if (counter.getCounter() % 5 == 0) ani_respirar.respirar();
         }
     }
 }
