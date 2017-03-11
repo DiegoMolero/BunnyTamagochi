@@ -64,6 +64,8 @@
     </Compile>
     <Compile Include="src\dominio\Counter.cs" />
     <Compile Include="src\dominio\Temporizador.cs" />
+    <Compile Include="src\presentacion\animations\RascarBarrigaCanvas.cs" />
+    <Compile Include="src\presentacion\animations\RascarBarriga.cs" />
     <Compile Include="src\presentacion\animations\Parpadear.cs" />
     <Compile Include="src\presentacion\animations\Respirar.cs" />
     <Compile Include="src\presentacion\Observador.cs" />

@@ -58,7 +58,8 @@ namespace bunny.src.presentacion.animations
                 From = 0.0,
                 To = 1.0,
                 Duration = new Duration(TimeSpan.FromSeconds(0.05)),
-                AutoReverse = true
+                AutoReverse = true,
+                RepeatBehavior = new RepeatBehavior(2)
             };
             return animation;
         }

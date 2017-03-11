@@ -267,18 +267,26 @@
                 <Path Data="M3.5406722,1.5 L127.65932,1.5 127.68196,1.5533257 C128.99934,4.8177261 129.7,8.2399483 129.7,11.766502 129.7,34.336449 101.00145,52.633003 65.599998,52.633003 30.198547,52.633003 1.4999994,34.336449 1.5,11.766502 1.4999994,8.2399483 2.2006475,4.8177261 3.5180377,1.5533257 z" Fill="#FF78D3E0" Height="54.133" Stretch="Fill" Stroke="#FF13454C" StrokeThickness="2" Width="116.358"/>
                 <Ellipse Fill="#FF13454C" Height="10.667" Canvas.Left="51.441" Stroke="#FF13454C" Canvas.Top="37.266" Width="16.65"/>
             </Canvas>
-            <Canvas x:Name="cvBrazoIzquierdo" Height="49.104" Canvas.Left="330.911" Canvas.Top="282.746" Width="78.14">
-                <Ellipse Fill="#FF51A9B6" Height="46.8" Stroke="#FF13454C" StrokeThickness="3" Width="78.14" RenderTransformOrigin="0.5,0.5" Canvas.Top="-0.4">
+            <Canvas x:Name="cvBrazoIzquierdo" Height="49.104" Canvas.Left="330.911" Canvas.Top="282.746" Width="78.14" RenderTransformOrigin="0.5,0.5">
+                <Canvas.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform Angle="0"/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </Canvas.RenderTransform>
+                <Ellipse x:Name="brazoIzq" Fill="#FF51A9B6" Height="47" Stroke="#FF13454C" StrokeThickness="3" Width="78" RenderTransformOrigin="0.5,0.5">
                     <Ellipse.RenderTransform>
                         <TransformGroup>
                             <ScaleTransform/>
                             <SkewTransform/>
-                            <RotateTransform Angle="27.568"/>
+                            <RotateTransform Angle="27"/>
                             <TranslateTransform/>
                         </TransformGroup>
                     </Ellipse.RenderTransform>
                 </Ellipse>
-                <Path Data="M374.9,317.85 L393.7,331.25" Fill="#FF13454C" Height="14" Canvas.Left="43.989" Stretch="Fill" Stroke="#FF13454C" StrokeThickness="2" Canvas.Top="35.104" Width="20.6"/>
+                <Path Data="M374.9,317.85 L393.7,331.25" Fill="#FF13454C" Height="16" Canvas.Left="38.133" Stretch="Fill" Stroke="#FF13454C" StrokeThickness="2" Canvas.Top="32.933" Width="24.04"/>
                 <Path Data="M386.569,309.85 L402.569,323.05" Fill="#FF51A9B6" Height="16.6" Canvas.Left="50.858" Stretch="Fill" Stroke="#FF13454C" StrokeThickness="2" Canvas.Top="25.704" Width="22.8"/>
             </Canvas>
             <Canvas x:Name="cvPataIzquierda" Height="32.65" Canvas.Left="365.458" Canvas.Top="411.2" Width="59.639">
@@ -291,7 +299,7 @@
                 <Path Data="M381.769,443.85 L382.268,427.75" Fill="#FF51A9B6" Height="20.1" Canvas.Left="19.311" Stretch="Fill" Stroke="#FF13454C" StrokeThickness="3" Canvas.Top="12.55" Width="3.499"/>
                 <Path Data="M404.569,441.15 L404.569,426.75" Fill="#FF51A9B6" Height="20.1" Canvas.Left="36.111" Stretch="Fill" Stroke="#FF13454C" StrokeThickness="3" Canvas.Top="12.55" Width="3"/>
             </Canvas>
-            <Canvas x:Name="cvBrazoDerecho" Height="49.104" Canvas.Left="412.651" Canvas.Top="287.946" Width="107.46" RenderTransformOrigin="0.5,0.5">
+            <Canvas x:Name="cvBrazoDerecho" Height="28" Canvas.Left="387" Canvas.Top="288" Width="133" RenderTransformOrigin="0.5,0.5">
                 <Canvas.RenderTransform>
                     <TransformGroup>
                         <ScaleTransform ScaleX="-1"/>
@@ -300,13 +308,13 @@
                         <TranslateTransform/>
                     </TransformGroup>
                 </Canvas.RenderTransform>
-                <Ellipse Fill="#FF51A9B6" Height="46.8" Stroke="#FF13454C" StrokeThickness="3" Width="78.14" RenderTransformOrigin="0.5,0.5" Canvas.Top="-0.4">
+                <Ellipse Name="brazoDer" Fill="#FF51A9B6" Height="47" Stroke="#FF13454C" StrokeThickness="3" Width="78" RenderTransformOrigin="0.466,1.381" Canvas.Top="-1">
                     <Ellipse.RenderTransform>
                         <TransformGroup>
                             <ScaleTransform/>
                             <SkewTransform/>
-                            <RotateTransform Angle="27.568"/>
-                            <TranslateTransform/>
+                            <RotateTransform Angle="27"/>
+                            <TranslateTransform X="-18.863" Y="-5.924"/>
                         </TransformGroup>
                     </Ellipse.RenderTransform>
                 </Ellipse>

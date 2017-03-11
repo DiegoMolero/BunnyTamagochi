@@ -29,6 +29,7 @@ namespace bunny
         private Counter counter;
         private Respirar ani_respirar;
         private Parpadear ani_parpadear;
+        private RascarBarrigaCanvas ani_rascarbarriga;
 
         public MainWindow()
         {
@@ -38,6 +39,7 @@ namespace bunny
             Timer_counter.Content = 0;
             ani_respirar = new Respirar(cuerpo);
             ani_parpadear = new Parpadear(parpadoIzq,parpadoDer);
+            ani_rascarbarriga = new RascarBarrigaCanvas(cvBrazoIzquierdo,cvBrazoDerecho);
         }
 
         public void update()
@@ -47,7 +49,9 @@ namespace bunny
             Timer_counter.Content = counter_aux;
             if (counter_aux % 3 == 0) ani_parpadear.parpadearStart();
             if (counter_aux % 4 == 0) ani_respirar.respirarStart();
-            
+            if (counter_aux % 10 == 0) ani_rascarbarriga.parpadearStart();
+
+
         }
     }
 }
