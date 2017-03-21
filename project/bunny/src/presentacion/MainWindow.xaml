@@ -6,11 +6,100 @@
         xmlns:local="clr-namespace:bunny"
         mc:Ignorable="d"
         Title="MainWindow" Height="600" Width="800">
+    <Window.Resources>
+        <Storyboard x:Key="sbSusto" AutoReverse="True">
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="bocaSorprendido">
+                <EasingDoubleKeyFrame KeyTime="0:0:1" Value="1">
+                    <EasingDoubleKeyFrame.EasingFunction>
+                        <BackEase EasingMode="EaseOut"/>
+                    </EasingDoubleKeyFrame.EasingFunction>
+                </EasingDoubleKeyFrame>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[0].(ScaleTransform.ScaleY)" Storyboard.TargetName="cvOjoDerecho">
+                <EasingDoubleKeyFrame KeyTime="0:0:1" Value="1.381"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.Y)" Storyboard.TargetName="cvOjoDerecho">
+                <EasingDoubleKeyFrame KeyTime="0:0:1" Value="-6.8"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[0].(ScaleTransform.ScaleX)" Storyboard.TargetName="cvOjoDerecho">
+                <EasingDoubleKeyFrame KeyTime="0:0:1" Value="1.262"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.X)" Storyboard.TargetName="cvOjoDerecho">
+                <EasingDoubleKeyFrame KeyTime="0:0:1" Value="4.8"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[0].(ScaleTransform.ScaleX)" Storyboard.TargetName="cvOjoIzquierdo">
+                <EasingDoubleKeyFrame KeyTime="0:0:1" Value="1.245"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[0].(ScaleTransform.ScaleY)" Storyboard.TargetName="cvOjoIzquierdo">
+                <EasingDoubleKeyFrame KeyTime="0:0:1" Value="1.311"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.X)" Storyboard.TargetName="cvOjoIzquierdo">
+                <EasingDoubleKeyFrame KeyTime="0:0:1" Value="-4.4"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.Y)" Storyboard.TargetName="cvOjoIzquierdo">
+                <EasingDoubleKeyFrame KeyTime="0:0:1" Value="-5.6"/>
+            </DoubleAnimationUsingKeyFrames>
+        </Storyboard>
+        <Storyboard x:Key="sbSaltar" AutoReverse="True">
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.X)" Storyboard.TargetName="canvas">
+                <EasingDoubleKeyFrame KeyTime="0:0:0.5" Value="-111.6">
+                    <EasingDoubleKeyFrame.EasingFunction>
+                        <CubicEase EasingMode="EaseOut"/>
+                    </EasingDoubleKeyFrame.EasingFunction>
+                </EasingDoubleKeyFrame>
+                <EasingDoubleKeyFrame KeyTime="0:0:1" Value="-199.2">
+                    <EasingDoubleKeyFrame.EasingFunction>
+                        <CubicEase EasingMode="EaseOut"/>
+                    </EasingDoubleKeyFrame.EasingFunction>
+                </EasingDoubleKeyFrame>
+                <EasingDoubleKeyFrame KeyTime="0:0:1.5" Value="130.8">
+                    <EasingDoubleKeyFrame.EasingFunction>
+                        <CubicEase EasingMode="EaseOut"/>
+                    </EasingDoubleKeyFrame.EasingFunction>
+                </EasingDoubleKeyFrame>
+                <EasingDoubleKeyFrame KeyTime="0:0:2" Value="157.2">
+                    <EasingDoubleKeyFrame.EasingFunction>
+                        <CubicEase EasingMode="EaseOut"/>
+                    </EasingDoubleKeyFrame.EasingFunction>
+                </EasingDoubleKeyFrame>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.Y)" Storyboard.TargetName="canvas">
+                <EasingDoubleKeyFrame KeyTime="0:0:0.5" Value="-50.4">
+                    <EasingDoubleKeyFrame.EasingFunction>
+                        <CubicEase EasingMode="EaseOut"/>
+                    </EasingDoubleKeyFrame.EasingFunction>
+                </EasingDoubleKeyFrame>
+                <EasingDoubleKeyFrame KeyTime="0:0:1" Value="68.4">
+                    <EasingDoubleKeyFrame.EasingFunction>
+                        <CubicEase EasingMode="EaseOut"/>
+                    </EasingDoubleKeyFrame.EasingFunction>
+                </EasingDoubleKeyFrame>
+                <EasingDoubleKeyFrame KeyTime="0:0:1.5" Value="-70.8">
+                    <EasingDoubleKeyFrame.EasingFunction>
+                        <CubicEase EasingMode="EaseOut"/>
+                    </EasingDoubleKeyFrame.EasingFunction>
+                </EasingDoubleKeyFrame>
+                <EasingDoubleKeyFrame KeyTime="0:0:2" Value="46.8">
+                    <EasingDoubleKeyFrame.EasingFunction>
+                        <CubicEase EasingMode="EaseOut"/>
+                    </EasingDoubleKeyFrame.EasingFunction>
+                </EasingDoubleKeyFrame>
+            </DoubleAnimationUsingKeyFrames>
+        </Storyboard>
+    </Window.Resources>
     <Grid x:Name ="gdEscenario">
         <Grid.Background>
             <ImageBrush ImageSource="/bunny;component/img/klaaya_s_room_by_ewreilyn-d7judiw.jpg" Stretch="UniformToFill"/>
         </Grid.Background>
-        <Canvas Margin="0,47.6,0,42.8" RenderTransformOrigin="0.337,0.398" Height="480">
+        <Canvas x:Name="canvas" Margin="0,47.6,0,42.8" RenderTransformOrigin="0.337,0.398" Height="480" MouseEnter="dameUnSusto">
+            <Canvas.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Canvas.RenderTransform>
             <Canvas x:Name="cvOrejaDerecha" Height="112.252" Canvas.Left="457.888" Canvas.Top="80.052" Width="87.766">
                 <Ellipse Fill="#FF51A9B6" Height="111.203" Stroke="#FF13454C" StrokeThickness="3" Width="57.944" RenderTransformOrigin="0.5,0.5">
                     <Ellipse.RenderTransform>
@@ -77,7 +166,15 @@
                 </Ellipse.RenderTransform>
             </Ellipse>
             <Ellipse x:Name="cara" Fill="#FF51A9B6" Height="127.467" Canvas.Left="348.267" Stroke="#FF13454C" StrokeThickness="3" Canvas.Top="144.4" Width="156.133"/>
-            <Canvas x:Name="cvOjoDerecho" Height="35.702" Canvas.Left="443.443" Canvas.Top="173.8" Width="36.624">
+            <Canvas x:Name="cvOjoDerecho" Height="35.702" Canvas.Left="443.443" Canvas.Top="173.8" Width="36.624" RenderTransformOrigin="0.5,0.5">
+                <Canvas.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </Canvas.RenderTransform>
                 <Ellipse Fill="#FF0C0C0C" Height="27.6" Canvas.Left="3.557" Stroke="#FF070D0E" Width="25"/>
                 <Ellipse Fill="#FFF9F6F6" Height="17.5" Canvas.Left="5.607" Stroke="#FF070D0E" Canvas.Top="1.5" Width="12.8"/>
                 <Ellipse Fill="#FFF9F6F6" Height="7.5" Canvas.Left="9.207" Stroke="#FF070D0E" Canvas.Top="19" Width="11.4"/>
@@ -114,7 +211,15 @@
                     </Ellipse.RenderTransform>
                 </Ellipse>
             </Canvas>
-            <Canvas x:Name="cvOjoIzquierdo" Height="36.002" Canvas.Left="373.169" Canvas.Top="172.9" Width="35.972">
+            <Canvas x:Name="cvOjoIzquierdo" Height="36.002" Canvas.Left="373.169" Canvas.Top="172.9" Width="35.972" RenderTransformOrigin="0.5,0.5">
+                <Canvas.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </Canvas.RenderTransform>
                 <Ellipse Fill="#FF0C0C0C" Height="27.6" Canvas.Left="4.631" Stroke="#FF070D0E" Width="25" RenderTransformOrigin="0.5,0.5">
                     <Ellipse.RenderTransform>
                         <TransformGroup>
@@ -322,6 +427,8 @@
                 <Path Data="M386.569,309.85 L402.569,323.05" Fill="#FF51A9B6" Height="16.6" Canvas.Left="50.858" Stretch="Fill" Stroke="#FF13454C" StrokeThickness="2" Canvas.Top="25.704" Width="22.8"/>
             </Canvas>
             <Label x:Name="Timer_counter" Content="Value" Canvas.Left="10" Canvas.Top="10" Background="Transparent" Foreground="White"/>
+            <Ellipse x:Name="bocaSorprendido" Fill="#FF021B1F" Height="39.898" Canvas.Left="410.55" Stroke="#FF13454C" StrokeThickness="2" Canvas.Top="213.902" Width="36.45" Opacity="0"/>
+            <Ellipse Fill="#FF021B1F" Height="189.45" Canvas.Left="10" Stroke="#FF13454C" StrokeThickness="2" Canvas.Top="188.999" Width="768.9" Opacity="0"/>
         </Canvas>
     </Grid>
 </Window>

@@ -53,5 +53,11 @@ namespace bunny
 
 
         }
+
+        private void dameUnSusto(object sender, MouseEventArgs e)
+        {
+            Storyboard sbSusto = (Storyboard)this.Resources["sbSusto"];
+            sbSusto.Begin();
+        }
     }
 }
