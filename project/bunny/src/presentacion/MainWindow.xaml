@@ -6,6 +6,9 @@
         xmlns:local="clr-namespace:bunny"
         mc:Ignorable="d"
         Title="MainWindow" Height="600" Width="800">
+    <!--<Window.Content>
+        <StaticResource ResourceKey="barLayout"/>
+    </Window.Content>-->
     <Window.Resources>
         <Storyboard x:Key="sbSusto" AutoReverse="True">
             <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="bocaSorprendido">
@@ -430,5 +433,8 @@
             <Ellipse x:Name="bocaSorprendido" Fill="#FF021B1F" Height="39.898" Canvas.Left="410.55" Stroke="#FF13454C" StrokeThickness="2" Canvas.Top="213.902" Width="36.45" Opacity="0"/>
             <Ellipse Fill="#FF021B1F" Height="189.45" Canvas.Left="10" Stroke="#FF13454C" StrokeThickness="2" Canvas.Top="188.999" Width="768.9" Opacity="0"/>
         </Canvas>
+        <Grid HorizontalAlignment="Left" Height="100" VerticalAlignment="Top" Width="100"/>
+        <Grid HorizontalAlignment="Left" Height="124" Margin="323,10,0,0" VerticalAlignment="Top" Width="461"
+            />
     </Grid>
 </Window>
