@@ -59,5 +59,3 @@ C:\Users\Clara\Documents\Visual Studio 2015\Projects\BunnyTamagochi\project\bunn
 C:\Users\Clara\Documents\Visual Studio 2015\Projects\BunnyTamagochi\project\bunny\obj\Debug\bunny.g.resources
 C:\Users\Clara\Documents\Visual Studio 2015\Projects\BunnyTamagochi\project\bunny\obj\Debug\bunny.Properties.Resources.resources
 C:\Users\Clara\Documents\Visual Studio 2015\Projects\BunnyTamagochi\project\bunny\obj\Debug\bunny.csproj.GenerateResource.Cache
-B:\Users\User\GitHub\BunnyTamagochi\project\bunny\obj\Debug\App.baml
-B:\Users\User\GitHub\BunnyTamagochi\project\bunny\obj\Debug\src\presentacion\resources\barLayout.baml

@@ -434,7 +434,25 @@
             <Ellipse Fill="#FF021B1F" Height="189.45" Canvas.Left="10" Stroke="#FF13454C" StrokeThickness="2" Canvas.Top="188.999" Width="768.9" Opacity="0"/>
         </Canvas>
         <Grid HorizontalAlignment="Left" Height="100" VerticalAlignment="Top" Width="100"/>
-        <Grid HorizontalAlignment="Left" Height="124" Margin="323,10,0,0" VerticalAlignment="Top" Width="461"
-            />
+        <Grid HorizontalAlignment="Left" Height="90" Margin="329,10,0,0" VerticalAlignment="Top" Width="455" >
+            <ProgressBar HorizontalAlignment="Left" Height="13" Margin="147,6,0,0" VerticalAlignment="Top" Width="254" Background="#FFE6E6E6" Value="100"/>
+            <ProgressBar HorizontalAlignment="Left" Height="13" Margin="147,31,0,0" VerticalAlignment="Top" Width="254" Value="100"/>
+            <ProgressBar HorizontalAlignment="Left" Height="13" Margin="147,55,0,0" VerticalAlignment="Top" Width="254" Cursor="" Value="100"/>
+            <Label x:Name="label" Content="&#xD;&#xA;" HorizontalAlignment="Left" Margin="112,2,0,0" VerticalAlignment="Top" Height="21" Width="30" RenderTransformOrigin="0.496,0.333">
+                <Label.Background>
+                    <ImageBrush ImageSource="/bunny;component/img/icons/fried-chicken.png"/>
+                </Label.Background>
+            </Label>
+            <Label x:Name="label_Copy" Content="&#xA;" HorizontalAlignment="Left" Margin="117,26,0,0" VerticalAlignment="Top" Height="21" Width="25" RenderTransformOrigin="0.496,0.333">
+                <Label.Background>
+                    <ImageBrush ImageSource="/bunny;component/img/icons/toilet.png"/>
+                </Label.Background>
+            </Label>
+            <Label x:Name="label_Copy1" Content="&#xA;" HorizontalAlignment="Left" Margin="117,50,0,0" VerticalAlignment="Top" Height="21" Width="25" RenderTransformOrigin="0.496,0.333">
+                <Label.Background>
+                    <ImageBrush ImageSource="/bunny;component/img/icons/sleep.png"/>
+                </Label.Background>
+            </Label>
+        </Grid>
     </Grid>
 </Window>

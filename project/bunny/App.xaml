@@ -4,10 +4,5 @@
              xmlns:local="clr-namespace:bunny"
              StartupUri="src\presentacion\MainWindow.xaml">
     <Application.Resources>
-        <ResourceDictionary>
-            <ResourceDictionary.MergedDictionaries>
-                <ResourceDictionary Source="src/presentacion/resources/barLayout.xaml"/>
-            </ResourceDictionary.MergedDictionaries>
-        </ResourceDictionary>
     </Application.Resources>
 </Application>
