@@ -432,12 +432,13 @@
             <Label x:Name="Timer_counter" Content="Value" Canvas.Left="10" Canvas.Top="10" Background="Transparent" Foreground="White"/>
             <Ellipse x:Name="bocaSorprendido" Fill="#FF021B1F" Height="39.898" Canvas.Left="410.55" Stroke="#FF13454C" StrokeThickness="2" Canvas.Top="213.902" Width="36.45" Opacity="0"/>
             <Ellipse Fill="#FF021B1F" Height="189.45" Canvas.Left="10" Stroke="#FF13454C" StrokeThickness="2" Canvas.Top="188.999" Width="768.9" Opacity="0"/>
+
         </Canvas>
         <Grid HorizontalAlignment="Left" Height="100" VerticalAlignment="Top" Width="100"/>
         <Grid HorizontalAlignment="Left" Height="90" Margin="329,10,0,0" VerticalAlignment="Top" Width="455" >
-            <ProgressBar HorizontalAlignment="Left" Height="13" Margin="147,6,0,0" VerticalAlignment="Top" Width="254" Background="#FFE6E6E6" Value="100"/>
-            <ProgressBar HorizontalAlignment="Left" Height="13" Margin="147,31,0,0" VerticalAlignment="Top" Width="254" Value="100"/>
-            <ProgressBar HorizontalAlignment="Left" Height="13" Margin="147,55,0,0" VerticalAlignment="Top" Width="254" Cursor="" Value="100"/>
+            <ProgressBar x:Name="ProgressBar_hambre" HorizontalAlignment="Left" Height="13" Margin="147,6,0,0" VerticalAlignment="Top" Width="254" Background="#FFE6E6E6" Value="100"/>
+            <ProgressBar x:Name="ProgressBar_baño" HorizontalAlignment="Left" Height="13" Margin="147,31,0,0" VerticalAlignment="Top" Width="254" Value="100"/>
+            <ProgressBar x:Name="ProgressBar_sueño" HorizontalAlignment="Left" Height="13" Margin="147,55,0,0" VerticalAlignment="Top" Width="254" Cursor="" Value="100"/>
             <Label x:Name="label" Content="&#xD;&#xA;" HorizontalAlignment="Left" Margin="112,2,0,0" VerticalAlignment="Top" Height="21" Width="30" RenderTransformOrigin="0.496,0.333">
                 <Label.Background>
                     <ImageBrush ImageSource="/bunny;component/img/icons/fried-chicken.png"/>
@@ -453,6 +454,9 @@
                     <ImageBrush ImageSource="/bunny;component/img/icons/sleep.png"/>
                 </Label.Background>
             </Label>
+            <Label x:Name="Label_hambre" Content="Label" HorizontalAlignment="Left" Margin="406,2,0,0" VerticalAlignment="Top" Foreground="White"/>
+            <Label x:Name="Label_baño" Content="Label" HorizontalAlignment="Left" Margin="406,26,0,38" Foreground="White"/>
+            <Label x:Name="Label_sueño" Content="Label" HorizontalAlignment="Left" Margin="406,50,0,0" VerticalAlignment="Top" Foreground="White"/>
         </Grid>
     </Grid>
 </Window>
