@@ -33,6 +33,7 @@ namespace bunny
         private ProgressBarControler progressbar_controler;
         private Cansancio ani_cansancio;
         private Suciedad ani_suciedad;
+        private Hambre ani_hambre;
 
         public MainWindow()
         {
@@ -45,9 +46,10 @@ namespace bunny
             ani_rascarbarriga = new RascarBarrigaCanvas(cvBrazoIzquierdo, cvBrazoDerecho);
             ani_cansancio = new Cansancio(this.FindResource("sbCansancio") as Storyboard);
             ani_suciedad = new Suciedad(this.FindResource("sbSuciedad") as Storyboard);
+            ani_hambre = new Hambre(this.FindResource("sbHambre") as Storyboard);
             progressbar_controler = new ProgressBarControler(ProgressBar_hambre, ProgressBar_baño, ProgressBar_sueño, //ProgressBars
     Label_hambre, Label_baño, Label_sueño,
-     ani_suciedad,ani_cansancio); //Labels
+     ani_suciedad,ani_cansancio, ani_hambre); //Labels
             temporizador = new Temporizador(this);
             temporizador.registrarObservador(progressbar_controler);
         }
