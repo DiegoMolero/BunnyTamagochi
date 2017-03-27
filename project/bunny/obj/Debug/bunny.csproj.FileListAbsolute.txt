@@ -59,3 +59,6 @@ C:\Users\Clara\Documents\Visual Studio 2015\Projects\BunnyTamagochi\project\bunn
 C:\Users\Clara\Documents\Visual Studio 2015\Projects\BunnyTamagochi\project\bunny\obj\Debug\bunny.g.resources
 C:\Users\Clara\Documents\Visual Studio 2015\Projects\BunnyTamagochi\project\bunny\obj\Debug\bunny.Properties.Resources.resources
 C:\Users\Clara\Documents\Visual Studio 2015\Projects\BunnyTamagochi\project\bunny\obj\Debug\bunny.csproj.GenerateResource.Cache
+C:\Users\Clara\Desktop\BunnyTamagochi\project\bunny\bin\Debug\bunny.exe.config
+C:\Users\Clara\Desktop\BunnyTamagochi\project\bunny\obj\Debug\bunny.exe
+C:\Users\Clara\Desktop\BunnyTamagochi\project\bunny\obj\Debug\bunny.pdb

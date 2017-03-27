@@ -30,27 +30,37 @@ namespace bunny
         private Respirar ani_respirar;
         private Parpadear ani_parpadear;
         private RascarBarrigaCanvas ani_rascarbarriga;
+        private ProgressBarControler progressbar_controler;
+        private Cansancio ani_cansancio;
+        private Suciedad ani_suciedad;
 
         public MainWindow()
         {
             InitializeComponent();
             counter = new Counter();
-            temporizador = new Temporizador(this);
             Timer_counter.Content = 0;
+
             ani_respirar = new Respirar(cuerpo);
-            ani_parpadear = new Parpadear(parpadoIzq,parpadoDer);
-            ani_rascarbarriga = new RascarBarrigaCanvas(cvBrazoIzquierdo,cvBrazoDerecho);
+            ani_parpadear = new Parpadear(parpadoIzq, parpadoDer);
+            ani_rascarbarriga = new RascarBarrigaCanvas(cvBrazoIzquierdo, cvBrazoDerecho);
+            ani_cansancio = new Cansancio(this.FindResource("sbCansancio") as Storyboard);
+            ani_suciedad = new Suciedad(this.FindResource("sbSuciedad") as Storyboard);
+            progressbar_controler = new ProgressBarControler(ProgressBar_hambre, ProgressBar_baño, ProgressBar_sueño, //ProgressBars
+    Label_hambre, Label_baño, Label_sueño,
+     ani_suciedad,ani_cansancio); //Labels
+            temporizador = new Temporizador(this);
+            temporizador.registrarObservador(progressbar_controler);
         }
 
         public void update()
         {
             counter.increase();
             int counter_aux = counter.getCounter();
-            Timer_counter.Content = counter_aux;
+            Timer_counter.Content = counter.getCounter();
             if (counter_aux % 3 == 0) ani_parpadear.parpadearStart();
             if (counter_aux % 4 == 0) ani_respirar.respirarStart();
             if (counter_aux % 10 == 0) ani_rascarbarriga.parpadearStart();
-
+            if (counter_aux % 5 == 0) ani_cansancio.cansancioStart();
 
         }
 
@@ -60,4 +70,5 @@ namespace bunny
             sbSusto.Begin();
         }
     }
+
 }
