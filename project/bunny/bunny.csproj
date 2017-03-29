@@ -106,18 +106,16 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="img\klaaya_s_room_by_ewreilyn-d7judiw.jpg" />
-  </ItemGroup>
-  <ItemGroup>
     <Resource Include="img\icons\fried-chicken.png" />
     <Resource Include="img\icons\sleep.png" />
     <Resource Include="img\icons\toilet.png" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="src\presentacion\objects_img\" />
     <Folder Include="src\presentacion\resources\" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="src\presentacion\carrots.gif" />
+    <Resource Include="img\icons\carrots.gif" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

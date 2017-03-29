@@ -5,7 +5,9 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:bunny"
         mc:Ignorable="d"
-        Title="MainWindow" Height="600" Width="800">
+        Title="MainWindow" Height="786" Width="1280"
+        WindowState="Normal" ResizeMode="NoResize"
+        >
     <Window.Resources>
         <Storyboard  x:Key="sbCansancio">
             <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="ojeraDer">
@@ -149,14 +151,14 @@
     </Window.Resources>
     <Window.Triggers>
     </Window.Triggers>
-    <!--<Window.Content>
-        <StaticResource ResourceKey="barLayout"/>
-    </Window.Content>-->
+
     <Grid x:Name ="gdEscenario">
+        <!--
         <Grid.Background>
             <ImageBrush ImageSource="/bunny;component/img/klaaya_s_room_by_ewreilyn-d7judiw.jpg" Stretch="UniformToFill"/>
         </Grid.Background>
-        <Canvas x:Name="canvas" Margin="0,47.6,0,42.8" RenderTransformOrigin="0.337,0.398" Height="480">
+        -->
+        <Canvas x:Name="canvas" Margin="380,269,376.6,10" RenderTransformOrigin="0.337,0.398">
             <Canvas.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform/>
@@ -165,7 +167,7 @@
                     <TranslateTransform/>
                 </TransformGroup>
             </Canvas.RenderTransform>
-            <Canvas x:Name="cvOrejaDerecha" Height="112.252" Canvas.Left="457.888" Canvas.Top="80.052" Width="87.766">
+            <Canvas x:Name="cvOrejaDerecha" Height="112.252" Canvas.Left="157.888" Canvas.Top="80.052" Width="87.766">
                 <Ellipse Fill="#FF51A9B6" Height="111.203" Stroke="#FF13454C" StrokeThickness="3" Width="57.944" RenderTransformOrigin="0.5,0.5">
                     <Ellipse.RenderTransform>
                         <TransformGroup>
@@ -197,7 +199,7 @@
                     </Ellipse.RenderTransform>
                 </Ellipse>
             </Canvas>
-            <Canvas x:Name="cvOrejaIzquierda" Height="149.5" Canvas.Left="318.119" Canvas.Top="39.499" Width="64.149">
+            <Canvas x:Name="cvOrejaIzquierda" Height="149.5" Canvas.Left="18.119" Canvas.Top="39.499" Width="64.149">
                 <Ellipse Fill="#FF51A9B6" Height="149.5" Stroke="#FF13454C" StrokeThickness="3" Width="64.149" RenderTransformOrigin="0.5,0.5">
                     <Ellipse.RenderTransform>
                         <TransformGroup>
@@ -219,8 +221,7 @@
                     </Ellipse.RenderTransform>
                 </Ellipse>
             </Canvas>
-            <Ellipse x:Name="cuerpo" Fill="#FF51A9B6" Height="186" Canvas.Left="313" Stroke="#FF13454C" StrokeThickness="3" Canvas.Top="246" Width="223" RenderTransformOrigin="0.5,0.5">
-                <!--<Ellipse x:Name="cuerpo" Fill="#FF51A9B6" Height="186" Canvas.Left="306" Stroke="#FF13454C" StrokeThickness="3" Canvas.Top="246" Width="240" RenderTransformOrigin="0.5,0.5">-->
+            <Ellipse x:Name="cuerpo" Fill="#FF51A9B6" Height="186" Canvas.Left="13" Stroke="#FF13454C" StrokeThickness="3" Canvas.Top="246" Width="223" RenderTransformOrigin="0.5,0.5">
                 <Ellipse.RenderTransform>
                     <TransformGroup>
                         <ScaleTransform/>
@@ -230,10 +231,10 @@
                     </TransformGroup>
                 </Ellipse.RenderTransform>
             </Ellipse>
-            <Ellipse x:Name="cara" Fill="#FF51A9B6" Height="127.467" Canvas.Left="348.267" Stroke="#FF13454C" StrokeThickness="3" Canvas.Top="144.4" Width="156.133"/>
-            <Ellipse x:Name="ojeraDer" Fill="#FF32326F" Height="28" Canvas.Left="442" Stroke="Black" Canvas.Top="180.1" Width="38" StrokeThickness="2" Opacity="0"/>
-            <Ellipse x:Name="ojeraIzq" Fill="#FF32326F" Height="28" Canvas.Left="367.55" Stroke="Black" Canvas.Top="180.1" Width="38" StrokeThickness="2" Opacity="0"/>
-            <Canvas x:Name="cvOjoDerecho" Height="35.702" Canvas.Left="443.443" Canvas.Top="173.8" Width="36.624" RenderTransformOrigin="0.5,0.5">
+            <Ellipse x:Name="cara" Fill="#FF51A9B6" Height="127.467" Canvas.Left="48.267" Stroke="#FF13454C" StrokeThickness="3" Canvas.Top="144.4" Width="156.133"/>
+            <Ellipse x:Name="ojeraDer" Fill="#FF32326F" Height="28" Canvas.Left="142" Stroke="Black" Canvas.Top="180.1" Width="38" StrokeThickness="2" Opacity="0"/>
+            <Ellipse x:Name="ojeraIzq" Fill="#FF32326F" Height="28" Canvas.Left="67.55" Stroke="Black" Canvas.Top="180.1" Width="38" StrokeThickness="2" Opacity="0"/>
+            <Canvas x:Name="cvOjoDerecho" Height="35.702" Canvas.Left="143.443" Canvas.Top="173.8" Width="36.624" RenderTransformOrigin="0.5,0.5">
                 <Canvas.RenderTransform>
                     <TransformGroup>
                         <ScaleTransform/>
@@ -288,7 +289,7 @@
                     </Ellipse.RenderTransform>
                 </Ellipse>
             </Canvas>
-            <Canvas x:Name="cvOjoIzquierdo" Height="36.002" Canvas.Left="373.169" Canvas.Top="172.9" Width="35.972" RenderTransformOrigin="0.5,0.5">
+            <Canvas x:Name="cvOjoIzquierdo" Height="36.002" Canvas.Left="73.169" Canvas.Top="172.9" Width="35.972" RenderTransformOrigin="0.5,0.5">
                 <Canvas.RenderTransform>
                     <TransformGroup>
                         <ScaleTransform/>
@@ -388,12 +389,12 @@
                     </Ellipse.RenderTransform>
                 </Ellipse>
             </Canvas>
-            <Canvas x:Name="cvMorrito" Height="33.25" Canvas.Left="410.55" Canvas.Top="197.2" Width="31.45">
+            <Canvas x:Name="cvMorrito" Height="33.25" Canvas.Left="110.55" Canvas.Top="197.2" Width="31.45">
                 <Ellipse Fill="#FF51A9B6" Height="23.121" Canvas.Left="3.9" Stroke="#FF13454C" Canvas.Top="10.129" Width="15.338" StrokeThickness="2"/>
                 <Ellipse Fill="#FF51A9B6" Height="23.121" Canvas.Left="14.162" Stroke="#FF13454C" Canvas.Top="10.129" Width="15.338" StrokeThickness="2"/>
                 <Rectangle Fill="#FF51A9B6" Height="26.25" Stroke="#FF51A9B6" StrokeThickness="3" Width="31.45"/>
             </Canvas>
-            <Canvas x:Name="cvZanahoria" Height="78.838" Canvas.Left="394.569" Canvas.Top="312.095" Width="40.732">
+            <Canvas x:Name="cvZanahoria" Height="78.838" Canvas.Left="94.569" Canvas.Top="312.095" Width="40.732">
                 <Ellipse Fill="#FFE5863F" Height="65.867" Stroke="#FF13454C" StrokeThickness="0" Canvas.Top="12.971" Width="26.879" RenderTransformOrigin="0.5,0.5">
                     <Ellipse.RenderTransform>
                         <TransformGroup>
@@ -435,11 +436,11 @@
                     </Ellipse.RenderTransform>
                 </Ellipse>
             </Canvas>
-            <Canvas x:Name="cvBarriguita" Height="54.133" Canvas.Left="363.709" Canvas.Top="358.267" Width="116.358">
+            <Canvas x:Name="cvBarriguita" Height="54.133" Canvas.Left="63.709" Canvas.Top="358.267" Width="116.358">
                 <Path Data="M3.5406722,1.5 L127.65932,1.5 127.68196,1.5533257 C128.99934,4.8177261 129.7,8.2399483 129.7,11.766502 129.7,34.336449 101.00145,52.633003 65.599998,52.633003 30.198547,52.633003 1.4999994,34.336449 1.5,11.766502 1.4999994,8.2399483 2.2006475,4.8177261 3.5180377,1.5533257 z" Fill="#FF78D3E0" Height="54.133" Stretch="Fill" Stroke="#FF13454C" StrokeThickness="2" Width="116.358"/>
                 <Ellipse Fill="#FF13454C" Height="10.667" Canvas.Left="51.441" Stroke="#FF13454C" Canvas.Top="37.266" Width="16.65"/>
             </Canvas>
-            <Canvas x:Name="cvBrazoIzquierdo" Height="49.104" Canvas.Left="330.911" Canvas.Top="282.746" Width="78.14" RenderTransformOrigin="0.5,0.5">
+            <Canvas x:Name="cvBrazoIzquierdo" Height="49.104" Canvas.Left="30.911" Canvas.Top="282.746" Width="78.14" RenderTransformOrigin="0.5,0.5">
                 <Canvas.RenderTransform>
                     <TransformGroup>
                         <ScaleTransform/>
@@ -461,17 +462,17 @@
                 <Path Data="M374.9,317.85 L393.7,331.25" Fill="#FF13454C" Height="16" Canvas.Left="38.133" Stretch="Fill" Stroke="#FF13454C" StrokeThickness="2" Canvas.Top="32.933" Width="24.04"/>
                 <Path Data="M386.569,309.85 L402.569,323.05" Fill="#FF51A9B6" Height="16.6" Canvas.Left="50.858" Stretch="Fill" Stroke="#FF13454C" StrokeThickness="2" Canvas.Top="25.704" Width="22.8"/>
             </Canvas>
-            <Canvas x:Name="cvPataIzquierda" Height="32.65" Canvas.Left="365.458" Canvas.Top="411.2" Width="59.639">
+            <Canvas x:Name="cvPataIzquierda" Height="32.65" Canvas.Left="65.458" Canvas.Top="411.2" Width="59.639">
                 <Path Data="M29.819822,1.5 C44.751844,1.5000004 56.989168,8.766765 58.103609,17.991846 L58.139642,18.350001 1.5,18.350001 1.5360351,17.991846 C2.6504743,8.766765 14.887797,1.5000004 29.819822,1.5 z" Fill="#FF51A9B6" Height="32.65" Stretch="Fill" Stroke="#FF13454C" StrokeThickness="3" Width="59.639"/>
                 <Path Data="M381.769,443.85 L382.268,427.75" Fill="#FF51A9B6" Height="20.1" Canvas.Left="19.311" Stretch="Fill" Stroke="#FF13454C" StrokeThickness="3" Canvas.Top="12.55" Width="3.499"/>
                 <Path Data="M404.569,441.15 L404.569,426.75" Fill="#FF51A9B6" Height="20.1" Canvas.Left="36.111" Stretch="Fill" Stroke="#FF13454C" StrokeThickness="3" Canvas.Top="12.55" Width="3"/>
             </Canvas>
-            <Canvas x:Name="cvPataDerecha" Height="32.65" Canvas.Left="425.858" Canvas.Top="411.2" Width="59.639">
+            <Canvas x:Name="cvPataDerecha" Height="32.65" Canvas.Left="125.858" Canvas.Top="411.2" Width="59.639">
                 <Path Data="M29.819822,1.5 C44.751844,1.5000004 56.989168,8.766765 58.103609,17.991846 L58.139642,18.350001 1.5,18.350001 1.5360351,17.991846 C2.6504743,8.766765 14.887797,1.5000004 29.819822,1.5 z" Fill="#FF51A9B6" Height="32.65" Stretch="Fill" Stroke="#FF13454C" StrokeThickness="3" Width="59.639"/>
                 <Path Data="M381.769,443.85 L382.268,427.75" Fill="#FF51A9B6" Height="20.1" Canvas.Left="19.311" Stretch="Fill" Stroke="#FF13454C" StrokeThickness="3" Canvas.Top="12.55" Width="3.499"/>
                 <Path Data="M404.569,441.15 L404.569,426.75" Fill="#FF51A9B6" Height="20.1" Canvas.Left="36.111" Stretch="Fill" Stroke="#FF13454C" StrokeThickness="3" Canvas.Top="12.55" Width="3"/>
             </Canvas>
-            <Canvas x:Name="cvBrazoDerecho" Height="28" Canvas.Left="387" Canvas.Top="288" Width="133" RenderTransformOrigin="0.5,0.5">
+            <Canvas x:Name="cvBrazoDerecho" Height="28" Canvas.Left="87" Canvas.Top="288" Width="133" RenderTransformOrigin="0.5,0.5">
                 <Canvas.RenderTransform>
                     <TransformGroup>
                         <ScaleTransform ScaleX="-1"/>
@@ -493,15 +494,14 @@
                 <Path Data="M374.9,317.85 L393.7,331.25" Fill="#FF13454C" Height="14" Canvas.Left="43.989" Stretch="Fill" Stroke="#FF13454C" StrokeThickness="2" Canvas.Top="35.104" Width="20.6"/>
                 <Path Data="M386.569,309.85 L402.569,323.05" Fill="#FF51A9B6" Height="16.6" Canvas.Left="50.858" Stretch="Fill" Stroke="#FF13454C" StrokeThickness="2" Canvas.Top="25.704" Width="22.8"/>
             </Canvas>
-            <Label x:Name="Timer_counter" Content="Value" Canvas.Left="10" Canvas.Top="10" Background="Transparent" Foreground="White"/>
-            <Ellipse x:Name="bocaSorprendido" Fill="#FF021B1F" Height="39.898" Canvas.Left="410.55" Stroke="#FF13454C" StrokeThickness="2" Canvas.Top="213.902" Width="36.45" Opacity="0"/>
-            <Canvas x:Name="cvCaca" Height="45.3" Canvas.Left="662.667" Canvas.Top="390.55" Width="74" Opacity="0">
+            <Ellipse x:Name="bocaSorprendido" Fill="#FF021B1F" Height="39.898" Canvas.Left="110.55" Stroke="#FF13454C" StrokeThickness="2" Canvas.Top="213.902" Width="36.45" Opacity="0"/>
+            <Canvas x:Name="cvCaca" Height="45.3" Canvas.Left="362.667" Canvas.Top="390.55" Width="74" Opacity="0">
                 <Ellipse Fill="#FF825919" Height="23.05" Stroke="Black" Canvas.Top="22.25" Width="74"/>
                 <Ellipse Fill="#FF825919" Height="22.25" Canvas.Left="9.6" Stroke="Black" Canvas.Top="13.8" Width="56.4"/>
                 <Ellipse Fill="#FF825919" Height="16.25" Canvas.Left="18.8" Stroke="Black" Canvas.Top="7.2" Width="38.8"/>
                 <Ellipse Fill="#FF825919" Height="13.8" Canvas.Left="28" Stroke="Black" Width="18.8"/>
             </Canvas>
-            <Canvas x:Name="cvMosca" Height="29.534" Canvas.Left="651.8" Canvas.Top="387.883" Width="13" Opacity="0" RenderTransformOrigin="0.5,0.5">
+            <Canvas x:Name="cvMosca" Height="29.534" Canvas.Left="351.8" Canvas.Top="387.883" Width="13" Opacity="0" RenderTransformOrigin="0.5,0.5">
                 <Canvas.RenderTransform>
                     <TransformGroup>
                         <ScaleTransform/>
@@ -514,18 +514,20 @@
                 <Ellipse Fill="#FF65E0E7" Height="12.267" Canvas.Left="2.2" Stroke="Black" Width="8.4"/>
                 <Ellipse Fill="#FF65E0E7" Height="12.267" Canvas.Left="2.2" Stroke="Black" Canvas.Top="17.267" Width="8.4"/>
             </Canvas>
-            <Canvas x:Name="cvHambre" Height="106.666" Canvas.Left="559.333" Canvas.Top="42.667" Width="153.066" Opacity="0">
+            <Canvas x:Name="cvHambre" Height="106.666" Canvas.Left="259.333" Canvas.Top="42.667" Width="153.066" Opacity="0">
                 <Ellipse Fill="#FFF9FDFD" Height="17.6" Stroke="Black" Canvas.Top="89.066" Width="17.6"/>
                 <Ellipse Fill="#FFF9FDFD" Height="35.2" Canvas.Left="17.6" Stroke="Black" Canvas.Top="61.333" Width="34.133"/>
                 <Ellipse Height="96.533" Canvas.Left="51.733" Stroke="Black" Width="101.333">
                     <Ellipse.Fill>
-                        <ImageBrush ImageSource="carrots.gif" Stretch="Uniform"/>
+                        <ImageBrush ImageSource="/bunny;component/img/icons/carrots.gif" Stretch="Uniform"/>
                     </Ellipse.Fill>
                 </Ellipse>
             </Canvas>
         </Canvas>
-        <Grid HorizontalAlignment="Left" Height="100" VerticalAlignment="Top" Width="100"/>
-        <Grid HorizontalAlignment="Left" Height="90" Margin="329,10,0,0" VerticalAlignment="Top" Width="455" >
+        <Grid HorizontalAlignment="Left" Height="100" VerticalAlignment="Top" Width="100">
+            <Label x:Name="Timer_counter" Content="Value" Background="Transparent" Foreground="Black" Margin="10,10,52,64"/>
+        </Grid>
+        <Grid HorizontalAlignment="Left" Height="90" Margin="809,10,0,0" VerticalAlignment="Top" Width="455" >
             <ProgressBar x:Name="ProgressBar_hambre" HorizontalAlignment="Left" Height="13" Margin="147,6,0,0" VerticalAlignment="Top" Width="254" Background="#FFE6E6E6" Value="100"/>
             <ProgressBar x:Name="ProgressBar_baño" HorizontalAlignment="Left" Height="13" Margin="147,31,0,0" VerticalAlignment="Top" Width="254" Value="100"/>
             <ProgressBar x:Name="ProgressBar_sueño" HorizontalAlignment="Left" Height="13" Margin="147,55,0,0" VerticalAlignment="Top" Width="254" Cursor="" Value="100"/>
@@ -544,9 +546,9 @@
                     <ImageBrush ImageSource="/bunny;component/img/icons/sleep.png"/>
                 </Label.Background>
             </Label>
-            <Label x:Name="Label_hambre" Content="Label" HorizontalAlignment="Left" Margin="406,2,0,0" VerticalAlignment="Top" Foreground="White"/>
-            <Label x:Name="Label_baño" Content="Label" HorizontalAlignment="Left" Margin="406,26,0,38" Foreground="White"/>
-            <Label x:Name="Label_sueño" Content="Label" HorizontalAlignment="Left" Margin="406,50,0,0" VerticalAlignment="Top" Foreground="White"/>
+            <Label x:Name="Label_hambre" Content="Label" HorizontalAlignment="Left" Margin="406,2,0,0" VerticalAlignment="Top" Foreground="Black"/>
+            <Label x:Name="Label_baño" Content="Label" HorizontalAlignment="Left" Margin="406,26,0,38" Foreground="Black"/>
+            <Label x:Name="Label_sueño" Content="Label" HorizontalAlignment="Left" Margin="406,50,0,0" VerticalAlignment="Top" Foreground="Black"/>
         </Grid>
     </Grid>
 </Window>

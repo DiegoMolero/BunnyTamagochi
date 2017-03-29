@@ -32,7 +32,7 @@ namespace bunny.src.presentacion.animations
         {
             this.cuerpo = cuerpo;
             storyboard = new Storyboard();
-            actualCanvasLeft = 313;
+            actualCanvasLeft = 13; //Esto hay que cambiarlo
             actualWidthCuerpo = cuerpo.Width;
 
             widthAnimation = new DoubleAnimation
