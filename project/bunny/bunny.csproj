@@ -71,6 +71,7 @@
     <Compile Include="src\presentacion\animations\RascarBarrigaCanvas.cs" />
     <Compile Include="src\presentacion\animations\Parpadear.cs" />
     <Compile Include="src\presentacion\animations\Respirar.cs" />
+    <Compile Include="src\presentacion\objects_img\Caca.cs" />
     <Compile Include="src\presentacion\Observador.cs" />
     <Compile Include="src\presentacion\MainWindow.xaml.cs">
       <DependentUpon>MainWindow.xaml</DependentUpon>
@@ -111,7 +112,6 @@
     <Resource Include="img\icons\toilet.png" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="src\presentacion\objects_img\" />
     <Folder Include="src\presentacion\resources\" />
   </ItemGroup>
   <ItemGroup>
