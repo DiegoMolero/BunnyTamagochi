@@ -17,6 +17,7 @@ using bunny.src.presentacion;
 using bunny.src.dominio;
 using System.Windows.Media.Animation;
 using bunny.src.presentacion.animations;
+using bunny.src.presentacion.objects_img;
 
 namespace bunny
 {
@@ -48,8 +49,10 @@ namespace bunny
             ani_suciedad = new Suciedad(this.FindResource("sbSuciedad") as Storyboard);
             ani_hambre = new Hambre(this.FindResource("sbHambre") as Storyboard);
             progressbar_controler = new ProgressBarControler(ProgressBar_hambre, ProgressBar_baño, ProgressBar_sueño, //ProgressBars
-    Label_hambre, Label_baño, Label_sueño,
-     ani_suciedad,ani_cansancio, ani_hambre); //Labels
+    Label_hambre, Label_baño, Label_sueño,Label_Puntuacion, //Labels
+     ani_suciedad,ani_cansancio, ani_hambre,//Animations
+     cvBunny, //Canvas
+      this.FindResource("sbSuciedad") as Storyboard); //Storyboard
             temporizador = new Temporizador(this);
             temporizador.registrarObservador(progressbar_controler);
         }
@@ -63,7 +66,6 @@ namespace bunny
             if (counter_aux % 4 == 0) ani_respirar.respirarStart();
             if (counter_aux % 10 == 0) ani_rascarbarriga.parpadearStart();
             if (counter_aux % 5 == 0) ani_cansancio.cansancioStart();
-
         }
 
         private void dameUnSusto(object sender, MouseEventArgs e)

@@ -11,6 +11,7 @@ using bunny.src.dominio;
 using System.Windows.Controls;
 using System.Windows.Media.Animation;
 using bunny.src.presentacion.animations;
+using bunny.src.presentacion.objects_img;
 
 namespace bunny.src.dominio
 
@@ -26,10 +27,15 @@ namespace bunny.src.dominio
         private Suciedad ani_suciedad;
         private Cansancio ani_cansancio;
         private Hambre ani_hambre;
+        private Canvas cvBunny;
+        private Storyboard sbSuciedad;
+        private Label label_puntuacion;
 
         public ProgressBarControler(ProgressBar ProgressBar_hambre, ProgressBar ProgressBar_baño, ProgressBar ProgressBar_sueño,
-            Label label_hambre, Label label_baño, Label label_sueño,
-            Suciedad ani_suciedad,Cansancio ani_cansancio, Hambre ani_hambre)
+            Label label_hambre, Label label_baño, Label label_sueño,Label label_puntuacion,
+            Suciedad ani_suciedad,Cansancio ani_cansancio, Hambre ani_hambre,
+            Canvas cvBunny,
+            Storyboard sbSuciedad)
         {
             this.ProgressBar_baño = ProgressBar_baño;
             this.ProgressBar_hambre = ProgressBar_hambre;
@@ -38,19 +44,29 @@ namespace bunny.src.dominio
             this.label_baño = label_baño;
             this.label_hambre = label_hambre;
             this.label_sueño = label_sueño;
+            this.label_puntuacion = label_puntuacion;
 
             this.ani_suciedad = ani_suciedad;
             this.ani_cansancio = ani_cansancio;
             this.ani_hambre = ani_hambre;
+
+            this.cvBunny = cvBunny;
+
+            this.sbSuciedad = sbSuciedad;
         }
         
         public void update()
         {
-            setBarBaño(-5);
+            setBarBaño(-30);
             setBarHambre(-2);
             setBarSueño(-10);
             updateLabels();
-            if (ProgressBar_baño.Value == 10) ani_suciedad.suciedadStart();
+            if (ProgressBar_baño.Value == 10)
+            {
+                new Caca(cvBunny,sbSuciedad,label_puntuacion);
+                ani_suciedad.suciedadStart();
+                setBarBaño(100);
+            }
             if (ProgressBar_sueño.Value == 10) ani_cansancio.cansancioStart();
             if (ProgressBar_hambre.Value == 10) ani_hambre.hambreStart();
         }
