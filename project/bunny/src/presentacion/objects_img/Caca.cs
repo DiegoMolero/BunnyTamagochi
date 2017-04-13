@@ -10,6 +10,7 @@ using System.Windows.Media;
 using System.Windows;
 using System.Windows.Input;
 using System.Windows.Media.Animation;
+using bunny.src.dominio;
 
 namespace bunny.src.presentacion.objects_img
 {
@@ -18,18 +19,19 @@ namespace bunny.src.presentacion.objects_img
         private Canvas cvCaca;
         private Canvas cvBunny;
         private Storyboard sbSuciedad;
-        private Label label_puntuacion;
+        private int top;
+        private int left;
+        private Label labelMessage;
 
         public Caca(Canvas cvBunny,Storyboard sbSuciedad,Label label_puntuacion)
         {
             Random rnd = new Random();
-            int top = rnd.Next(-40, 40);
-            int left = rnd.Next(-40, 40);
+            top = rnd.Next(-40, 40);
+            left = rnd.Next(-40, 40);
             Color color = Color.FromRgb(0,0,0);
 
             this.sbSuciedad = sbSuciedad;
             this.cvBunny = cvBunny;
-            this.label_puntuacion = label_puntuacion;
 
             this.cvCaca = new Canvas();
             cvCaca.Height = 45.3;
@@ -85,10 +87,57 @@ namespace bunny.src.presentacion.objects_img
         private void clickOnCaca(object sender, MouseButtonEventArgs e)
         {
             cvBunny.Children.Remove(cvCaca);
-           // label_puntuacion = label_puntuacion.GetValue + 5;
+            int puntuacion = Int32.Parse(Globals.label_puntuacion.Content.ToString());
+            puntuacion += 5;
+            Globals.label_puntuacion.Content= puntuacion;
+            showPuntuation();
         }
+        private void showPuntuation()
+        {
+            labelMessage = new Label();
+            labelMessage.Content = "+5";
+            labelMessage.Width = 111;
+            labelMessage.FontFamily = new FontFamily("Showcard Gothic") ;
+            labelMessage.FontSize = 36;
+            Canvas.SetTop(labelMessage, 362 + top-20);
+            Canvas.SetLeft(labelMessage, 390 + left -20);
+            cvBunny.Children.Add(labelMessage);
 
-
-        
+            Storyboard storyboard = new Storyboard();
+            DoubleAnimation animacionMoverArriva = createAnimationUp();
+            DoubleAnimation animacionMoverAparecer = createAnimationAppear();
+            storyboard.Children.Add(animacionMoverArriva);
+            storyboard.Children.Add(animacionMoverAparecer);
+            Storyboard.SetTarget(animacionMoverArriva, labelMessage);
+            Storyboard.SetTarget(animacionMoverAparecer, labelMessage);
+            Storyboard.SetTargetProperty(animacionMoverArriva, new PropertyPath(Canvas.TopProperty));
+            Storyboard.SetTargetProperty(animacionMoverAparecer, new PropertyPath(Label.OpacityProperty));
+            storyboard.Begin(labelMessage);
+            storyboard.Completed += new EventHandler(Story_Completed);
+    }
+        private DoubleAnimation createAnimationUp()
+        {
+            DoubleAnimation animation = new DoubleAnimation
+            {
+                From = 362 + top - 20,
+                To = 362 + top - 50,
+                Duration = new Duration(TimeSpan.FromSeconds(1.5))
+            };
+            return animation;
+        }
+        private DoubleAnimation createAnimationAppear()
+        {
+            DoubleAnimation animation = new DoubleAnimation
+            {
+                From = 1.0,
+                To = 0.0,
+                Duration = new Duration(TimeSpan.FromSeconds(1.5))
+            };
+            return animation;
+        }
+        private void Story_Completed(object sender, EventArgs e)
+        {
+                cvBunny.Children.Remove(labelMessage);
+        }
     }
 }

@@ -55,6 +55,7 @@ namespace bunny
       this.FindResource("sbSuciedad") as Storyboard); //Storyboard
             temporizador = new Temporizador(this);
             temporizador.registrarObservador(progressbar_controler);
+            Globals.label_puntuacion = Label_Puntuacion;
         }
 
         public void update()
@@ -73,6 +74,11 @@ namespace bunny
             Storyboard sbSusto = (Storyboard)this.Resources["sbSusto"];
             sbSusto.Begin();
         }
+ 
+    }
+    public static class Globals
+    {
+        public static Label label_puntuacion { get; set; }
     }
 
 }

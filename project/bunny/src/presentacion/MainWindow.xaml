@@ -522,7 +522,8 @@
         </Canvas>
         <Grid HorizontalAlignment="Left" Height="100" VerticalAlignment="Top" Width="363">
             <Label x:Name="Timer_counter" Content="Contador" Background="Transparent" Foreground="Black" Margin="10,10,305,64"/>
-            <Label x:Name="Label_Puntuacion" Content="Puntuación" Background="Transparent" Foreground="Black" Margin="0,10,167,64" HorizontalAlignment="Right" Width="133"/>
+            <Label x:Name="Label_info" Content="Score:" Background="Transparent" Foreground="Black" Margin="0,10,138,64" HorizontalAlignment="Right" Width="133"/>
+            <Label x:Name="Label_Puntuacion" Content="0" Background="Transparent" Foreground="Black" Margin="0,10,97,64" HorizontalAlignment="Right" Width="133"/>
         </Grid>
         <Grid HorizontalAlignment="Left" Height="90" Margin="809,10,0,0" VerticalAlignment="Top" Width="455" >
             <ProgressBar x:Name="ProgressBar_hambre" HorizontalAlignment="Left" Height="13" Margin="147,6,0,0" VerticalAlignment="Top" Width="254" Background="#FFE6E6E6" Value="100"/>
