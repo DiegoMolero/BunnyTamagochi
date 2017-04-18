@@ -41,6 +41,11 @@ namespace bunny
             InitializeComponent();
             counter = new Counter();
             Timer_counter.Content = 0;
+            Globals.cvDormido = cvDormido;
+            Globals.cvCama = cvCama;
+            Globals.cvBunny = cvBunny;
+            Globals.label_puntuacion = Label_Puntuacion;
+            Globals.state = 0;
 
             ani_respirar = new Respirar(cuerpo);
             ani_parpadear = new Parpadear(parpadoIzq, parpadoDer);
@@ -55,7 +60,7 @@ namespace bunny
       this.FindResource("sbSuciedad") as Storyboard); //Storyboard
             temporizador = new Temporizador(this);
             temporizador.registrarObservador(progressbar_controler);
-            Globals.label_puntuacion = Label_Puntuacion;
+
         }
 
         public void update()
@@ -63,10 +68,20 @@ namespace bunny
             counter.increase();
             int counter_aux = counter.getCounter();
             Timer_counter.Content = counter.getCounter();
-            if (counter_aux % 3 == 0) ani_parpadear.parpadearStart();
-            if (counter_aux % 4 == 0) ani_respirar.respirarStart();
-            if (counter_aux % 10 == 0) ani_rascarbarriga.parpadearStart();
-            if (counter_aux % 5 == 0) ani_cansancio.cansancioStart();
+            if (Globals.state == 0)
+            {
+                if (counter_aux % 3 == 0) ani_parpadear.parpadearStart();
+                if (counter_aux % 4 == 0) ani_respirar.respirarStart();
+                if (counter_aux % 10 == 0) ani_rascarbarriga.parpadearStart();
+                if (counter_aux % 5 == 0) ani_cansancio.cansancioStart();
+                Globals.cvDormido.Opacity = 0;
+                Globals.cvBunny.Opacity = 100;
+            }
+            if (Globals.state == 1)
+            {
+                Globals.cvBunny.Opacity = 0;
+                Globals.cvDormido.Opacity =100;
+            }
         }
 
         private void dameUnSusto(object sender, MouseEventArgs e)
@@ -74,11 +89,19 @@ namespace bunny
             Storyboard sbSusto = (Storyboard)this.Resources["sbSusto"];
             sbSusto.Begin();
         }
- 
+
+        private void goToSleep(object sender, MouseButtonEventArgs e)
+        {
+            Globals.state = 1;
+        }
     }
     public static class Globals
     {
         public static Label label_puntuacion { get; set; }
+        public static Canvas cvDormido { get; set; }
+        public static Canvas cvCama { get; set; }
+        public static Canvas cvBunny { get; set; }
+        public static int state { get; set; }
     }
 
 }

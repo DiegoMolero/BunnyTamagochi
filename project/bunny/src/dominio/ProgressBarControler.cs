@@ -57,18 +57,25 @@ namespace bunny.src.dominio
         
         public void update()
         {
-            setBarBaño(-30);
-            setBarHambre(-2);
-            setBarSueño(-10);
-            updateLabels();
-            if (ProgressBar_baño.Value == 10)
-            {
-                new Caca(cvBunny,sbSuciedad,label_puntuacion);
-                ani_suciedad.suciedadStart();
-                setBarBaño(100);
+            if (Globals.state == 0) { 
+                setBarBaño(-30);
+                setBarHambre(-2);
+                setBarSueño(-10);
+
+                if (ProgressBar_baño.Value == 10)
+                {
+                    new Caca(cvBunny,sbSuciedad,label_puntuacion);
+                    ani_suciedad.suciedadStart();
+                    setBarBaño(100);
+                }
+                if (ProgressBar_sueño.Value == 10) ani_cansancio.cansancioStart();
+                if (ProgressBar_hambre.Value == 10) ani_hambre.hambreStart();
             }
-            if (ProgressBar_sueño.Value == 10) ani_cansancio.cansancioStart();
-            if (ProgressBar_hambre.Value == 10) ani_hambre.hambreStart();
+            if (Globals.state == 1){
+                setBarSueño(10);
+                if (ProgressBar_sueño.Value == 100) Globals.state = 0;
+            }
+            updateLabels();
         }
         private void updateLabels()
         {
