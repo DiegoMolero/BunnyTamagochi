@@ -54,8 +54,8 @@ namespace bunny
             ani_suciedad = new Suciedad(this.FindResource("sbSuciedad") as Storyboard);
             ani_hambre = new Hambre(this.FindResource("sbHambre") as Storyboard);
             progressbar_controler = new ProgressBarControler(ProgressBar_hambre, ProgressBar_baño, ProgressBar_sueño, //ProgressBars
-    Label_hambre, Label_baño, Label_sueño,Label_Puntuacion, //Labels
-     ani_suciedad,ani_cansancio, ani_hambre,//Animations
+    Label_hambre, Label_baño, Label_sueño, Label_Puntuacion, //Labels
+     ani_suciedad, ani_cansancio, ani_hambre,//Animations
      cvBunny, //Canvas
       this.FindResource("sbSuciedad") as Storyboard); //Storyboard
             temporizador = new Temporizador(this);
@@ -80,7 +80,7 @@ namespace bunny
             if (Globals.state == 1)
             {
                 Globals.cvBunny.Opacity = 0;
-                Globals.cvDormido.Opacity =100;
+                Globals.cvDormido.Opacity = 100;
             }
         }
 
@@ -94,6 +94,30 @@ namespace bunny
         {
             Globals.state = 1;
         }
+
+        private void inicioArrastrarZanahoria(object sender, MouseButtonEventArgs e)
+        {
+            DataObject dataO = new DataObject(((Canvas)sender));
+            DragDrop.DoDragDrop((Canvas)sender, dataO, DragDropEffects.Move);
+        }
+        private void soltarZanahoria(object sender, DragEventArgs e)
+        {
+            Canvas aux = (Canvas)e.Data.GetData(typeof(Canvas));
+            switch (aux.Name)
+            {
+                case "cvZanahoriaCampo_Comer":
+                    progressbar_controler.setBarHambre(40);
+                    break
+                ;
+            }
+
+        }
+
+        private void moverZanahoria(object sender, DragEventArgs e)
+        {
+            e.Effect = DragDropEffects.Move;
+            e.GetPosition(this);
+        }
     }
     public static class Globals
     {
@@ -104,4 +128,5 @@ namespace bunny
         public static int state { get; set; }
     }
 
+   
 }

@@ -1150,7 +1150,7 @@
                     <Ellipse Fill="#FF7D5814" Height="5" Canvas.Left="18.394" Stroke="Black" Canvas.Top="2.6" Width="13.394"/>
                     <Ellipse Fill="#FF7D5814" Height="5" Canvas.Left="7.8" Stroke="Black" Canvas.Top="2.6" Width="13.394"/>
                 </Canvas>
-                <Canvas x:Name="cvZanahoriaCampo_Copy" Height="90.685" Width="28.594" Canvas.Left="26.606" Canvas.Top="-14.2" RenderTransformOrigin="0.5,0.5">
+                <Canvas x:Name="cvZanahoriaCampo_Comer" Height="90.685" Width="28.594" Canvas.Left="26.606" Canvas.Top="-14.2" RenderTransformOrigin="0.5,0.5" MouseDown="inicioArrastrarZanahoria" DragOver="moverZanahoria"   >
                     <Canvas.RenderTransform>
                         <TransformGroup>
                             <ScaleTransform/>
@@ -2033,7 +2033,7 @@
                 <Path Data="M374.9,317.85 L393.7,331.25" Fill="#FF13454C" Height="14" Canvas.Left="43.989" Stretch="Fill" Stroke="#FF13454C" StrokeThickness="2" Canvas.Top="35.104" Width="20.6"/>
                 <Path Data="M386.569,309.85 L402.569,323.05" Fill="#FF51A9B6" Height="16.6" Canvas.Left="50.858" Stretch="Fill" Stroke="#FF13454C" StrokeThickness="2" Canvas.Top="25.704" Width="22.8"/>
             </Canvas>
-            <Ellipse x:Name="bocaSorprendido" Fill="#FF021B1F" Height="39.898" Canvas.Left="110.55" Stroke="#FF13454C" StrokeThickness="2" Canvas.Top="213.902" Width="36.45" Opacity="0"/>
+            <Ellipse x:Name="bocaSorprendido" Fill="#FF021B1F" Height="39.898" Canvas.Left="110.55" Stroke="#FF13454C" StrokeThickness="2" Canvas.Top="213.902" Width="36.45" Opacity="0" AllowDrop="True" Drop="soltarZanahoria"/>
             <Canvas x:Name="cvCaca" Height="45.3" Canvas.Left="362.667" Canvas.Top="390.55" Width="74" Opacity="0"/>
             <Canvas x:Name="cvMosca" Height="29.534" Canvas.Left="351.8" Canvas.Top="387.883" Width="13" Opacity="0" RenderTransformOrigin="0.5,0.5">
                 <Canvas.RenderTransform>

@@ -75,7 +75,6 @@ namespace bunny.src.dominio
                 setBarSueño(10);
                 if (ProgressBar_sueño.Value == 100) Globals.state = 0;
             }
-            updateLabels();
         }
         private void updateLabels()
         {
@@ -83,17 +82,20 @@ namespace bunny.src.dominio
             label_hambre.Content = ProgressBar_hambre.Value.ToString() + "%";
             label_sueño.Content = ProgressBar_sueño.Value.ToString() + "%";
         }
-        private void setBarBaño(int value)
+        public void setBarBaño(int value)
         {
                ProgressBar_baño.Value = ProgressBar_baño.Value + value;
+            updateLabels();
         }
-        private void setBarHambre(int value)
+        public void setBarHambre(int value)
         {
             ProgressBar_hambre.Value = ProgressBar_hambre.Value + value;
+            updateLabels();
         }
-        private void setBarSueño(int value)
+        public void setBarSueño(int value)
         {
             ProgressBar_sueño.Value = ProgressBar_sueño.Value + value;
+            updateLabels();
         }
         private bool comprobarInput(int value,int valueBar)
         {
