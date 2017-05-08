@@ -148,21 +148,716 @@
                 </EasingDoubleKeyFrame>
             </DoubleAnimationUsingKeyFrames>
         </Storyboard>
+        <Storyboard x:Key="movimientoPeces" RepeatBehavior="Forever">
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.X)" Storyboard.TargetName="pezVerde">
+                <EasingDoubleKeyFrame KeyTime="0:0:0.1" Value="5.6"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.2" Value="5.6"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.3" Value="12.4"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.4" Value="20"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.5" Value="29.2"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.6" Value="36"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.7" Value="43.2"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.8" Value="51.2"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.9" Value="58"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1" Value="66.4"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1.1" Value="73.2"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1.2" Value="82"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1.3" Value="90.4"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1.4" Value="97.2"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1.5" Value="103.2"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1.6" Value="108.8"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1.7" Value="108.8"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1.8" Value="112.4"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1.9" Value="112.4"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:2" Value="111.6"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:2.1" Value="109.2"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:2.2" Value="105.2"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:2.3" Value="105.2"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:2.4" Value="96.4"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:2.5" Value="88"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:2.6" Value="78.8"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:2.7" Value="70.4"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:2.8" Value="65.2"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:2.9" Value="56"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:3" Value="46.4"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:3.1" Value="37.6"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:3.2" Value="29.2"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:3.3" Value="20.8"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:3.4" Value="10"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:3.5" Value="2"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:3.6" Value="-6.8"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:3.7" Value="-14.8"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:3.8" Value="-23.2"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:3.9" Value="-30.4"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:4" Value="-35.2"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:4.1" Value="-42"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:4.2" Value="-48"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:4.3" Value="-47.6"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:4.4" Value="-47.6"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:4.5" Value="-44.4"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:4.6" Value="-44.4"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:4.7" Value="-38.8"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:4.8" Value="-33.2"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:4.9" Value="-25.2"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:5" Value="-10"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.Y)" Storyboard.TargetName="pezVerde">
+                <EasingDoubleKeyFrame KeyTime="0:0:0.1" Value="-0.4"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.2" Value="-0.4"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.3" Value="0.4"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.4" Value="0.8"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.5" Value="2.8"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.6" Value="4.4"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.7" Value="5.2"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.8" Value="6"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.9" Value="5.6"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1" Value="5.2"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1.1" Value="4.8"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1.2" Value="2.4"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1.3" Value="-0.4"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1.4" Value="-2"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1.5" Value="-4.8"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1.6" Value="-8.8"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1.7" Value="-8.8"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1.8" Value="-14"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1.9" Value="-14"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:2" Value="-19.2"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:2.1" Value="-26"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:2.2" Value="-33.6"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:2.3" Value="-33.6"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:2.4" Value="-35.6"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:2.5" Value="-36.8"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:2.6" Value="-39.6"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:2.7" Value="-41.6"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:2.8" Value="-44"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:2.9" Value="-46.8"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:3" Value="-49.2"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:3.1" Value="-49.6"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:3.2" Value="-50.4"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:3.3" Value="-53.2"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:3.4" Value="-53.6"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:3.5" Value="-52.8"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:3.6" Value="-52.4"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:3.7" Value="-51.6"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:3.8" Value="-48.4"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:3.9" Value="-46"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:4" Value="-40.4"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:4.1" Value="-36.4"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:4.2" Value="-32.4"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:4.3" Value="-26.4"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:4.4" Value="-26.4"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:4.5" Value="-20"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:4.6" Value="-20"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:4.7" Value="-16"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:4.8" Value="-12.4"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:4.9" Value="-8.8"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:5" Value="-3.6"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[2].(RotateTransform.Angle)" Storyboard.TargetName="pezVerde">
+                <EasingDoubleKeyFrame KeyTime="0:0:0.1" Value="14.04"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.2" Value="-6.045"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1.4" Value="-6.045"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1.5" Value="-28.86"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1.6" Value="-49.706"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1.7" Value="-71.056"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1.8" Value="-71.056"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1.9" Value="-88.002"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:2" Value="-110.493"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:2.1" Value="-123.516"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:2.2" Value="-143.353"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:2.3" Value="-162.197"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:2.4" Value="-162.197"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:2.5" Value="-167.867"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:3" Value="-167.867"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:3.1" Value="-179.253"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:3.2" Value="-179.253"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:3.3" Value="-188.325"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:3.5" Value="-188.325"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:3.6" Value="-199.056"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:3.8" Value="-199.056"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:3.9" Value="-210.43"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:4" Value="-210.43"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:4.1" Value="-225.463"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:4.2" Value="-243.528"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:4.3" Value="-255.297"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:4.4" Value="-292.411"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:4.5" Value="-303.285"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:4.6" Value="-326.44"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:4.8" Value="-326.44"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:4.9" Value="-337.227"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:5" Value="-342.068"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[2].(RotateTransform.Angle)" Storyboard.TargetName="pezRojo">
+                <EasingDoubleKeyFrame KeyTime="0" Value="4.769"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.1" Value="4.769"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.2" Value="-1.914"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.3" Value="-1.914"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.4" Value="-12.116"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.5" Value="-39.618"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.6" Value="-39.618"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.7" Value="-55.136"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.8" Value="-66.665"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.9" Value="-92.253"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1" Value="-106.23"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1.1" Value="-106.23"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1.2" Value="-129.793"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1.3" Value="-143.065"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1.6" Value="-143.065"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1.7" Value="-153.877"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:2.7" Value="-153.877"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:2.8" Value="-120.141"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:2.9" Value="-82.178"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:3" Value="-64.248"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:3.1" Value="-33.327"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:3.2" Value="-33.327"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:3.3" Value="-18.459"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:3.4" Value="-18.459"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:3.5" Value="1.028"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:3.6" Value="1.028"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:3.7" Value="12.902"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:3.8" Value="36.016"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:4" Value="36.016"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:4.1" Value="52.974"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:4.2" Value="52.974"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:4.3" Value="37.035"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:4.4" Value="29.485"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:4.5" Value="18.364"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.X)" Storyboard.TargetName="pezRojo">
+                <EasingDoubleKeyFrame KeyTime="0" Value="-9.2"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.1" Value="-16.4"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.2" Value="-24.8"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.3" Value="-31.6"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.4" Value="-36.4"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.5" Value="-36.4"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.6" Value="-40.8"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.7" Value="-47.2"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.8" Value="-46.4"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1" Value="-46.4"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1.1" Value="-44"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1.2" Value="-38.4"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1.3" Value="-38.4"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1.4" Value="-31.2"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1.5" Value="-21.6"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1.6" Value="-15.2"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1.7" Value="-8"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1.8" Value="1.2"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1.9" Value="7.6"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:2" Value="14.8"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:2.1" Value="22"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:2.2" Value="29.2"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:2.3" Value="37.6"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:2.4" Value="46"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:2.5" Value="55.6"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:2.6" Value="62.4"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:2.7" Value="70.8"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:2.8" Value="75.6"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:2.9" Value="75.6"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:3" Value="78.4"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:3.1" Value="79.6"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:3.2" Value="74.8"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:3.3" Value="67.2"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:3.4" Value="57.6"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:3.5" Value="50"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:3.6" Value="41.6"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:3.7" Value="32.4"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:3.8" Value="27.6"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:3.9" Value="24.4"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:4" Value="21.2"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:4.1" Value="22.4"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:4.2" Value="21.2"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:4.3" Value="21.2"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:4.4" Value="19.6"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:4.5" Value="18.8"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:4.6" Value="11.6"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:4.7" Value="7.6"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:4.8" Value="2.8"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:4.9" Value="-1.6"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:5" Value="-5.2"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.Y)" Storyboard.TargetName="pezRojo">
+                <EasingDoubleKeyFrame KeyTime="0" Value="-1.6"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.1" Value="0.4"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.2" Value="1.6"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.3" Value="3.2"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.4" Value="4.8"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.5" Value="4.8"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.6" Value="10"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.7" Value="15.6"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.8" Value="23.2"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1" Value="23.2"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1.1" Value="29.2"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1.2" Value="32.8"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1.3" Value="32.8"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1.4" Value="35.6"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1.5" Value="37.6"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1.6" Value="36"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1.7" Value="36"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1.8" Value="34.4"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1.9" Value="34"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:2" Value="34.4"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:2.1" Value="33.6"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:2.2" Value="33.6"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:2.3" Value="32.8"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:2.4" Value="29.6"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:2.5" Value="26"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:2.6" Value="22.4"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:2.7" Value="19.2"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:2.8" Value="26.4"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:2.9" Value="26.4"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:3" Value="33.6"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:3.1" Value="41.2"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:3.2" Value="46"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:3.3" Value="50"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:3.4" Value="52.4"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:3.5" Value="54.8"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:3.6" Value="55.2"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:3.7" Value="48.8"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:3.8" Value="43.6"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:3.9" Value="36.4"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:4" Value="28"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:4.1" Value="20.4"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:4.2" Value="13.6"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:4.3" Value="13.6"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:4.4" Value="8.4"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:4.5" Value="0.8"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:4.6" Value="0.4"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:4.7" Value="-1.2"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:4.8" Value="-2.8"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:4.9" Value="-2.8"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:5" Value="-2.4"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.X)" Storyboard.TargetName="pezAmarillo">
+                <EasingDoubleKeyFrame KeyTime="0" Value="6.8"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.1" Value="21.6"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.2" Value="34"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.3" Value="40.4"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.4" Value="48.4"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.5" Value="48"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.6" Value="30.4"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.7" Value="18"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.8" Value="5.6"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.9" Value="-10.8"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1" Value="-27.6"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1.1" Value="-49.2"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1.2" Value="-66.4"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1.3" Value="-85.2"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1.4" Value="-96.8"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1.5" Value="-104.8"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1.6" Value="-111.6"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1.7" Value="-111.2"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1.8" Value="-102.8"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1.9" Value="-84.8"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:2" Value="-64.8"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:2.1" Value="-44.4"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:2.2" Value="-30"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:2.3" Value="-15.6"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:2.4" Value="-15.6"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:2.5" Value="-27.2"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:2.6" Value="-44.8"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:2.7" Value="-58.4"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:2.8" Value="-66"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:2.9" Value="-66"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:3" Value="-74"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:3.1" Value="-67.6"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:3.2" Value="-59.6"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:3.3" Value="-44.4"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:3.4" Value="-23.2"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:3.5" Value="-3.2"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:3.6" Value="-5.6"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:3.7" Value="-7.2"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:3.8" Value="-25.6"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:3.9" Value="-57.2"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:4" Value="-59.6"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:4.1" Value="-71.2"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:4.2" Value="-64"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:4.3" Value="-37.6"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:4.4" Value="-16"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:4.5" Value="12"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:4.6" Value="-1.6"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:4.7" Value="-22"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:4.8" Value="-40"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:4.9" Value="-26.4"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:5" Value="-2"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.Y)" Storyboard.TargetName="pezAmarillo">
+                <EasingDoubleKeyFrame KeyTime="0" Value="0.8"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.1" Value="5.2"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.2" Value="10.8"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.3" Value="19.6"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.4" Value="28.4"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.5" Value="38.4"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.6" Value="48.8"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.7" Value="52.4"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.8" Value="54"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.9" Value="60"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1" Value="61.2"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1.1" Value="63.2"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1.2" Value="61.6"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1.3" Value="57.2"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1.4" Value="51.2"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1.5" Value="44.4"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1.6" Value="30.4"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1.7" Value="16"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1.8" Value="7.2"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1.9" Value="-2"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:2" Value="-7.6"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:2.1" Value="-8"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:2.2" Value="-6.8"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:2.3" Value="-2.4"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:2.4" Value="-2.4"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:2.5" Value="4"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:2.6" Value="7.6"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:2.7" Value="8"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:2.8" Value="17.6"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:2.9" Value="17.6"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:3" Value="30.4"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:3.1" Value="38.4"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:3.2" Value="42"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:3.3" Value="40.4"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:3.4" Value="38"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:3.5" Value="27.6"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:3.6" Value="18.8"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:3.7" Value="7.6"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:3.8" Value="-8.8"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:3.9" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:4" Value="25.2"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:4.1" Value="36.8"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:4.2" Value="46.4"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:4.3" Value="46.8"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:4.4" Value="40"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:4.5" Value="19.2"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:4.6" Value="2"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:4.7" Value="12.8"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:4.8" Value="26.8"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:4.9" Value="16.4"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:5" Value="0"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[2].(RotateTransform.Angle)" Storyboard.TargetName="pezAmarillo">
+                <EasingDoubleKeyFrame KeyTime="0:0:0.1" Value="201.773"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.2" Value="222.14"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.3" Value="222.14"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.4" Value="241.963"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.5" Value="299.768"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.6" Value="338.622"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.8" Value="338.622"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.9" Value="360.887"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1.3" Value="360.887"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1.4" Value="389.192"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1.5" Value="409.933"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1.6" Value="440.854"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1.7" Value="468.038"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1.8" Value="499.878"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1.9" Value="499.878"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:2" Value="530.153"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:2.2" Value="530.153"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:2.3" Value="570.084"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:2.4" Value="664.177"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:2.7" Value="664.177"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:2.8" Value="711.927"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:2.9" Value="654.196"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:3" Value="654.196"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:3.1" Value="617.362"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:3.2" Value="586.555"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:3.3" Value="549.198"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:3.5" Value="549.198"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:3.6" Value="512.133"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:3.7" Value="473.967"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:3.8" Value="392.638"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:3.9" Value="361.371"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:4" Value="315.047"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:4.1" Value="315.047"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:4.2" Value="251.091"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:4.3" Value="208.449"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:4.4" Value="153.625"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:4.5" Value="153.625"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:4.6" Value="68.789"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:4.7" Value="-11.75"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:4.8" Value="-11.75"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:4.9" Value="141.602"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:5" Value="164.464"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.X)" Storyboard.TargetName="pezLila">
+                <EasingDoubleKeyFrame KeyTime="0" Value="-5.2"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.1" Value="-10.8"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.2" Value="-15.2"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.3" Value="-22.8"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.4" Value="-30.4"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.5" Value="-34.4"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.6" Value="-44.4"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.7" Value="-54.4"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.8" Value="-65.6"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.9" Value="-75.6"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1" Value="-84"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1.1" Value="-95.2"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1.2" Value="-103.6"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1.3" Value="-112.8"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1.4" Value="-120.8"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1.5" Value="-120.8"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1.6" Value="-122.4"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1.7" Value="-121.6"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1.8" Value="-120.8"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1.9" Value="-116"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:2" Value="-110.8"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:2.1" Value="-103.6"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:2.2" Value="-96"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:2.3" Value="-86.4"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:2.4" Value="-78"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:2.5" Value="-70"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:2.6" Value="-58"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:2.7" Value="-48.4"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:2.8" Value="-40"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:2.9" Value="-40"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:3" Value="-36.4"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:3.1" Value="-30.4"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:3.2" Value="-26"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:3.4" Value="-26"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:3.5" Value="-36"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:3.6" Value="-47.2"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:3.7" Value="-57.6"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:3.8" Value="-70"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:3.9" Value="-82.4"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:4.1" Value="-82.4"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:4.2" Value="-72.8"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:4.3" Value="-56.8"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:4.4" Value="-46.8"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:4.5" Value="-29.2"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:4.6" Value="-16.4"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:4.7" Value="-1.6"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:4.8" Value="4.4"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:4.9" Value="5.2"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.Y)" Storyboard.TargetName="pezLila">
+                <EasingDoubleKeyFrame KeyTime="0" Value="-3.2"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.1" Value="-8.4"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.2" Value="-17.6"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.3" Value="-25.2"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.4" Value="-33.6"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.5" Value="-42"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.6" Value="-45.6"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.7" Value="-50.4"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.8" Value="-52.8"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.9" Value="-50.8"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1" Value="-49.2"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1.1" Value="-47.2"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1.2" Value="-46.4"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1.3" Value="-41.6"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1.4" Value="-33.2"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1.5" Value="-33.2"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1.6" Value="-25.2"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1.7" Value="-16.8"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1.8" Value="-6.4"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1.9" Value="-1.2"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:2" Value="3.6"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:2.1" Value="3.6"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:2.2" Value="4.4"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:2.3" Value="5.6"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:2.4" Value="5.2"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:2.5" Value="7.2"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:2.6" Value="5.6"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:2.7" Value="4.4"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:2.8" Value="2"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:2.9" Value="2"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:3" Value="-6"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:3.1" Value="-11.6"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:3.2" Value="-18.8"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:3.4" Value="-18.8"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:3.5" Value="-21.2"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:3.6" Value="-24.8"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:3.7" Value="-24.8"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:3.8" Value="-25.6"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:3.9" Value="-6.8"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:4.1" Value="-6.8"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:4.2" Value="-6.4"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:4.3" Value="-14"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:4.4" Value="-7.6"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:4.5" Value="-3.6"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:4.6" Value="-2.4"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:4.7" Value="-12"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:4.8" Value="-18.8"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:4.9" Value="-26.8"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[2].(RotateTransform.Angle)" Storyboard.TargetName="pezLila">
+                <EasingDoubleKeyFrame KeyTime="0:0:0.6" Value="14.04"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.7" Value="5.893"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1.3" Value="5.893"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1.4" Value="-26.467"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1.5" Value="-58.187"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1.6" Value="-58.187"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1.7" Value="-81.962"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1.8" Value="-81.962"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1.9" Value="-110.076"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:2" Value="-126.643"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:2.1" Value="-148.81"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:2.8" Value="-148.81"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:2.9" Value="-220.08"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:3.2" Value="-220.08"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:3.3" Value="-264.085"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:3.4" Value="-293.642"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:3.5" Value="-342.239"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:3.7" Value="-342.239"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:3.8" Value="-355.327"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:3.9" Value="-374.502"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:4" Value="-415.284"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:4.1" Value="-469.688"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:4.2" Value="-501.854"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:4.5" Value="-501.854"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:4.6" Value="-514.014"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:4.7" Value="-549.094"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:4.8" Value="-580.226"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:4.9" Value="-635.652"/>
+            </DoubleAnimationUsingKeyFrames>
+            <PointAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransformOrigin)" Storyboard.TargetName="pezAzul">
+                <EasingPointKeyFrame KeyTime="0" Value="0.396,0.504"/>
+            </PointAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.X)" Storyboard.TargetName="pezAzul">
+                <EasingDoubleKeyFrame KeyTime="0" Value="-6.571"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.1" Value="-11.771"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.2" Value="-14.571"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.3" Value="-17.771"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.4" Value="-18.571"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.5" Value="-14.971"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.6" Value="-5.771"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.7" Value="2.629"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.8" Value="16.229"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.9" Value="25.829"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1" Value="35.829"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1.1" Value="44.229"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1.2" Value="48.629"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1.3" Value="52.229"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1.4" Value="57.829"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1.5" Value="65.029"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1.6" Value="73.829"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1.7" Value="85.429"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1.8" Value="94.229"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1.9" Value="105.829"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:2" Value="109.829"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:2.1" Value="113.829"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:2.2" Value="117.829"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:2.3" Value="117.029"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:2.4" Value="110.229"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:2.5" Value="94.229"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:2.6" Value="81.429"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:2.7" Value="68.229"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:2.8" Value="63.429"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:2.9" Value="63.429"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:3" Value="54.229"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:3.1" Value="42.229"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:3.2" Value="34.629"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:3.3" Value="25.829"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:3.4" Value="18.229"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:3.5" Value="11.829"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:3.6" Value="10.229"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:3.8" Value="16.229"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:3.9" Value="27.429"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:4" Value="52.229"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:4.1" Value="71.829"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:4.2" Value="94.229"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:4.3" Value="106.629"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:4.4" Value="125.029"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:4.5" Value="134.229"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:4.6" Value="136.229"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:4.8" Value="117.829"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:4.9" Value="102.229"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:5" Value="75.029"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.Y)" Storyboard.TargetName="pezAzul">
+                <EasingDoubleKeyFrame KeyTime="0" Value="-0.499"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.1" Value="3.901"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.2" Value="10.301"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.3" Value="17.101"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.4" Value="25.101"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.5" Value="31.901"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.6" Value="33.101"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.7" Value="34.701"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.8" Value="36.301"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.9" Value="33.501"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1" Value="25.901"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1.1" Value="21.501"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1.2" Value="9.901"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1.3" Value="-2.499"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1.4" Value="-10.899"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1.5" Value="-18.099"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1.6" Value="-23.699"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1.7" Value="-23.699"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1.8" Value="-20.499"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1.9" Value="-16.899"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:2" Value="-7.299"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:2.1" Value="3.901"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:2.2" Value="11.501"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:2.3" Value="27.101"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:2.4" Value="33.901"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:2.5" Value="25.501"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:2.6" Value="13.901"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:2.7" Value="14.301"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:2.8" Value="4.301"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:2.9" Value="16.301"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:3" Value="16.301"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:3.1" Value="7.501"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:3.2" Value="-4.899"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:3.3" Value="-5.699"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:3.4" Value="-0.499"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:3.5" Value="7.501"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:3.6" Value="17.501"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:3.8" Value="24.301"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:3.9" Value="40.301"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:4" Value="36.301"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:4.1" Value="36.701"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:4.2" Value="34.301"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:4.3" Value="31.101"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:4.4" Value="22.701"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:4.5" Value="11.501"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:4.6" Value="-3.699"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:4.8" Value="-15.299"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:4.9" Value="-0.099"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:5" Value="1.101"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[2].(RotateTransform.Angle)" Storyboard.TargetName="pezAzul">
+                <EasingDoubleKeyFrame KeyTime="0" Value="-9.054"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.1" Value="-9.054"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.2" Value="-29.051"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.3" Value="-29.051"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.4" Value="-51.626"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.5" Value="-85.214"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.6" Value="-130.021"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.8" Value="-130.021"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.9" Value="-171.195"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1" Value="-179.486"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1.6" Value="-179.486"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1.7" Value="-162.747"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1.8" Value="-162.747"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1.9" Value="-145.205"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:2" Value="-105.915"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:2.2" Value="-105.915"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:2.3" Value="-84.992"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:2.4" Value="-33.665"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:2.5" Value="35.766"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:2.8" Value="35.766"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:2.9" Value="-1.774"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:3.5" Value="-1.774"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:3.6" Value="-20.829"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:3.8" Value="-89.605"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:3.9" Value="-118.704"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:4" Value="-127.306"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:4.1" Value="-151.712"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:4.2" Value="-151.712"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:4.3" Value="-166.514"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:4.4" Value="-166.514"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:4.5" Value="-178.843"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:4.6" Value="-201.58"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:4.8" Value="-260.638"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:4.9" Value="-307.996"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:5" Value="-344.953"/>
+            </DoubleAnimationUsingKeyFrames>
+        </Storyboard>
     </Window.Resources>
     <Window.Triggers>
+        <EventTrigger RoutedEvent="UIElement.MouseLeftButtonDown" SourceName="cvLago">
+            <BeginStoryboard x:Name="movimientoPeces_BeginStoryboard" Storyboard="{StaticResource movimientoPeces}"/>
+        </EventTrigger>
     </Window.Triggers>
 
     <Grid x:Name ="gdEscenario">
-        <!--
-        <Grid.Background>
-            <ImageBrush ImageSource="/bunny;component/img/klaaya_s_room_by_ewreilyn-d7judiw.jpg" Stretch="UniformToFill"/>
-        </Grid.Background>
-        -->
-        <!--
-        <Grid.Background>
-            <ImageBrush ImageSource="/bunny;component/img/klaaya_s_room_by_ewreilyn-d7judiw.jpg" Stretch="UniformToFill"/>
-        </Grid.Background>
-        -->
         <Canvas x:Name="cvFondo">
             <Rectangle x:Name="cielo" Fill="#FF1BC4F7" Height="363.31" Stroke="Black" Width="1274"/>
             <Canvas x:Name="cvMontanias" Height="278.58" Canvas.Left="31.4" Canvas.Top="218.73" Width="371.2">
@@ -1398,9 +2093,9 @@
                     <Ellipse Fill="#FF7D5814" Height="5" Canvas.Left="7.8" Stroke="Black" Canvas.Top="2.6" Width="13.394"/>
                 </Canvas>
             </Canvas>
-            <Canvas x:Name="cvLago" Height="98.025" Canvas.Left="730.9" Canvas.Top="368.31" Width="246">
+            <Canvas x:Name="cvLago" Height="98.025" Canvas.Left="730.9" Canvas.Top="368.31" Width="246" MouseDown="cvLago_MouseDown">
                 <Path Data="M111.79999,0.5 C135.02333,0.4999994 156.24777,4.9884351 172.49153,12.40147 L172.49568,12.403434 172.49948,12.403558 C201.11014,13.657432 223.54138,23.93173 224.28114,36.532318 L224.29764,37.094486 225.56035,37.546932 C237.774,42.11259 245.5,48.854434 245.5,56.374999 245.5,67.118667 229.73268,76.273109 207.63919,79.764076 L206.02133,80.000312 205.62797,80.214523 C198.33874,84.044204 188.36123,87.240112 177.13795,88.987602 171.90042,89.803092 166.82544,90.235603 162.07785,90.319419 L160.28979,90.33245 158.32582,90.950874 C144.65816,95.130508 128.76226,97.525001 111.79999,97.525001 99.02841,97.525001 86.861372,96.16751 75.794825,93.712646 L74.852503,93.489219 73.20159,93.525001 C63.978083,93.525001 55.334421,91.397041 47.902403,87.682647 L46.834461,87.133064 45.862173,87.121482 C43.28059,87.046996 40.520987,86.662628 37.672993,85.937911 31.570148,84.384941 26.144706,81.544769 22.181067,78.14138 L21.967171,77.951011 21.087438,77.741065 C9.0737362,74.638687 0.5,66.503242 0.5,56.955467 0.5,50.272029 4.701129,44.280628 11.342509,40.223178 L12.029133,39.821098 12.038096,39.321506 C12.440358,28.123508 24.637722,18.992858 40.195238,17.878553 L40.197298,17.878442 40.199554,17.876697 C45.720064,13.759275 52.298517,10.657108 59.539064,8.9094948 L60.052797,8.796203 60.082369,8.7851747 C74.845465,3.5543443 92.642622,0.4999994 111.79999,0.5 z" Fill="#FF11F49F" Height="98.025" Stretch="Fill" Stroke="Black" Width="246"/>
-                <Path x:Name="pezVerde" Fill="#FF367A1D" Stroke="Black" Data="M8.2971735,0.50000286 C9.6863885,0.49674511 11.690749,3.3110967 13.454119,7.5194813 L13.468844,7.5553609 13.638843,7.5623451 C14.964151,7.6317083 16.190937,7.8903873 17.248144,8.314376 L17.279623,8.3275424 17.322103,8.2647985 C18.303291,6.8619425 19.844054,5.3279462 21.755703,3.9511471 24.559457,1.9318419 27.431094,0.77639675 29.319156,0.76113796 30.177365,0.75420284 30.832356,0.98284245 31.185382,1.4730096 32.315063,3.0415421 29.924828,6.6941371 25.846641,9.6313082 25.719197,9.7230948 25.591614,9.8130966 25.463988,9.9012873 L25.418391,9.9321435 25.735397,9.9240324 C25.871335,9.9217143 26.008047,9.9205427 26.145472,9.9205423 31.171263,9.9205427 35.245472,11.487546 35.245472,13.420542 35.245472,15.353539 31.171263,16.920543 26.145472,16.920543 23.946688,16.920543 21.930043,16.620608 20.357027,16.121313 L20.07297,16.026676 20.054973,16.055852 C19.318342,17.216017 18.183909,18.298066 16.758397,19.188566 L16.688166,19.231366 16.700541,19.319689 C17.214774,23.224945 16.886165,26.03229 15.669667,26.391871 14.511097,26.73433 12.82139,24.775543 11.201837,21.515332 L11.090435,21.286091 10.818254,21.331028 C5.8405056,22.06928 1.4447365,20.304988 0.63120365,17.051761 -0.15427589,13.910715 2.6599522,10.422418 7.1207285,8.6629244 L7.1505251,8.6517355 7.0761023,8.1760432 C6.4533968,3.978487 6.7533598,0.91534805 8.0277863,0.53864384 8.1146793,0.51295948 8.2045593,0.50021935 8.2971735,0.50000286 z" Height="26.931" Canvas.Left="67.699" RenderTransformOrigin="0.731434493991277,0.498339600915666" Stretch="Fill" Canvas.Top="55.74" Width="34.492">
+                <Path x:Name="pezVerde" Fill="#FF367A1D" Stroke="Black" Data="M8.2971735,0.50000286 C9.6863885,0.49674511 11.690749,3.3110967 13.454119,7.5194813 L13.468844,7.5553609 13.638843,7.5623451 C14.964151,7.6317083 16.190937,7.8903873 17.248144,8.314376 L17.279623,8.3275424 17.322103,8.2647985 C18.303291,6.8619425 19.844054,5.3279462 21.755703,3.9511471 24.559457,1.9318419 27.431094,0.77639675 29.319156,0.76113796 30.177365,0.75420284 30.832356,0.98284245 31.185382,1.4730096 32.315063,3.0415421 29.924828,6.6941371 25.846641,9.6313082 25.719197,9.7230948 25.591614,9.8130966 25.463988,9.9012873 L25.418391,9.9321435 25.735397,9.9240324 C25.871335,9.9217143 26.008047,9.9205427 26.145472,9.9205423 31.171263,9.9205427 35.245472,11.487546 35.245472,13.420542 35.245472,15.353539 31.171263,16.920543 26.145472,16.920543 23.946688,16.920543 21.930043,16.620608 20.357027,16.121313 L20.07297,16.026676 20.054973,16.055852 C19.318342,17.216017 18.183909,18.298066 16.758397,19.188566 L16.688166,19.231366 16.700541,19.319689 C17.214774,23.224945 16.886165,26.03229 15.669667,26.391871 14.511097,26.73433 12.82139,24.775543 11.201837,21.515332 L11.090435,21.286091 10.818254,21.331028 C5.8405056,22.06928 1.4447365,20.304988 0.63120365,17.051761 -0.15427589,13.910715 2.6599522,10.422418 7.1207285,8.6629244 L7.1505251,8.6517355 7.0761023,8.1760432 C6.4533968,3.978487 6.7533598,0.91534805 8.0277863,0.53864384 8.1146793,0.51295948 8.2045593,0.50021935 8.2971735,0.50000286 z" Height="26.931" Canvas.Left="67.699" RenderTransformOrigin="0.731434493991277,0.498339600915666" Stretch="Fill" Canvas.Top="55.74" Width="34.492" MouseDown="pezVerde_MouseDown">
                     <Path.RenderTransform>
                         <TransformGroup>
                             <ScaleTransform ScaleX="-1"/>
@@ -1410,7 +2105,7 @@
                         </TransformGroup>
                     </Path.RenderTransform>
                 </Path>
-                <Path x:Name="pezRojo" Fill="#FFF42911" Stroke="Black" Data="M8.2971735,0.50000286 C9.6863885,0.49674511 11.690749,3.3110967 13.454119,7.5194813 L13.468844,7.5553609 13.638843,7.5623451 C14.964151,7.6317083 16.190937,7.8903873 17.248144,8.314376 L17.279623,8.3275424 17.322103,8.2647985 C18.303291,6.8619425 19.844054,5.3279462 21.755703,3.9511471 24.559457,1.9318419 27.431094,0.77639675 29.319156,0.76113796 30.177365,0.75420284 30.832356,0.98284245 31.185382,1.4730096 32.315063,3.0415421 29.924828,6.6941371 25.846641,9.6313082 25.719197,9.7230948 25.591614,9.8130966 25.463988,9.9012873 L25.418391,9.9321435 25.735397,9.9240324 C25.871335,9.9217143 26.008047,9.9205427 26.145472,9.9205423 31.171263,9.9205427 35.245472,11.487546 35.245472,13.420542 35.245472,15.353539 31.171263,16.920543 26.145472,16.920543 23.946688,16.920543 21.930043,16.620608 20.357027,16.121313 L20.07297,16.026676 20.054973,16.055852 C19.318342,17.216017 18.183909,18.298066 16.758397,19.188566 L16.688166,19.231366 16.700541,19.319689 C17.214774,23.224945 16.886165,26.03229 15.669667,26.391871 14.511097,26.73433 12.82139,24.775543 11.201837,21.515332 L11.090435,21.286091 10.818254,21.331028 C5.8405056,22.06928 1.4447365,20.304988 0.63120365,17.051761 -0.15427589,13.910715 2.6599522,10.422418 7.1207285,8.6629244 L7.1505251,8.6517355 7.0761023,8.1760432 C6.4533968,3.978487 6.7533598,0.91534805 8.0277863,0.53864384 8.1146793,0.51295948 8.2045593,0.50021935 8.2971735,0.50000286 z" Height="26.931" Canvas.Left="81.021" RenderTransformOrigin="0.731434493991277,0.498339600915666" Stretch="Fill" Canvas.Top="7.803" Width="35.745">
+                <Path x:Name="pezRojo" Fill="#FFF42911" Stroke="Black" Data="M8.2971735,0.50000286 C9.6863885,0.49674511 11.690749,3.3110967 13.454119,7.5194813 L13.468844,7.5553609 13.638843,7.5623451 C14.964151,7.6317083 16.190937,7.8903873 17.248144,8.314376 L17.279623,8.3275424 17.322103,8.2647985 C18.303291,6.8619425 19.844054,5.3279462 21.755703,3.9511471 24.559457,1.9318419 27.431094,0.77639675 29.319156,0.76113796 30.177365,0.75420284 30.832356,0.98284245 31.185382,1.4730096 32.315063,3.0415421 29.924828,6.6941371 25.846641,9.6313082 25.719197,9.7230948 25.591614,9.8130966 25.463988,9.9012873 L25.418391,9.9321435 25.735397,9.9240324 C25.871335,9.9217143 26.008047,9.9205427 26.145472,9.9205423 31.171263,9.9205427 35.245472,11.487546 35.245472,13.420542 35.245472,15.353539 31.171263,16.920543 26.145472,16.920543 23.946688,16.920543 21.930043,16.620608 20.357027,16.121313 L20.07297,16.026676 20.054973,16.055852 C19.318342,17.216017 18.183909,18.298066 16.758397,19.188566 L16.688166,19.231366 16.700541,19.319689 C17.214774,23.224945 16.886165,26.03229 15.669667,26.391871 14.511097,26.73433 12.82139,24.775543 11.201837,21.515332 L11.090435,21.286091 10.818254,21.331028 C5.8405056,22.06928 1.4447365,20.304988 0.63120365,17.051761 -0.15427589,13.910715 2.6599522,10.422418 7.1207285,8.6629244 L7.1505251,8.6517355 7.0761023,8.1760432 C6.4533968,3.978487 6.7533598,0.91534805 8.0277863,0.53864384 8.1146793,0.51295948 8.2045593,0.50021935 8.2971735,0.50000286 z" Height="26.931" Canvas.Left="81.021" RenderTransformOrigin="0.731434493991277,0.498339600915666" Stretch="Fill" Canvas.Top="7.803" Width="35.745" MouseDown="pezRojo_MouseDown">
                     <Path.RenderTransform>
                         <TransformGroup>
                             <ScaleTransform/>
@@ -1420,7 +2115,7 @@
                         </TransformGroup>
                     </Path.RenderTransform>
                 </Path>
-                <Path x:Name="pezAmarillo" Fill="#FFC2F411" Stroke="Black" Data="M8.2971735,0.50000286 C9.6863885,0.49674511 11.690749,3.3110967 13.454119,7.5194813 L13.468844,7.5553609 13.638843,7.5623451 C14.964151,7.6317083 16.190937,7.8903873 17.248144,8.314376 L17.279623,8.3275424 17.322103,8.2647985 C18.303291,6.8619425 19.844054,5.3279462 21.755703,3.9511471 24.559457,1.9318419 27.431094,0.77639675 29.319156,0.76113796 30.177365,0.75420284 30.832356,0.98284245 31.185382,1.4730096 32.315063,3.0415421 29.924828,6.6941371 25.846641,9.6313082 25.719197,9.7230948 25.591614,9.8130966 25.463988,9.9012873 L25.418391,9.9321435 25.735397,9.9240324 C25.871335,9.9217143 26.008047,9.9205427 26.145472,9.9205423 31.171263,9.9205427 35.245472,11.487546 35.245472,13.420542 35.245472,15.353539 31.171263,16.920543 26.145472,16.920543 23.946688,16.920543 21.930043,16.620608 20.357027,16.121313 L20.07297,16.026676 20.054973,16.055852 C19.318342,17.216017 18.183909,18.298066 16.758397,19.188566 L16.688166,19.231366 16.700541,19.319689 C17.214774,23.224945 16.886165,26.03229 15.669667,26.391871 14.511097,26.73433 12.82139,24.775543 11.201837,21.515332 L11.090435,21.286091 10.818254,21.331028 C5.8405056,22.06928 1.4447365,20.304988 0.63120365,17.051761 -0.15427589,13.910715 2.6599522,10.422418 7.1207285,8.6629244 L7.1505251,8.6517355 7.0761023,8.1760432 C6.4533968,3.978487 6.7533598,0.91534805 8.0277863,0.53864384 8.1146793,0.51295948 8.2045593,0.50021935 8.2971735,0.50000286 z" Height="15.29" Canvas.Left="136.672" RenderTransformOrigin="0.731434493991277,0.498339600915666" Stretch="Fill" Canvas.Top="16.196" Width="24.588">
+                <Path x:Name="pezAmarillo" Fill="#FFC2F411" Stroke="Black" Data="M8.2971735,0.50000286 C9.6863885,0.49674511 11.690749,3.3110967 13.454119,7.5194813 L13.468844,7.5553609 13.638843,7.5623451 C14.964151,7.6317083 16.190937,7.8903873 17.248144,8.314376 L17.279623,8.3275424 17.322103,8.2647985 C18.303291,6.8619425 19.844054,5.3279462 21.755703,3.9511471 24.559457,1.9318419 27.431094,0.77639675 29.319156,0.76113796 30.177365,0.75420284 30.832356,0.98284245 31.185382,1.4730096 32.315063,3.0415421 29.924828,6.6941371 25.846641,9.6313082 25.719197,9.7230948 25.591614,9.8130966 25.463988,9.9012873 L25.418391,9.9321435 25.735397,9.9240324 C25.871335,9.9217143 26.008047,9.9205427 26.145472,9.9205423 31.171263,9.9205427 35.245472,11.487546 35.245472,13.420542 35.245472,15.353539 31.171263,16.920543 26.145472,16.920543 23.946688,16.920543 21.930043,16.620608 20.357027,16.121313 L20.07297,16.026676 20.054973,16.055852 C19.318342,17.216017 18.183909,18.298066 16.758397,19.188566 L16.688166,19.231366 16.700541,19.319689 C17.214774,23.224945 16.886165,26.03229 15.669667,26.391871 14.511097,26.73433 12.82139,24.775543 11.201837,21.515332 L11.090435,21.286091 10.818254,21.331028 C5.8405056,22.06928 1.4447365,20.304988 0.63120365,17.051761 -0.15427589,13.910715 2.6599522,10.422418 7.1207285,8.6629244 L7.1505251,8.6517355 7.0761023,8.1760432 C6.4533968,3.978487 6.7533598,0.91534805 8.0277863,0.53864384 8.1146793,0.51295948 8.2045593,0.50021935 8.2971735,0.50000286 z" Height="15.29" Canvas.Left="136.672" RenderTransformOrigin="0.731434493991277,0.498339600915666" Stretch="Fill" Canvas.Top="16.196" Width="24.588" MouseDown="pezAmarillo_MouseDown">
                     <Path.RenderTransform>
                         <TransformGroup>
                             <ScaleTransform/>
@@ -1430,7 +2125,7 @@
                         </TransformGroup>
                     </Path.RenderTransform>
                 </Path>
-                <Path x:Name="pezLila" Fill="#FFC211F4" Stroke="Black" Data="M8.2971735,0.50000286 C9.6863885,0.49674511 11.690749,3.3110967 13.454119,7.5194813 L13.468844,7.5553609 13.638843,7.5623451 C14.964151,7.6317083 16.190937,7.8903873 17.248144,8.314376 L17.279623,8.3275424 17.322103,8.2647985 C18.303291,6.8619425 19.844054,5.3279462 21.755703,3.9511471 24.559457,1.9318419 27.431094,0.77639675 29.319156,0.76113796 30.177365,0.75420284 30.832356,0.98284245 31.185382,1.4730096 32.315063,3.0415421 29.924828,6.6941371 25.846641,9.6313082 25.719197,9.7230948 25.591614,9.8130966 25.463988,9.9012873 L25.418391,9.9321435 25.735397,9.9240324 C25.871335,9.9217143 26.008047,9.9205427 26.145472,9.9205423 31.171263,9.9205427 35.245472,11.487546 35.245472,13.420542 35.245472,15.353539 31.171263,16.920543 26.145472,16.920543 23.946688,16.920543 21.930043,16.620608 20.357027,16.121313 L20.07297,16.026676 20.054973,16.055852 C19.318342,17.216017 18.183909,18.298066 16.758397,19.188566 L16.688166,19.231366 16.700541,19.319689 C17.214774,23.224945 16.886165,26.03229 15.669667,26.391871 14.511097,26.73433 12.82139,24.775543 11.201837,21.515332 L11.090435,21.286091 10.818254,21.331028 C5.8405056,22.06928 1.4447365,20.304988 0.63120365,17.051761 -0.15427589,13.910715 2.6599522,10.422418 7.1207285,8.6629244 L7.1505251,8.6517355 7.0761023,8.1760432 C6.4533968,3.978487 6.7533598,0.91534805 8.0277863,0.53864384 8.1146793,0.51295948 8.2045593,0.50021935 8.2971735,0.50000286 z" Height="25.574" Canvas.Left="162.61" RenderTransformOrigin="0.731434493991277,0.498339600915666" Stretch="Fill" Canvas.Top="55.616" Width="34.581">
+                <Path x:Name="pezLila" Fill="#FFC211F4" Stroke="Black" Data="M8.2971735,0.50000286 C9.6863885,0.49674511 11.690749,3.3110967 13.454119,7.5194813 L13.468844,7.5553609 13.638843,7.5623451 C14.964151,7.6317083 16.190937,7.8903873 17.248144,8.314376 L17.279623,8.3275424 17.322103,8.2647985 C18.303291,6.8619425 19.844054,5.3279462 21.755703,3.9511471 24.559457,1.9318419 27.431094,0.77639675 29.319156,0.76113796 30.177365,0.75420284 30.832356,0.98284245 31.185382,1.4730096 32.315063,3.0415421 29.924828,6.6941371 25.846641,9.6313082 25.719197,9.7230948 25.591614,9.8130966 25.463988,9.9012873 L25.418391,9.9321435 25.735397,9.9240324 C25.871335,9.9217143 26.008047,9.9205427 26.145472,9.9205423 31.171263,9.9205427 35.245472,11.487546 35.245472,13.420542 35.245472,15.353539 31.171263,16.920543 26.145472,16.920543 23.946688,16.920543 21.930043,16.620608 20.357027,16.121313 L20.07297,16.026676 20.054973,16.055852 C19.318342,17.216017 18.183909,18.298066 16.758397,19.188566 L16.688166,19.231366 16.700541,19.319689 C17.214774,23.224945 16.886165,26.03229 15.669667,26.391871 14.511097,26.73433 12.82139,24.775543 11.201837,21.515332 L11.090435,21.286091 10.818254,21.331028 C5.8405056,22.06928 1.4447365,20.304988 0.63120365,17.051761 -0.15427589,13.910715 2.6599522,10.422418 7.1207285,8.6629244 L7.1505251,8.6517355 7.0761023,8.1760432 C6.4533968,3.978487 6.7533598,0.91534805 8.0277863,0.53864384 8.1146793,0.51295948 8.2045593,0.50021935 8.2971735,0.50000286 z" Height="25.574" Canvas.Left="162.61" RenderTransformOrigin="0.731434493991277,0.498339600915666" Stretch="Fill" Canvas.Top="55.616" Width="34.581" MouseDown="pezLila_MouseDown">
                     <Path.RenderTransform>
                         <TransformGroup>
                             <ScaleTransform/>
@@ -1440,7 +2135,7 @@
                         </TransformGroup>
                     </Path.RenderTransform>
                 </Path>
-                <Path x:Name="pezAzul" Fill="#FF113CF4" Stroke="Black" Data="M8.2971735,0.50000286 C9.6863885,0.49674511 11.690749,3.3110967 13.454119,7.5194813 L13.468844,7.5553609 13.638843,7.5623451 C14.964151,7.6317083 16.190937,7.8903873 17.248144,8.314376 L17.279623,8.3275424 17.322103,8.2647985 C18.303291,6.8619425 19.844054,5.3279462 21.755703,3.9511471 24.559457,1.9318419 27.431094,0.77639675 29.319156,0.76113796 30.177365,0.75420284 30.832356,0.98284245 31.185382,1.4730096 32.315063,3.0415421 29.924828,6.6941371 25.846641,9.6313082 25.719197,9.7230948 25.591614,9.8130966 25.463988,9.9012873 L25.418391,9.9321435 25.735397,9.9240324 C25.871335,9.9217143 26.008047,9.9205427 26.145472,9.9205423 31.171263,9.9205427 35.245472,11.487546 35.245472,13.420542 35.245472,15.353539 31.171263,16.920543 26.145472,16.920543 23.946688,16.920543 21.930043,16.620608 20.357027,16.121313 L20.07297,16.026676 20.054973,16.055852 C19.318342,17.216017 18.183909,18.298066 16.758397,19.188566 L16.688166,19.231366 16.700541,19.319689 C17.214774,23.224945 16.886165,26.03229 15.669667,26.391871 14.511097,26.73433 12.82139,24.775543 11.201837,21.515332 L11.090435,21.286091 10.818254,21.331028 C5.8405056,22.06928 1.4447365,20.304988 0.63120365,17.051761 -0.15427589,13.910715 2.6599522,10.422418 7.1207285,8.6629244 L7.1505251,8.6517355 7.0761023,8.1760432 C6.4533968,3.978487 6.7533598,0.91534805 8.0277863,0.53864384 8.1146793,0.51295948 8.2045593,0.50021935 8.2971735,0.50000286 z" Height="19.946" Canvas.Left="49.284" RenderTransformOrigin="0.731434493991277,0.498339600915666" Stretch="Fill" Canvas.Top="34.334" Width="25.752">
+                <Path x:Name="pezAzul" Fill="#FF113CF4" Stroke="Black" Data="M8.2971735,0.50000286 C9.6863885,0.49674511 11.690749,3.3110967 13.454119,7.5194813 L13.468844,7.5553609 13.638843,7.5623451 C14.964151,7.6317083 16.190937,7.8903873 17.248144,8.314376 L17.279623,8.3275424 17.322103,8.2647985 C18.303291,6.8619425 19.844054,5.3279462 21.755703,3.9511471 24.559457,1.9318419 27.431094,0.77639675 29.319156,0.76113796 30.177365,0.75420284 30.832356,0.98284245 31.185382,1.4730096 32.315063,3.0415421 29.924828,6.6941371 25.846641,9.6313082 25.719197,9.7230948 25.591614,9.8130966 25.463988,9.9012873 L25.418391,9.9321435 25.735397,9.9240324 C25.871335,9.9217143 26.008047,9.9205427 26.145472,9.9205423 31.171263,9.9205427 35.245472,11.487546 35.245472,13.420542 35.245472,15.353539 31.171263,16.920543 26.145472,16.920543 23.946688,16.920543 21.930043,16.620608 20.357027,16.121313 L20.07297,16.026676 20.054973,16.055852 C19.318342,17.216017 18.183909,18.298066 16.758397,19.188566 L16.688166,19.231366 16.700541,19.319689 C17.214774,23.224945 16.886165,26.03229 15.669667,26.391871 14.511097,26.73433 12.82139,24.775543 11.201837,21.515332 L11.090435,21.286091 10.818254,21.331028 C5.8405056,22.06928 1.4447365,20.304988 0.63120365,17.051761 -0.15427589,13.910715 2.6599522,10.422418 7.1207285,8.6629244 L7.1505251,8.6517355 7.0761023,8.1760432 C6.4533968,3.978487 6.7533598,0.91534805 8.0277863,0.53864384 8.1146793,0.51295948 8.2045593,0.50021935 8.2971735,0.50000286 z" Height="19.946" Canvas.Left="49.284" RenderTransformOrigin="0.731434493991277,0.498339600915666" Stretch="Fill" Canvas.Top="34.334" Width="25.752" MouseDown="pezAzul_MouseDown">
                     <Path.RenderTransform>
                         <TransformGroup>
                             <ScaleTransform/>

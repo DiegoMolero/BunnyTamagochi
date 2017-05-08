@@ -35,6 +35,8 @@ namespace bunny
         private Cansancio ani_cansancio;
         private Suciedad ani_suciedad;
         private Hambre ani_hambre;
+        private Dormir ani_dormir;
+        private Juego ani_juego;
 
         public MainWindow()
         {
@@ -55,7 +57,7 @@ namespace bunny
             ani_hambre = new Hambre(this.FindResource("sbHambre") as Storyboard);
             progressbar_controler = new ProgressBarControler(ProgressBar_hambre, ProgressBar_baño, ProgressBar_sueño, //ProgressBars
     Label_hambre, Label_baño, Label_sueño, Label_Puntuacion, //Labels
-     ani_suciedad, ani_cansancio, ani_hambre,//Animations
+     ani_suciedad, ani_cansancio, ani_hambre, //Animations
      cvBunny, //Canvas
       this.FindResource("sbSuciedad") as Storyboard); //Storyboard
             temporizador = new Temporizador(this);
@@ -116,6 +118,46 @@ namespace bunny
         private void moverZanahoria(object sender, DragEventArgs e)
         {
             e.GetPosition(this);
+        }
+
+        private void pezVerde_MouseDown(object sender, MouseButtonEventArgs e)
+        {
+            pezVerde.Opacity = 0;
+        }
+
+        private void pezLila_MouseDown(object sender, MouseButtonEventArgs e)
+        {
+            pezLila.Opacity = 0;
+        }
+
+        private void pezAzul_MouseDown(object sender, MouseButtonEventArgs e)
+        {
+            pezAzul.Opacity = 0;
+        }
+
+        private void pezAmarillo_MouseDown(object sender, MouseButtonEventArgs e)
+        {
+            pezAmarillo.Opacity = 0;
+        }
+
+        private void pezRojo_MouseDown(object sender, MouseButtonEventArgs e)
+        {
+            pezRojo.Opacity = 0;
+        }
+
+        private void cvLago_MouseDown(object sender, MouseButtonEventArgs e)
+        {
+            if(pezVerde.Opacity == 0 & pezLila.Opacity == 0 & pezAzul.Opacity == 0 & 
+                pezAmarillo.Opacity == 0 & pezRojo.Opacity == 0)
+            {
+                pezVerde.Opacity = 100;
+                pezLila.Opacity = 100;
+                pezAzul.Opacity = 100;
+                pezAmarillo.Opacity = 100;
+                pezRojo.Opacity = 100;
+                ani_juego = new Juego(this.FindResource("movimientoPeces") as Storyboard);
+                ani_juego.juegoStop();
+            }
         }
     }
     public static class Globals

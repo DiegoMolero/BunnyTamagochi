@@ -65,7 +65,9 @@
     <Compile Include="src\dominio\Counter.cs" />
     <Compile Include="src\dominio\ProgressBarControler.cs" />
     <Compile Include="src\dominio\Temporizador.cs" />
+    <Compile Include="src\presentacion\animations\Dormir.cs" />
     <Compile Include="src\presentacion\animations\Hambre.cs" />
+    <Compile Include="src\presentacion\animations\Juego.cs" />
     <Compile Include="src\presentacion\animations\Suciedad.cs" />
     <Compile Include="src\presentacion\animations\Cansancio.cs" />
     <Compile Include="src\presentacion\animations\RascarBarrigaCanvas.cs" />
