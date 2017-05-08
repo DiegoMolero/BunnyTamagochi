@@ -115,7 +115,6 @@ namespace bunny
 
         private void moverZanahoria(object sender, DragEventArgs e)
         {
-            e.Effect = DragDropEffects.Move;
             e.GetPosition(this);
         }
     }
