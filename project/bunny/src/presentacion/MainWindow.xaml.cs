@@ -48,7 +48,7 @@ namespace bunny
             Globals.cvBunny = cvBunny;
             Globals.label_puntuacion = Label_Puntuacion;
             Globals.state = 0;
-
+            Globals.cvLago = cvLago;
             ani_respirar = new Respirar(cuerpo);
             ani_parpadear = new Parpadear(parpadoIzq, parpadoDer);
             ani_rascarbarriga = new RascarBarrigaCanvas(cvBrazoIzquierdo, cvBrazoDerecho);
@@ -167,7 +167,8 @@ namespace bunny
         public static Canvas cvCama { get; set; }
         public static Canvas cvBunny { get; set; }
         public static int state { get; set; }
+        public static Canvas cvLago { get; set; }
     }
 
-   
+  
 }

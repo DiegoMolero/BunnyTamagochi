@@ -11,6 +11,7 @@ namespace bunny.src.presentacion.animations
     {
         private Storyboard ani_juego;
 
+
         public Juego(Storyboard ani_juego)
         {
             this.ani_juego = ani_juego;

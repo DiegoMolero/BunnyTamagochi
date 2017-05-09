@@ -2759,9 +2759,9 @@
             <Label x:Name="Label_Puntuacion" Content="0" Background="Transparent" Foreground="Black" Margin="0,82,-769,-8" HorizontalAlignment="Right" Width="133"/>
         </Grid>
         <Grid HorizontalAlignment="Left" Height="139" Margin="809,10,0,0" VerticalAlignment="Top" Width="455" >
-            <ProgressBar x:Name="ProgressBar_hambre" HorizontalAlignment="Left" Height="13" Margin="147,6,0,0" VerticalAlignment="Top" Width="254" Background="#FFE6E6E6" Value="100" Foreground="#FFE27A11"/>
-            <ProgressBar x:Name="ProgressBar_baño" HorizontalAlignment="Left" Height="13" Margin="147,31,0,0" VerticalAlignment="Top" Width="254" Value="100" Foreground="#FFB00C06"/>
-            <ProgressBar x:Name="ProgressBar_sueño" HorizontalAlignment="Left" Height="13" Margin="147,55,0,0" VerticalAlignment="Top" Width="254" Cursor="" Value="100" Foreground="#FF0620B0"/>
+            <ProgressBar x:Name="ProgressBar_hambre" HorizontalAlignment="Left" Height="13" Margin="147,6,0,0" VerticalAlignment="Top" Width="254"  Value="100" Foreground="#FF64E200"/>
+            <ProgressBar x:Name="ProgressBar_baño" HorizontalAlignment="Left" Height="13" Margin="147,31,0,0" VerticalAlignment="Top" Width="254" Value="100" Foreground="#FF64E200"/>
+            <ProgressBar x:Name="ProgressBar_sueño" HorizontalAlignment="Left" Height="13" Margin="147,55,0,0" VerticalAlignment="Top" Width="254" Cursor="" Value="100" Foreground="#FF64E200"/>
             <Label x:Name="label" Content="&#xA;" HorizontalAlignment="Left" Margin="112,2,0,0" VerticalAlignment="Top" Height="21" Width="30" RenderTransformOrigin="0.496,0.333">
                 <Label.Background>
                     <ImageBrush ImageSource="/bunny;component/img/icons/fried-chicken.png"/>
