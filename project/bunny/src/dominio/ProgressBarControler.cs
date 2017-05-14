@@ -86,25 +86,36 @@ namespace bunny.src.dominio
         public void setBarBaño(int value)
         {
                ProgressBar_baño.Value = ProgressBar_baño.Value + value;
-            if (ProgressBar_baño.Value >= 50) ProgressBar_baño.Foreground = Brushes.Green;
-            else if (ProgressBar_baño.Value >= 30) ProgressBar_baño.Foreground = Brushes.YellowGreen;
-            else ProgressBar_baño.Foreground= Brushes.Red;
+            changeColor(ProgressBar_baño);
             updateLabels();
         }
         public void setBarHambre(int value)
         {
             ProgressBar_hambre.Value = ProgressBar_hambre.Value + value;
+            changeColor(ProgressBar_hambre);
             updateLabels();
         }
         public void setBarSueño(int value)
         {
             ProgressBar_sueño.Value = ProgressBar_sueño.Value + value;
+            changeColor(ProgressBar_sueño);
             updateLabels();
         }
         private bool comprobarInput(int value,int valueBar)
         {
             if (value + valueBar > 100 || value + valueBar < 0) return false;
             return true;
+        }
+        private void changeColor(ProgressBar a)
+        {
+            if (a.Value >= 70) a.Foreground = Brushes.Green;
+            else if (a.Value >= 60) a.Foreground = Brushes.YellowGreen;
+            else if (a.Value >= 60) a.Foreground = Brushes.GreenYellow;
+            else if (a.Value >= 50) a.Foreground = Brushes.Yellow;
+            else if (a.Value >= 40) a.Foreground = Brushes.Orange;
+            else if (a.Value >= 30) a.Foreground = Brushes.DarkOrange;
+            else if (a.Value >= 20) a.Foreground = Brushes.OrangeRed;
+            else a.Foreground = Brushes.Red;
         }
     }
 }

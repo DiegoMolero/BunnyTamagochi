@@ -67,6 +67,7 @@ namespace bunny.src.presentacion.animations
                 Globals.pezRojo.Opacity = 100;
                 juegoStop();
             }
+           
         }
     }
 
