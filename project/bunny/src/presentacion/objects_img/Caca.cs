@@ -28,7 +28,7 @@ namespace bunny.src.presentacion.objects_img
             top = rnd.Next(-40, 40);
             left = rnd.Next(-40, 40);
             Color color = Color.FromRgb(0,0,0);
-
+            Globals.cacas++;
             this.cvBunny = cvBunny;
 
             this.cvCaca = new Canvas();
@@ -85,9 +85,10 @@ namespace bunny.src.presentacion.objects_img
         private void clickOnCaca(object sender, MouseButtonEventArgs e)
         {
             cvBunny.Children.Remove(cvCaca);
-            int puntuacion = Int32.Parse(Globals.label_puntuacion.Content.ToString());
-            puntuacion += 5;
-            Globals.label_puntuacion.Content= puntuacion;
+            //Globals.score = Int32.Parse(Globals.label_puntuacion.Content.ToString());
+            Globals.score += 5;
+            Globals.label_puntuacion.Content= Globals.score;
+            Globals.cacas--;
             showPuntuation();
         }
         private void showPuntuation()

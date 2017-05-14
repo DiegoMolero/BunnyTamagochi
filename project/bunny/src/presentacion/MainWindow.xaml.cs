@@ -18,6 +18,7 @@ using bunny.src.dominio;
 using System.Windows.Media.Animation;
 using bunny.src.presentacion.animations;
 using bunny.src.presentacion.objects_img;
+using System.ComponentModel;
 
 namespace bunny
 {
@@ -50,10 +51,16 @@ namespace bunny
             Globals.cvLago = cvLago;
             //peces
             Globals.pezVerde = pezVerde;
-            Globals.pezAmarillo=pezAmarillo;
+            Globals.pezAmarillo = pezAmarillo;
             Globals.pezLila = pezLila;
             Globals.pezRojo = pezRojo;
             Globals.pezAzul = pezAzul;
+            //progress bar
+            Globals.ProgressBar_hambre = ProgressBar_hambre;
+            Globals.ProgressBar_baño = ProgressBar_baño;
+            Globals.ProgressBar_sueño = ProgressBar_sueño;
+            Globals.cacas = 0;
+            Globals.score = 0;
             //Inicializar animaciones
             ani_respirar = new Respirar(cuerpo);
             ani_parpadear = new Parpadear(parpadoIzq, parpadoDer);
@@ -61,14 +68,15 @@ namespace bunny
             ani_cansancio = new Cansancio(this.FindResource("sbCansancio") as Storyboard);
             ani_hambre = new Hambre(this.FindResource("sbHambre") as Storyboard);
             //Barra de progreso
-            progressbar_controler = new ProgressBarControler(ProgressBar_hambre, ProgressBar_baño, ProgressBar_sueño, //ProgressBars
+            progressbar_controler = new ProgressBarControler( //ProgressBars
     Label_hambre, Label_baño, Label_sueño, Label_Puntuacion, //Labels
     ani_cansancio, ani_hambre, //Animations
      cvBunny) //Canvas
-      ; 
+      ;
             temporizador = new Temporizador(this);
             temporizador.registrarObservador(progressbar_controler);
-
+            //Leer XML
+            new ReadXml(progressbar_controler);
         }
 
         public void update()
@@ -125,8 +133,14 @@ namespace bunny
         {
             e.GetPosition(this);
         }
-
+        void DataWindow_Closing(object sender, CancelEventArgs e)
+        {
+            GenerateXml file = new GenerateXml(Globals.ProgressBar_sueño.Value,
+                Globals.ProgressBar_hambre.Value, Globals.ProgressBar_baño.Value,
+                Globals.score,Globals.cacas);
+        }
     }
+
     public static class Globals
     {
         public static Label label_puntuacion { get; set; }
@@ -140,7 +154,10 @@ namespace bunny
         public static Path pezAmarillo { get; set; }
         public static Path pezRojo { get; set; }
         public static Path pezAzul { get; set; }
+        public static ProgressBar ProgressBar_hambre { get;  set; }
+        public static ProgressBar ProgressBar_baño { get;  set; }
+        public static ProgressBar ProgressBar_sueño { get;  set; }
+        public static int cacas { get; internal set; }
+        public static int score { get; internal set; }
     }
-
-  
 }
