@@ -63,5 +63,10 @@ namespace bunny.src.presentacion.animations
             storyboard.Begin();
         }
 
+        public void respirarStop()
+        {
+            storyboard.Stop();
+        }
+
     }
 }

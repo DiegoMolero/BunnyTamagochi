@@ -25,18 +25,15 @@ namespace bunny.src.dominio
         private Label label_hambre;
         private Label label_baño;
         private Label label_sueño;
-        private Suciedad ani_suciedad;
         private Cansancio ani_cansancio;
         private Hambre ani_hambre;
         private Canvas cvBunny;
-        private Storyboard sbSuciedad;
         private Label label_puntuacion;
 
         public ProgressBarControler(ProgressBar ProgressBar_hambre, ProgressBar ProgressBar_baño, ProgressBar ProgressBar_sueño,
             Label label_hambre, Label label_baño, Label label_sueño,Label label_puntuacion,
-            Suciedad ani_suciedad,Cansancio ani_cansancio, Hambre ani_hambre,
-            Canvas cvBunny,
-            Storyboard sbSuciedad)
+            Cansancio ani_cansancio, Hambre ani_hambre,
+            Canvas cvBunny)
         {
             this.ProgressBar_baño = ProgressBar_baño;
             this.ProgressBar_hambre = ProgressBar_hambre;
@@ -47,30 +44,28 @@ namespace bunny.src.dominio
             this.label_sueño = label_sueño;
             this.label_puntuacion = label_puntuacion;
 
-            this.ani_suciedad = ani_suciedad;
             this.ani_cansancio = ani_cansancio;
             this.ani_hambre = ani_hambre;
 
             this.cvBunny = cvBunny;
-
-            this.sbSuciedad = sbSuciedad;
         }
         
         public void update()
         {
             if (Globals.state == 0) { 
-                setBarBaño(-30);
-                setBarHambre(-2);
-                setBarSueño(-10);
+                if(ProgressBar_hambre.Value >= 20) setBarBaño(-9); //Si tiene comida entonces puede hacer caca
+                setBarHambre(-3);
+                setBarSueño(-1);
 
-                if (ProgressBar_baño.Value == 10)
+                if (ProgressBar_baño.Value == 0)
                 {
-                    new Caca(cvBunny,sbSuciedad,label_puntuacion);
-                    ani_suciedad.suciedadStart();
+                    new Caca(cvBunny,label_puntuacion);
                     setBarBaño(100);
                 }
-                if (ProgressBar_sueño.Value == 10) ani_cansancio.cansancioStart();
-                if (ProgressBar_hambre.Value == 10) ani_hambre.hambreStart();
+                if (ProgressBar_sueño.Value <= 20) ani_cansancio.cansancioStart();
+                else if (ProgressBar_sueño.Value >= 20 && ani_cansancio.isStarted() == true) ani_cansancio.cansancioStop(); //Si la animaciones esta empezada y no tiene sueño, que se pare
+                if (ProgressBar_hambre.Value <= 20) ani_hambre.hambreStart();
+                else if (ProgressBar_hambre.Value >= 20 && ani_hambre.isStarted() == true) ani_hambre.hambreStop();//Si la animaciones esta empezada y no tiene habmre, que se pare
             }
             if (Globals.state == 1){
                 setBarSueño(10);
@@ -110,11 +105,10 @@ namespace bunny.src.dominio
         {
             if (a.Value >= 70) a.Foreground = Brushes.Green;
             else if (a.Value >= 60) a.Foreground = Brushes.YellowGreen;
-            else if (a.Value >= 60) a.Foreground = Brushes.GreenYellow;
-            else if (a.Value >= 50) a.Foreground = Brushes.Yellow;
-            else if (a.Value >= 40) a.Foreground = Brushes.Orange;
-            else if (a.Value >= 30) a.Foreground = Brushes.DarkOrange;
-            else if (a.Value >= 20) a.Foreground = Brushes.OrangeRed;
+            else if (a.Value >= 30) a.Foreground = Brushes.GreenYellow;
+            else if (a.Value >= 25) a.Foreground = Brushes.Orange;
+            else if (a.Value >= 15) a.Foreground = Brushes.DarkOrange;
+            else if (a.Value >= 10) a.Foreground = Brushes.OrangeRed;
             else a.Foreground = Brushes.Red;
         }
     }

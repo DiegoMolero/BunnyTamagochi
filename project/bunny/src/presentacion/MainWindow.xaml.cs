@@ -33,7 +33,6 @@ namespace bunny
         private RascarBarrigaCanvas ani_rascarbarriga;
         private ProgressBarControler progressbar_controler;
         private Cansancio ani_cansancio;
-        private Suciedad ani_suciedad;
         private Hambre ani_hambre;
         private Dormir ani_dormir;
         private Juego ani_juego;
@@ -60,14 +59,13 @@ namespace bunny
             ani_parpadear = new Parpadear(parpadoIzq, parpadoDer);
             ani_rascarbarriga = new RascarBarrigaCanvas(cvBrazoIzquierdo, cvBrazoDerecho);
             ani_cansancio = new Cansancio(this.FindResource("sbCansancio") as Storyboard);
-            ani_suciedad = new Suciedad(this.FindResource("sbSuciedad") as Storyboard);
             ani_hambre = new Hambre(this.FindResource("sbHambre") as Storyboard);
             //Barra de progreso
             progressbar_controler = new ProgressBarControler(ProgressBar_hambre, ProgressBar_baño, ProgressBar_sueño, //ProgressBars
     Label_hambre, Label_baño, Label_sueño, Label_Puntuacion, //Labels
-     ani_suciedad, ani_cansancio, ani_hambre, //Animations
-     cvBunny, //Canvas
-      this.FindResource("sbSuciedad") as Storyboard); //Storyboard
+    ani_cansancio, ani_hambre, //Animations
+     cvBunny) //Canvas
+      ; 
             temporizador = new Temporizador(this);
             temporizador.registrarObservador(progressbar_controler);
 
@@ -116,7 +114,7 @@ namespace bunny
             switch (aux.Name)
             {
                 case "cvZanahoriaCampo_Comer":
-                    progressbar_controler.setBarHambre(40);
+                    progressbar_controler.setBarHambre(80);
                     break
                 ;
             }

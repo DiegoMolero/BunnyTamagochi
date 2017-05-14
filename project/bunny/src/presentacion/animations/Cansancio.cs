@@ -12,6 +12,7 @@ namespace bunny.src.presentacion.animations
     class Cansancio
     {
         private Storyboard ani_cansancio;
+        Boolean state = false;
 
         public Cansancio(Storyboard ani_cansancio)
         {
@@ -23,7 +24,17 @@ namespace bunny.src.presentacion.animations
         public void cansancioStart()
         {
             ani_cansancio.Begin();
+            state = true;
 
+        }
+        public void cansancioStop()
+        {
+            ani_cansancio.Stop();
+            state = false;
+        }
+        public Boolean isStarted()
+        {
+            return state;
         }
 
     }

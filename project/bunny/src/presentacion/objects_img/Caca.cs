@@ -18,19 +18,17 @@ namespace bunny.src.presentacion.objects_img
     {
         private Canvas cvCaca;
         private Canvas cvBunny;
-        private Storyboard sbSuciedad;
         private int top;
         private int left;
         private Label labelMessage;
 
-        public Caca(Canvas cvBunny,Storyboard sbSuciedad,Label label_puntuacion)
+        public Caca(Canvas cvBunny,Label label_puntuacion)
         {
             Random rnd = new Random();
             top = rnd.Next(-40, 40);
             left = rnd.Next(-40, 40);
             Color color = Color.FromRgb(0,0,0);
 
-            this.sbSuciedad = sbSuciedad;
             this.cvBunny = cvBunny;
 
             this.cvCaca = new Canvas();

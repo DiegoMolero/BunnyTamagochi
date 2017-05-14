@@ -41,106 +41,9 @@
                 <EasingDoubleKeyFrame KeyTime="0:0:0.2" Value="-3.4"/>
             </DoubleAnimationUsingKeyFrames>
         </Storyboard>
-        <Storyboard x:Key="sbSuciedad" RepeatBehavior="Forever">
-            <DoubleAnimationUsingKeyFrames x:Name="AnimationCaca" Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="cvCaca">
-                <EasingDoubleKeyFrame KeyTime="0" Value="1"/>
-            </DoubleAnimationUsingKeyFrames>
-            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="cvMosca">
-                <EasingDoubleKeyFrame KeyTime="0" Value="1"/>
-            </DoubleAnimationUsingKeyFrames>
-            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.X)" Storyboard.TargetName="cvMosca">
-                <EasingDoubleKeyFrame KeyTime="0" Value="0"/>
-                <EasingDoubleKeyFrame KeyTime="0:0:0.1" Value="2.4"/>
-                <EasingDoubleKeyFrame KeyTime="0:0:0.2" Value="6.2"/>
-                <EasingDoubleKeyFrame KeyTime="0:0:0.3" Value="8.8"/>
-                <EasingDoubleKeyFrame KeyTime="0:0:0.4" Value="10.6"/>
-                <EasingDoubleKeyFrame KeyTime="0:0:0.5" Value="13.2"/>
-                <EasingDoubleKeyFrame KeyTime="0:0:0.6" Value="16.8"/>
-                <EasingDoubleKeyFrame KeyTime="0:0:0.7" Value="21"/>
-                <EasingDoubleKeyFrame KeyTime="0:0:0.8" Value="25.6"/>
-                <EasingDoubleKeyFrame KeyTime="0:0:0.9" Value="29.8"/>
-                <EasingDoubleKeyFrame KeyTime="0:0:1" Value="34.2"/>
-                <EasingDoubleKeyFrame KeyTime="0:0:1.1" Value="39.4"/>
-                <EasingDoubleKeyFrame KeyTime="0:0:1.2" Value="44.4"/>
-                <EasingDoubleKeyFrame KeyTime="0:0:1.3" Value="49.4"/>
-                <EasingDoubleKeyFrame KeyTime="0:0:1.4" Value="53.4"/>
-                <EasingDoubleKeyFrame KeyTime="0:0:1.5" Value="58.2"/>
-                <EasingDoubleKeyFrame KeyTime="0:0:1.6" Value="62.6"/>
-                <EasingDoubleKeyFrame KeyTime="0:0:1.7" Value="65.8"/>
-                <EasingDoubleKeyFrame KeyTime="0:0:1.8" Value="69"/>
-                <EasingDoubleKeyFrame KeyTime="0:0:1.9" Value="71"/>
-                <EasingDoubleKeyFrame KeyTime="0:0:2" Value="72"/>
-                <EasingDoubleKeyFrame KeyTime="0:0:2.1" Value="72.8"/>
-                <EasingDoubleKeyFrame KeyTime="0:0:2.2" Value="70.4"/>
-                <EasingDoubleKeyFrame KeyTime="0:0:2.3" Value="67"/>
-                <EasingDoubleKeyFrame KeyTime="0:0:2.4" Value="61"/>
-                <EasingDoubleKeyFrame KeyTime="0:0:2.5" Value="53.8"/>
-                <EasingDoubleKeyFrame KeyTime="0:0:2.6" Value="47.2"/>
-                <EasingDoubleKeyFrame KeyTime="0:0:2.7" Value="40.6"/>
-                <EasingDoubleKeyFrame KeyTime="0:0:2.8" Value="33"/>
-                <EasingDoubleKeyFrame KeyTime="0:0:2.9" Value="26"/>
-                <EasingDoubleKeyFrame KeyTime="0:0:3" Value="18.6"/>
-                <EasingDoubleKeyFrame KeyTime="0:0:3.1" Value="11.6"/>
-                <EasingDoubleKeyFrame KeyTime="0:0:3.2" Value="7.2"/>
-                <EasingDoubleKeyFrame KeyTime="0:0:3.3" Value="2.4"/>
-                <EasingDoubleKeyFrame KeyTime="0:0:3.4" Value="0.8"/>
-            </DoubleAnimationUsingKeyFrames>
-            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.Y)" Storyboard.TargetName="cvMosca">
-                <EasingDoubleKeyFrame KeyTime="0" Value="0"/>
-                <EasingDoubleKeyFrame KeyTime="0:0:0.1" Value="-3"/>
-                <EasingDoubleKeyFrame KeyTime="0:0:0.2" Value="-6.8"/>
-                <EasingDoubleKeyFrame KeyTime="0:0:0.3" Value="-9.6"/>
-                <EasingDoubleKeyFrame KeyTime="0:0:0.4" Value="-12.6"/>
-                <EasingDoubleKeyFrame KeyTime="0:0:0.5" Value="-16"/>
-                <EasingDoubleKeyFrame KeyTime="0:0:0.6" Value="-18.2"/>
-                <EasingDoubleKeyFrame KeyTime="0:0:0.7" Value="-21.6"/>
-                <EasingDoubleKeyFrame KeyTime="0:0:0.8" Value="-24"/>
-                <EasingDoubleKeyFrame KeyTime="0:0:0.9" Value="-26.6"/>
-                <EasingDoubleKeyFrame KeyTime="0:0:1" Value="-27.8"/>
-                <EasingDoubleKeyFrame KeyTime="0:0:1.1" Value="-28.4"/>
-                <EasingDoubleKeyFrame KeyTime="0:0:1.2" Value="-28.6"/>
-                <EasingDoubleKeyFrame KeyTime="0:0:1.3" Value="-28"/>
-                <EasingDoubleKeyFrame KeyTime="0:0:1.4" Value="-26.8"/>
-                <EasingDoubleKeyFrame KeyTime="0:0:1.5" Value="-25"/>
-                <EasingDoubleKeyFrame KeyTime="0:0:1.6" Value="-23"/>
-                <EasingDoubleKeyFrame KeyTime="0:0:1.7" Value="-19.8"/>
-                <EasingDoubleKeyFrame KeyTime="0:0:1.8" Value="-13.6"/>
-                <EasingDoubleKeyFrame KeyTime="0:0:1.9" Value="-9.2"/>
-                <EasingDoubleKeyFrame KeyTime="0:0:2" Value="-3.4"/>
-                <EasingDoubleKeyFrame KeyTime="0:0:2.1" Value="2.2"/>
-                <EasingDoubleKeyFrame KeyTime="0:0:2.2" Value="6.8"/>
-                <EasingDoubleKeyFrame KeyTime="0:0:2.3" Value="10"/>
-                <EasingDoubleKeyFrame KeyTime="0:0:2.4" Value="11.8"/>
-                <EasingDoubleKeyFrame KeyTime="0:0:2.5" Value="13.8"/>
-                <EasingDoubleKeyFrame KeyTime="0:0:2.6" Value="15"/>
-                <EasingDoubleKeyFrame KeyTime="0:0:2.7" Value="15.4"/>
-                <EasingDoubleKeyFrame KeyTime="0:0:2.8" Value="14.6"/>
-                <EasingDoubleKeyFrame KeyTime="0:0:2.9" Value="12.8"/>
-                <EasingDoubleKeyFrame KeyTime="0:0:3" Value="11.2"/>
-                <EasingDoubleKeyFrame KeyTime="0:0:3.1" Value="9.4"/>
-                <EasingDoubleKeyFrame KeyTime="0:0:3.2" Value="7.8"/>
-                <EasingDoubleKeyFrame KeyTime="0:0:3.3" Value="5"/>
-                <EasingDoubleKeyFrame KeyTime="0:0:3.4" Value="2.2"/>
-            </DoubleAnimationUsingKeyFrames>
-            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[2].(RotateTransform.Angle)" Storyboard.TargetName="cvMosca">
-                <EasingDoubleKeyFrame KeyTime="0:0:1.6" Value="12.529"/>
-                <EasingDoubleKeyFrame KeyTime="0:0:1.7" Value="43.758"/>
-                <EasingDoubleKeyFrame KeyTime="0:0:1.8" Value="57.71"/>
-                <EasingDoubleKeyFrame KeyTime="0:0:1.9" Value="57.71"/>
-                <EasingDoubleKeyFrame KeyTime="0:0:2" Value="71.565"/>
-                <EasingDoubleKeyFrame KeyTime="0:0:2.1" Value="71.565"/>
-                <EasingDoubleKeyFrame KeyTime="0:0:2.2" Value="111.46"/>
-                <EasingDoubleKeyFrame KeyTime="0:0:2.3" Value="111.46"/>
-                <EasingDoubleKeyFrame KeyTime="0:0:2.4" Value="137.26"/>
-                <EasingDoubleKeyFrame KeyTime="0:0:2.5" Value="155.549"/>
-                <EasingDoubleKeyFrame KeyTime="0:0:2.9" Value="155.549"/>
-                <EasingDoubleKeyFrame KeyTime="0:0:3" Value="189.965"/>
-                <EasingDoubleKeyFrame KeyTime="0:0:3.1" Value="215.484"/>
-                <EasingDoubleKeyFrame KeyTime="0:0:3.2" Value="244.04"/>
-            </DoubleAnimationUsingKeyFrames>
-        </Storyboard>
+
         <Storyboard x:Key="sbHambre">
-            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="cvHambre">
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="cvHambre"  >
                 <EasingDoubleKeyFrame KeyTime="0:0:1" Value="1">
                     <EasingDoubleKeyFrame.EasingFunction>
                         <QuarticEase EasingMode="EaseIn"/>
@@ -914,7 +817,7 @@
                     <Path x:Name="nube4" Data="M80,0.5 C90.650459,0.49999654 100.22964,5.0993961 106.86992,12.42546 L107.24268,12.856978 107.25843,12.83645 C113.32945,5.3022674 122.51714,0.49999654 132.8,0.5 148.79555,0.49999654 162.14107,12.120305 165.22752,27.567965 L165.39639,28.536435 165.82855,28.357041 C169.28081,27.026266 173.00984,26.299998 176.89999,26.3 194.68356,26.299996 209.09999,41.477545 209.09999,60.199995 209.09999,78.922446 194.68356,94.099997 176.89999,94.099997 173.49611,94.099997 170.21559,93.543944 167.13589,92.513419 L166.58276,92.31436 166.43274,92.996985 C162.67047,108.35303 149.39706,119.7 133.59999,119.7 123.65369,119.7 114.70786,115.20168 108.50661,108.03663 L108.10317,107.54754 108.01084,107.65467 C101.35288,115.01105 91.276962,119.7 80,119.7 62.458054,119.7 47.822319,108.35391 44.437485,93.270804 L44.310394,92.621878 43.630249,92.828223 C40.69574,93.656714 37.599632,94.099997 34.399994,94.099997 15.677551,94.099997 0.5,78.922446 0.5,60.199995 0.5,41.477545 15.677551,26.299996 34.399994,26.3 37.910454,26.299996 41.296288,26.833582 44.48082,27.824078 L44.812172,27.936194 44.842819,27.80307 C48.871437,12.101941 63.084549,0.49999654 80,0.5 z" Fill="#FFE8F3F6" Height="81.4" Canvas.Left="590.506" Stretch="Fill" Stroke="Black" Canvas.Top="20.71" Width="145.2"/>
                 </Canvas>
             </Canvas>
-            <Rectangle x:Name="suelo" Fill="#FF39B131" Height="411.4" Stroke="Black" Canvas.Top="345.4" Width="1274"/>
+            <Rectangle x:Name="suelo" Fill="#FF39B131" Height="411" Stroke="Black" Canvas.Top="349" Width="1274" Canvas.Left="-2"/>
             <Path x:Name="campoZanahoria" Data="M70.804665,0.5 L344.45801,0.5 277.89999,0.50000706 277.89999,382.66336 272.98227,410.9 0.5,410.9 0.5,404.17603 z" Fill="#FF5BDF51" Height="411.4" Canvas.Left="1001.6" Stretch="Fill" Stroke="Black" Canvas.Top="345.4" Width="344.958"/>
             <Canvas x:Name="cvCama" Height="207.89" Canvas.Left="31.4" Canvas.Top="423.91" Width="289.2">
                 <Path Data="M141.6,0.5 C147.6734,0.5 153.42339,1.5695267 158.55147,3.4780426 L159.90087,4.0118561 160.91342,3.5683441 C165.73485,1.5925598 171.03573,0.49999237 176.6,0.5 191.20621,0.49999237 203.99753,8.02845 211.06564,19.298744 L211.39754,19.857994 212.07539,20.02253 C228.19559,24.256546 239.7,35.359528 239.7,48.389999 239.7,49.855927 239.5544,51.297459 239.27299,52.707565 L239.10095,53.445385 239.7858,53.735317 C249.68645,58.16481 256.3,66.180973 256.3,75.334494 256.3,77.949787 255.76012,80.472233 254.75793,82.844707 L254.52477,83.352123 254.94388,83.549934 C265.96576,89.020797 273.09999,97.752424 273.09999,107.59 273.09999,109.1433 272.92213,110.66903 272.57919,112.1587 L272.27687,113.28226 273.82529,113.9462 C283.2345,118.18959 288.7,123.2528 288.7,128.69 288.7,143.65691 247.28633,155.79 196.2,155.79 172.25327,155.79 150.4319,153.12403 134.00509,148.74991 L133.24455,148.53747 131.27539,149.62802 C123.76962,153.49941 114.47024,155.79 104.4,155.79 96.616235,155.79 89.293027,154.42149 82.90266,152.01226 L82.635191,151.90553 81.492987,152.17745 C74.518074,153.73095 66.849545,154.59 58.799995,154.59001 26.601799,154.59 0.5,140.84515 0.5,123.89 0.5,114.88258 7.8666229,106.78119 19.600395,101.1653 L21.301422,100.3894 21.454224,99.564429 C23.218132,91.644323 29.085968,84.650717 37.522133,79.637138 L37.908501,79.417376 37.904961,79.398693 C37.769424,78.50448 37.699997,77.597174 37.699997,76.678999 37.699997,66.120003 46.882225,56.997963 60.1884,52.702045 L60.396423,52.63903 60.417629,52.567337 C62.633789,45.846371 68.001366,40.112411 75.218048,36.381638 L76.357542,35.818207 76.289478,35.403732 C76.164183,34.449005 76.099998,33.480301 76.1,32.5 76.099998,16.815109 92.531148,4.0999985 112.8,4.0999908 115.25443,4.0999985 117.65259,4.2864456 119.9721,4.6420441 L121.31951,4.8749847 121.32522,4.8721466 C127.23703,2.0976944 134.17695,0.49999237 141.6,0.5 z" Fill="#FFB3AD7B" Height="245.09" Stretch="Fill" Stroke="Black" Width="289.2" Canvas.Top="-37.2" MouseUp="goToSleep"/>
