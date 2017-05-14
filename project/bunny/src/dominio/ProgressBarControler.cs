@@ -12,6 +12,7 @@ using System.Windows.Controls;
 using System.Windows.Media.Animation;
 using bunny.src.presentacion.animations;
 using bunny.src.presentacion.objects_img;
+using System.Windows.Media;
 
 namespace bunny.src.dominio
 
@@ -85,6 +86,9 @@ namespace bunny.src.dominio
         public void setBarBaño(int value)
         {
                ProgressBar_baño.Value = ProgressBar_baño.Value + value;
+            if (ProgressBar_baño.Value >= 50) ProgressBar_baño.Foreground = Brushes.Green;
+            else if (ProgressBar_baño.Value >= 30) ProgressBar_baño.Foreground = Brushes.YellowGreen;
+            else ProgressBar_baño.Foreground= Brushes.Red;
             updateLabels();
         }
         public void setBarHambre(int value)
