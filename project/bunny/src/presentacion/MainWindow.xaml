@@ -755,11 +755,6 @@
             </DoubleAnimationUsingKeyFrames>
         </Storyboard>
     </Window.Resources>
-    <Window.Triggers>
-        <EventTrigger RoutedEvent="UIElement.MouseLeftButtonDown" SourceName="cvLago">
-            <BeginStoryboard x:Name="movimientoPeces_BeginStoryboard" Storyboard="{StaticResource movimientoPeces}"/>
-        </EventTrigger>
-    </Window.Triggers>
 
     <Grid x:Name ="gdEscenario">
         <Canvas x:Name="cvFondo">
