@@ -1,24 +1,15 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿
 using System.Windows;
 using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
 using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
-using System.Windows.Shapes;
 
 using bunny.src.presentacion;
 using bunny.src.dominio;
 using System.Windows.Media.Animation;
 using bunny.src.presentacion.animations;
-using bunny.src.presentacion.objects_img;
 using System.ComponentModel;
+using System.Drawing;
+using System.IO;
 
 namespace bunny
 {
@@ -37,10 +28,16 @@ namespace bunny
         private Hambre ani_hambre;
         private Dormir ani_dormir;
         private Juego ani_juego;
+        private Cursor customCursor;
+
+        public object DragSource { get; private set; }
+        public bool IsDragging { get; private set; }
 
         public MainWindow()
         {
             InitializeComponent();
+            string path = System.IO.Path.Combine(Directory.GetCurrentDirectory(), "resources\\cursor.cur");
+            customCursor = new Cursor( path);
             counter = new Counter();
             Timer_counter.Content = 0;
             Globals.cvDormido = cvDormido;
@@ -111,11 +108,15 @@ namespace bunny
             Globals.state = 1;
         }
 
-        private void inicioArrastrarZanahoria(object sender, MouseButtonEventArgs e)
+        void DataWindow_Closing(object sender, CancelEventArgs e)
         {
-            DataObject dataO = new DataObject(((Canvas)sender));
-            DragDrop.DoDragDrop((Canvas)sender, dataO, DragDropEffects.Move);
+            GenerateXml file = new GenerateXml(Globals.ProgressBar_sueño.Value,
+                Globals.ProgressBar_hambre.Value, Globals.ProgressBar_baño.Value,
+                Globals.score,Globals.cacas);
         }
+
+        //CURSOR-ZANAHORIA
+
         private void soltarZanahoria(object sender, DragEventArgs e)
         {
             Canvas aux = (Canvas)e.Data.GetData(typeof(Canvas));
@@ -123,22 +124,37 @@ namespace bunny
             {
                 case "cvZanahoriaCampo_Comer":
                     progressbar_controler.setBarHambre(80);
+                    cvComer.Opacity = 0;
                     break
                 ;
+
             }
-
         }
 
-        private void moverZanahoria(object sender, DragEventArgs e)
+        private void inicioArrastrarZanahoria(object sender, MouseButtonEventArgs e)
         {
-            e.GetPosition(this);
+            DataObject dataO = new DataObject(((Canvas)sender));
+            DragDrop.DoDragDrop((Canvas)sender, dataO, DragDropEffects.Copy);
+            cvZanahoriaCampo_Comer.Opacity = 100;
         }
-        void DataWindow_Closing(object sender, CancelEventArgs e)
+
+        private void Label_GiveFeedback(object sender, GiveFeedbackEventArgs e)
         {
-            GenerateXml file = new GenerateXml(Globals.ProgressBar_sueño.Value,
-                Globals.ProgressBar_hambre.Value, Globals.ProgressBar_baño.Value,
-                Globals.score,Globals.cacas);
+            if (e.Effects == DragDropEffects.Copy)
+            {
+                cvComer.Opacity = 100;
+                
+            }
+            else
+            {
+                cvComer.Opacity = 0;
+            }
+            cvZanahoriaCampo_Comer.Opacity = 0;
+            e.UseDefaultCursors = false;
+                Mouse.SetCursor(customCursor);
+            e.Handled = true;
         }
+
     }
 
     public static class Globals
@@ -149,11 +165,11 @@ namespace bunny
         public static Canvas cvBunny { get; set; }
         public static int state { get; set; }
         public static Canvas cvLago { get; set; }
-        public static Path pezVerde { get; set; }
-        public static Path pezLila { get; set; }
-        public static Path pezAmarillo { get; set; }
-        public static Path pezRojo { get; set; }
-        public static Path pezAzul { get; set; }
+        public static System.Windows.Shapes.Path pezVerde { get; set; }
+        public static System.Windows.Shapes.Path pezLila { get; set; }
+        public static System.Windows.Shapes.Path pezAmarillo { get; set; }
+        public static System.Windows.Shapes.Path pezRojo { get; set; }
+        public static System.Windows.Shapes.Path pezAzul { get; set; }
         public static ProgressBar ProgressBar_hambre { get;  set; }
         public static ProgressBar ProgressBar_baño { get;  set; }
         public static ProgressBar ProgressBar_sueño { get;  set; }
