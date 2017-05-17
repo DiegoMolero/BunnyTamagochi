@@ -27,7 +27,8 @@ namespace bunny
         private Cansancio ani_cansancio;
         private Hambre ani_hambre;
         private Dormir ani_dormir;
-        private Juego ani_juego;
+        private Juego ani_pescar;
+        private Comiendo ani_comiendo;
         private Cursor customCursor;
 
         public object DragSource { get; private set; }
@@ -64,10 +65,12 @@ namespace bunny
             ani_rascarbarriga = new RascarBarrigaCanvas(cvBrazoIzquierdo, cvBrazoDerecho);
             ani_cansancio = new Cansancio(this.FindResource("sbCansancio") as Storyboard);
             ani_hambre = new Hambre(this.FindResource("sbHambre") as Storyboard);
+            ani_dormir = new Dormir(this.FindResource("sbDurmiendo") as Storyboard);
+            ani_comiendo = new Comiendo(this.FindResource("sbComiendo") as Storyboard);
             //Barra de progreso
             progressbar_controler = new ProgressBarControler( //ProgressBars
     Label_hambre, Label_baño, Label_sueño, Label_Puntuacion, //Labels
-    ani_cansancio, ani_hambre, //Animations
+    ani_cansancio, ani_hambre, ani_dormir,  //Animations
      cvBunny) //Canvas
       ;
             temporizador = new Temporizador(this);
@@ -97,12 +100,6 @@ namespace bunny
             }
         }
 
-        private void dameUnSusto(object sender, MouseEventArgs e)
-        {
-            Storyboard sbSusto = (Storyboard)this.Resources["sbSusto"];
-            sbSusto.Begin();
-        }
-
         private void goToSleep(object sender, MouseButtonEventArgs e)
         {
             Globals.state = 1;
@@ -112,7 +109,7 @@ namespace bunny
         {
             GenerateXml file = new GenerateXml(Globals.ProgressBar_sueño.Value,
                 Globals.ProgressBar_hambre.Value, Globals.ProgressBar_baño.Value,
-                Globals.score,Globals.cacas);
+                Globals.score, Globals.cacas);
         }
 
         //CURSOR-ZANAHORIA
@@ -124,6 +121,7 @@ namespace bunny
             {
                 case "cvZanahoriaCampo_Comer":
                     progressbar_controler.setBarHambre(80);
+                    ani_comiendo.comiendoStart();
                     cvComer.Opacity = 0;
                     break
                 ;
@@ -155,6 +153,10 @@ namespace bunny
             e.Handled = true;
         }
 
+        private void cvLago_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
+        {
+            ani_pescar = new Juego(this.FindResource("movimientoPeces") as Storyboard);
+        }
     }
 
     public static class Globals

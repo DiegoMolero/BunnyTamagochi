@@ -24,12 +24,13 @@ namespace bunny.src.dominio
         private Label label_sueño;
         private Cansancio ani_cansancio;
         private Hambre ani_hambre;
+        private Dormir ani_dormir;
         private Canvas cvBunny;
         private Label label_puntuacion;
 
         public ProgressBarControler(
             Label label_hambre, Label label_baño, Label label_sueño,Label label_puntuacion,
-            Cansancio ani_cansancio, Hambre ani_hambre,
+            Cansancio ani_cansancio, Hambre ani_hambre, Dormir ani_dormir,
             Canvas cvBunny)
         {
             this.label_baño = label_baño;
@@ -39,6 +40,8 @@ namespace bunny.src.dominio
 
             this.ani_cansancio = ani_cansancio;
             this.ani_hambre = ani_hambre;
+            this.ani_dormir = ani_dormir;
+
 
             this.cvBunny = cvBunny;
         }
@@ -62,7 +65,19 @@ namespace bunny.src.dominio
             }
             if (Globals.state == 1){
                 setBarSueño(10);
-                if (Globals.ProgressBar_sueño.Value == 100) Globals.state = 0;
+                ani_dormir.cansancioStart();
+                if (Globals.ProgressBar_sueño.Value == 100)
+                {
+                    Globals.state = 0;
+                    ani_dormir.cansancioStop();
+                }
+            }
+
+            if(Globals.state == 2)
+            {
+                if (Globals.ProgressBar_hambre.Value >= 20)  setBarBaño(-10);
+                setBarHambre(-4);
+                setBarSueño(-2);
             }
         }
         private void updateLabels()

@@ -16,13 +16,19 @@ namespace bunny.src.presentacion.animations
         public Juego(Storyboard ani_juego)
         {
             this.ani_juego = ani_juego;
-
+            Globals.cvLago.MouseDown += cvLago_MouseDown;
+            Globals.pezAmarillo.MouseDown += pezAmarillo_MouseDown;
+            Globals.pezAzul.MouseDown += pezAzul_MouseDown;
+            Globals.pezLila.MouseDown += pezLila_MouseDown;
+            Globals.pezRojo.MouseDown += pezRojo_MouseDown;
+            Globals.pezVerde.MouseDown += pezVerde_MouseDown;
 
         }
 
         public void juegoStart()
         {
             ani_juego.Begin();
+            Globals.state = 2;
 
         }
 
@@ -57,6 +63,10 @@ namespace bunny.src.presentacion.animations
 
         private void cvLago_MouseDown(object sender, MouseButtonEventArgs e)
         {
+            if (Globals.state != 2)
+            {
+                juegoStart();
+            }
             if (Globals.pezVerde.Opacity == 0 & Globals.pezLila.Opacity == 0 & Globals.pezAzul.Opacity == 0 &
                 Globals.pezAmarillo.Opacity == 0 & Globals.pezRojo.Opacity == 0)
             {
@@ -66,6 +76,7 @@ namespace bunny.src.presentacion.animations
                 Globals.pezAmarillo.Opacity = 100;
                 Globals.pezRojo.Opacity = 100;
                 juegoStop();
+                Globals.state = 0;
             }
            
         }
