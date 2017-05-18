@@ -27,7 +27,6 @@ namespace bunny
         private Cansancio ani_cansancio;
         private Hambre ani_hambre;
         private Dormir ani_dormir;
-        private Juego ani_pescar;
         private Comiendo ani_comiendo;
         private Cursor customCursor;
 
@@ -57,8 +56,10 @@ namespace bunny
             Globals.ProgressBar_hambre = ProgressBar_hambre;
             Globals.ProgressBar_baño = ProgressBar_baño;
             Globals.ProgressBar_sueño = ProgressBar_sueño;
+            Globals.ProgressBar_diversion = ProgressBar_diversion;
             Globals.cacas = 0;
             Globals.score = 0;
+            Globals.state_label = Label_State;
             //Inicializar animaciones
             ani_respirar = new Respirar(cuerpo);
             ani_parpadear = new Parpadear(parpadoIzq, parpadoDer);
@@ -67,9 +68,10 @@ namespace bunny
             ani_hambre = new Hambre(this.FindResource("sbHambre") as Storyboard);
             ani_dormir = new Dormir(this.FindResource("sbDurmiendo") as Storyboard);
             ani_comiendo = new Comiendo(this.FindResource("sbComiendo") as Storyboard);
+            Globals.juego_pescar = new Juego(this.FindResource("movimientoPeces") as Storyboard);
             //Barra de progreso
             progressbar_controler = new ProgressBarControler( //ProgressBars
-    Label_hambre, Label_baño, Label_sueño, Label_Puntuacion, //Labels
+    Label_hambre, Label_baño, Label_sueño, Label_Puntuacion,Label_diversion, //Labels
     ani_cansancio, ani_hambre, ani_dormir,  //Animations
      cvBunny) //Canvas
       ;
@@ -82,14 +84,14 @@ namespace bunny
         public void update()
         {
             counter.increase();
-            int counter_aux = counter.getCounter();
+            Globals.counter = counter.getCounter();
             Timer_counter.Content = counter.getCounter();
             if (Globals.state == 0)
             {
-                if (counter_aux % 3 == 0) ani_parpadear.parpadearStart();
-                if (counter_aux % 4 == 0) ani_respirar.respirarStart();
-                if (counter_aux % 10 == 0) ani_rascarbarriga.parpadearStart();
-                if (counter_aux % 5 == 0) ani_cansancio.cansancioStart();
+                if (Globals.counter % 3 == 0) ani_parpadear.parpadearStart();
+                if (Globals.counter % 4 == 0) ani_respirar.respirarStart();
+                if (Globals.counter % 10 == 0) ani_rascarbarriga.parpadearStart();
+                if (Globals.counter % 5 == 0) ani_cansancio.cansancioStart();
                 Globals.cvDormido.Opacity = 0;
                 Globals.cvBunny.Opacity = 100;
             }
@@ -152,11 +154,6 @@ namespace bunny
                 Mouse.SetCursor(customCursor);
             e.Handled = true;
         }
-
-        private void cvLago_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
-        {
-            ani_pescar = new Juego(this.FindResource("movimientoPeces") as Storyboard);
-        }
     }
 
     public static class Globals
@@ -166,6 +163,7 @@ namespace bunny
         public static Canvas cvCama { get; set; }
         public static Canvas cvBunny { get; set; }
         public static int state { get; set; }
+        public static int counter { get; set; }
         public static Canvas cvLago { get; set; }
         public static System.Windows.Shapes.Path pezVerde { get; set; }
         public static System.Windows.Shapes.Path pezLila { get; set; }
@@ -175,6 +173,9 @@ namespace bunny
         public static ProgressBar ProgressBar_hambre { get;  set; }
         public static ProgressBar ProgressBar_baño { get;  set; }
         public static ProgressBar ProgressBar_sueño { get;  set; }
+        public static ProgressBar ProgressBar_diversion { get; set; }
+        public static Label state_label { get;set; }
+        public static Juego juego_pescar { get; set; }
         public static int cacas { get; internal set; }
         public static int score { get; internal set; }
     }
