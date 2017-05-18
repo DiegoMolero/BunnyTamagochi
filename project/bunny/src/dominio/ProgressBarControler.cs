@@ -58,7 +58,6 @@ namespace bunny.src.dominio
                 }
                 if (Globals.ProgressBar_sueño.Value <= 20) Globals.juego_pescar.disableEventLago();
                 else Globals.juego_pescar.enableEventLago();
-
                     setBarHambre(-3);
                         setBarSueño(-1);
                         setBarDiversion(-2);

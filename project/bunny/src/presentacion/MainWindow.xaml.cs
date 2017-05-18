@@ -104,7 +104,7 @@ namespace bunny
 
         private void goToSleep(object sender, MouseButtonEventArgs e)
         {
-            Globals.state = 1;
+            if(Globals.state == 0) Globals.state = 1;
         }
 
         void DataWindow_Closing(object sender, CancelEventArgs e)
@@ -151,7 +151,7 @@ namespace bunny
             }
             cvZanahoriaCampo_Comer.Opacity = 0;
             e.UseDefaultCursors = false;
-                Mouse.SetCursor(customCursor);
+            Mouse.SetCursor(customCursor);
             e.Handled = true;
         }
     }
