@@ -62,6 +62,7 @@
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="src\dominio\Pause.cs" />
     <Compile Include="src\dominio\ReadXml.cs" />
     <Compile Include="src\dominio\GenerateXml.cs" />
     <Compile Include="src\dominio\Counter.cs" />
@@ -129,6 +130,15 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="smile.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="img\icons\muted.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="img\icons\sound.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="img\icons\pause.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

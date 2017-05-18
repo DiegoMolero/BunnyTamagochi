@@ -1002,9 +1002,9 @@
             </Canvas>
             <Rectangle x:Name="suelo" Fill="#FF39B131" Height="411" Stroke="Black" Canvas.Top="356" Width="1274"/>
             <Path x:Name="campoZanahoria" Data="M70.804665,0.5 L344.45801,0.5 277.89999,0.50000706 277.89999,382.66336 272.98227,410.9 0.5,410.9 0.5,404.17603 z" Fill="#FF5BDF51" Height="411.4" Canvas.Left="1001.6" Stretch="Fill" Stroke="Black" Canvas.Top="345.4" Width="344.958"/>
-            <Canvas x:Name="cvCama" Height="207.89" Canvas.Left="31.4" Canvas.Top="423.91" Width="289.2">
+            <Canvas x:Name="cvCama" Height="217" Canvas.Left="31" Canvas.Top="424" Width="258" MouseUp="goToSleep" MouseEnter="mouseEnter">
                 <Path Data="M141.6,0.5 C147.6734,0.5 153.42339,1.5695267 158.55147,3.4780426 L159.90087,4.0118561 160.91342,3.5683441 C165.73485,1.5925598 171.03573,0.49999237 176.6,0.5 191.20621,0.49999237 203.99753,8.02845 211.06564,19.298744 L211.39754,19.857994 212.07539,20.02253 C228.19559,24.256546 239.7,35.359528 239.7,48.389999 239.7,49.855927 239.5544,51.297459 239.27299,52.707565 L239.10095,53.445385 239.7858,53.735317 C249.68645,58.16481 256.3,66.180973 256.3,75.334494 256.3,77.949787 255.76012,80.472233 254.75793,82.844707 L254.52477,83.352123 254.94388,83.549934 C265.96576,89.020797 273.09999,97.752424 273.09999,107.59 273.09999,109.1433 272.92213,110.66903 272.57919,112.1587 L272.27687,113.28226 273.82529,113.9462 C283.2345,118.18959 288.7,123.2528 288.7,128.69 288.7,143.65691 247.28633,155.79 196.2,155.79 172.25327,155.79 150.4319,153.12403 134.00509,148.74991 L133.24455,148.53747 131.27539,149.62802 C123.76962,153.49941 114.47024,155.79 104.4,155.79 96.616235,155.79 89.293027,154.42149 82.90266,152.01226 L82.635191,151.90553 81.492987,152.17745 C74.518074,153.73095 66.849545,154.59 58.799995,154.59001 26.601799,154.59 0.5,140.84515 0.5,123.89 0.5,114.88258 7.8666229,106.78119 19.600395,101.1653 L21.301422,100.3894 21.454224,99.564429 C23.218132,91.644323 29.085968,84.650717 37.522133,79.637138 L37.908501,79.417376 37.904961,79.398693 C37.769424,78.50448 37.699997,77.597174 37.699997,76.678999 37.699997,66.120003 46.882225,56.997963 60.1884,52.702045 L60.396423,52.63903 60.417629,52.567337 C62.633789,45.846371 68.001366,40.112411 75.218048,36.381638 L76.357542,35.818207 76.289478,35.403732 C76.164183,34.449005 76.099998,33.480301 76.1,32.5 76.099998,16.815109 92.531148,4.0999985 112.8,4.0999908 115.25443,4.0999985 117.65259,4.2864456 119.9721,4.6420441 L121.31951,4.8749847 121.32522,4.8721466 C127.23703,2.0976944 134.17695,0.49999237 141.6,0.5 z" Fill="#FFB3AD7B" Height="245.09" Stretch="Fill" Stroke="Black" Width="289.2" Canvas.Top="-37.2" MouseUp="goToSleep"/>
-                <Path Data="M90.000002,0.5 C139.42949,0.50000212 179.5,46.480356 179.5,103.2 179.5,126.24236 172.8868,147.51232 161.71953,164.64705 L161.40999,165.09902 157.44197,165.45648 C151.42044,165.93743 145.18578,166.19 138.79999,166.19 114.85327,166.19 93.031893,162.63819 76.605089,156.81063 L75.844545,156.52761 73.875383,157.98052 C66.369615,163.13831 57.070238,166.19 46.999998,166.19 39.216234,166.19 31.893024,164.36678 25.502659,161.157 L25.235187,161.0148 24.092985,161.37708 C22.349256,161.8945 20.562178,162.3541 18.736629,162.75246 L17.285522,163.04155 15.785195,160.62055 C6.1349181,144.22952 0.50000176,124.46987 0.5,103.2 0.50000176,46.480356 40.570516,0.50000212 90.000002,0.5 z" Fill="#FF080807" Height="197.89" Canvas.Left="57.467" Stretch="Fill" Stroke="Black" Canvas.Top="9.6" Width="180" MouseUp="goToSleep"/>
+                <Path Data="M90.000002,0.5 C139.42949,0.50000212 179.5,46.480356 179.5,103.2 179.5,126.24236 172.8868,147.51232 161.71953,164.64705 L161.40999,165.09902 157.44197,165.45648 C151.42044,165.93743 145.18578,166.19 138.79999,166.19 114.85327,166.19 93.031893,162.63819 76.605089,156.81063 L75.844545,156.52761 73.875383,157.98052 C66.369615,163.13831 57.070238,166.19 46.999998,166.19 39.216234,166.19 31.893024,164.36678 25.502659,161.157 L25.235187,161.0148 24.092985,161.37708 C22.349256,161.8945 20.562178,162.3541 18.736629,162.75246 L17.285522,163.04155 15.785195,160.62055 C6.1349181,144.22952 0.50000176,124.46987 0.5,103.2 0.50000176,46.480356 40.570516,0.50000212 90.000002,0.5 z" Fill="#FF080807" Height="197.89" Canvas.Left="57.467" Stretch="Fill" Stroke="Black" Canvas.Top="9.6" Width="180" MouseUp="goToSleep" MouseEnter="mouseEnter"/>
             </Canvas>
             <Canvas x:Name="filaZanahorias" Height="92.285" Canvas.Left="1028" Canvas.Top="674.915" Width="231.394">
                 <Canvas x:Name="cvZanahoriaCampo" Height="90.685" Width="28.594">
@@ -1931,7 +1931,7 @@
                     <Ellipse Fill="#FF7D5814" Height="5" Canvas.Left="18.394" Stroke="Black" Canvas.Top="2.6" Width="13.394"/>
                     <Ellipse Fill="#FF7D5814" Height="5" Canvas.Left="7.8" Stroke="Black" Canvas.Top="2.6" Width="13.394"/>
                 </Canvas>
-                <Canvas x:Name="cvZanahoriaCampo_Comer" Height="90.685" Width="28.594" Canvas.Left="26.606" Canvas.Top="-14.2" RenderTransformOrigin="0.5,0.5" MouseDown="inicioArrastrarZanahoria" GiveFeedback="Label_GiveFeedback">
+                <Canvas x:Name="cvZanahoriaCampo_Comer" Height="90.685" Width="28.594" Canvas.Left="26.606" Canvas.Top="-14.2" RenderTransformOrigin="0.5,0.5" MouseDown="inicioArrastrarZanahoria" GiveFeedback="Label_GiveFeedback" MouseEnter="mouseEnter" MouseLeave="mouseLeave">
                     <Canvas.RenderTransform>
                         <TransformGroup>
                             <ScaleTransform/>
@@ -2453,7 +2453,7 @@
             </Path>
         </Canvas>
         <Canvas x:Name="cvDormido" Width="332.6" HorizontalAlignment="Left" Margin="10,372.2,0,125">
-            <Canvas x:Name="cvBarriDormido" Height="138" Canvas.Left="83.933" Canvas.Top="121.6" Width="169.867" RenderTransformOrigin="0.5,0.5">
+            <Canvas x:Name="cvBarriDormido" Height="138" Canvas.Left="83.933" Canvas.Top="121.6" Width="169.867" RenderTransformOrigin="0.5,0.5" MouseUp="goToSleep" MouseEnter="mouseEnter">
                 <Canvas.RenderTransform>
                     <TransformGroup>
                         <ScaleTransform/>
@@ -2937,39 +2937,54 @@
         </Canvas>
         <Grid HorizontalAlignment="Left" Height="100" VerticalAlignment="Top" Width="363">
             <Label x:Name="Timer_counter" Content="Contador" Background="Transparent" Foreground="Black" Margin="10,10,305,64"/>
-            <Label x:Name="Label_info" Content="Score:" Background="Transparent" Foreground="Black" Margin="0,114,-727,-40" HorizontalAlignment="Right" Width="133"/>
-            <Label x:Name="Label_Puntuacion" Content="0" Background="Transparent" Foreground="Black" Margin="0,115,-769,-41" HorizontalAlignment="Right" Width="133"/>
+            <Label x:Name="Label_info" Content="Score:" Background="Transparent" Foreground="Black" Margin="0,114,-893,-40" HorizontalAlignment="Right" Width="133"/>
+            <Label x:Name="Label_Puntuacion" Content="0" Background="Transparent" Foreground="Black" Margin="0,115,-935,-41" HorizontalAlignment="Right" Width="133"/>
             <Label x:Name="Label_State" Content="Contador" Background="Transparent" Foreground="Black" Margin="10,36,305,38"/>
         </Grid>
-        <Grid HorizontalAlignment="Left" Height="139" Margin="809,10,0,0" VerticalAlignment="Top" Width="455" >
-            <ProgressBar x:Name="ProgressBar_hambre" HorizontalAlignment="Left" Height="13" Margin="147,6,0,0" VerticalAlignment="Top" Width="254"  Value="100" Foreground="#FF64E200"/>
-            <ProgressBar x:Name="ProgressBar_baño" HorizontalAlignment="Left" Height="13" Margin="147,31,0,0" VerticalAlignment="Top" Width="254" Value="100" Foreground="#FF64E200"/>
-            <ProgressBar x:Name="ProgressBar_sueño" HorizontalAlignment="Left" Height="13" Margin="147,55,0,0" VerticalAlignment="Top" Width="254" Cursor="" Value="100" Foreground="#FF64E200"/>
-            <ProgressBar x:Name="ProgressBar_diversion" HorizontalAlignment="Left" Height="13" Margin="147,80,0,0" VerticalAlignment="Top" Width="254" Cursor="" Value="100" Foreground="#FF64E200"/>
-            <Label x:Name="label" Content="&#xA;" HorizontalAlignment="Left" Margin="112,2,0,0" VerticalAlignment="Top" Height="21" Width="30" RenderTransformOrigin="0.496,0.333">
+        <Grid HorizontalAlignment="Left" Height="139" Margin="761,10,0,0" VerticalAlignment="Top" Width="503" >
+            <Grid.RowDefinitions>
+                <RowDefinition Height="82*"/>
+                <RowDefinition Height="57*"/>
+            </Grid.RowDefinitions>
+            <ProgressBar x:Name="ProgressBar_hambre" HorizontalAlignment="Left" Height="13" Margin="195,4,0,0" VerticalAlignment="Top" Width="254"  Value="100" Foreground="#FF64E200"/>
+            <ProgressBar x:Name="ProgressBar_baño" HorizontalAlignment="Left" Height="13" Margin="195,29,0,0" VerticalAlignment="Top" Width="254" Value="100" Foreground="#FF64E200"/>
+            <ProgressBar x:Name="ProgressBar_sueño" HorizontalAlignment="Left" Height="13" Margin="195,53,0,0" VerticalAlignment="Top" Width="254" Cursor="" Value="100" Foreground="#FF64E200"/>
+            <ProgressBar x:Name="ProgressBar_diversion" HorizontalAlignment="Left" Height="13" Margin="195,80,0,0" VerticalAlignment="Top" Width="254" Cursor="" Value="100" Foreground="#FF64E200" Grid.RowSpan="2"/>
+            <Label x:Name="label" Content="&#xA;" HorizontalAlignment="Left" Margin="160,0,0,0" VerticalAlignment="Top" Height="21" Width="30" RenderTransformOrigin="0.496,0.333">
                 <Label.Background>
                     <ImageBrush ImageSource="/bunny;component/img/icons/fried-chicken.png"/>
                 </Label.Background>
             </Label>
-            <Label x:Name="label_Copy" Content="&#xA;" HorizontalAlignment="Left" Margin="117,26,0,0" VerticalAlignment="Top" Height="21" Width="25" RenderTransformOrigin="0.496,0.333">
+            <Label x:Name="label_Copy" Content="&#xA;" HorizontalAlignment="Left" Margin="165,24,0,0" VerticalAlignment="Top" Height="21" Width="25" RenderTransformOrigin="0.496,0.333">
                 <Label.Background>
                     <ImageBrush ImageSource="/bunny;component/img/icons/toilet.png"/>
                 </Label.Background>
             </Label>
-            <Label x:Name="label_Copy1" Content="&#xA;" HorizontalAlignment="Left" Margin="117,50,0,0" VerticalAlignment="Top" Height="21" Width="25" RenderTransformOrigin="0.496,0.333">
+            <Label x:Name="label_Copy1" Content="&#xA;" HorizontalAlignment="Left" Margin="165,48,0,0" VerticalAlignment="Top" Height="21" Width="25" RenderTransformOrigin="0.496,0.333">
                 <Label.Background>
                     <ImageBrush ImageSource="/bunny;component/img/icons/sleep.png"/>
                 </Label.Background>
             </Label>
-            <Label x:Name="Label_hambre" Content="Label" HorizontalAlignment="Left" Margin="406,2,0,0" VerticalAlignment="Top" Foreground="Black"/>
-            <Label x:Name="Label_baño" Content="Label" HorizontalAlignment="Left" Margin="406,26,0,38" Foreground="Black"/>
-            <Label x:Name="Label_sueño" Content="Label" HorizontalAlignment="Left" Margin="406,50,0,0" VerticalAlignment="Top" Foreground="Black"/>
-            <Label x:Name="label_imgsmile" Content="&#xA;" HorizontalAlignment="Left" Margin="117,75,0,0" VerticalAlignment="Top" Height="21" Width="25" RenderTransformOrigin="0.496,0.333">
+            <Label x:Name="Label_hambre" Content="Label" HorizontalAlignment="Left" Margin="454,0,0,0" VerticalAlignment="Top" Foreground="Black"/>
+            <Label x:Name="Label_baño" Content="Label" HorizontalAlignment="Left" Margin="454,24,0,40.2" Foreground="Black" Grid.RowSpan="2"/>
+            <Label x:Name="Label_sueño" Content="Label" HorizontalAlignment="Left" Margin="454,48,0,0" VerticalAlignment="Top" Foreground="Black"/>
+            <Label x:Name="label_imgsmile" Content="&#xA;" HorizontalAlignment="Left" Margin="165,75,0,0" VerticalAlignment="Top" Height="21" Width="25" RenderTransformOrigin="0.496,0.333" Grid.RowSpan="2">
                 <Label.Background>
                     <ImageBrush ImageSource="/bunny;component/img/icons/smile.png"/>
                 </Label.Background>
             </Label>
-            <Label x:Name="Label_diversion" Content="Label" HorizontalAlignment="Left" Margin="406,72,0,0" VerticalAlignment="Top" Foreground="Black"/>
+            <Label x:Name="Label_diversion" Content="Label" HorizontalAlignment="Left" Margin="454,72,0,0" VerticalAlignment="Top" Foreground="Black" Grid.RowSpan="2"/>
+            <Label x:Name="label_pause" Content="&#xA;" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Height="58" Width="49" RenderTransformOrigin="0.496,0.333">
+                <Label.Background>
+                    <ImageBrush ImageSource="/bunny;component/img/icons/pause.png" Stretch="Uniform"/>
+                </Label.Background>
+            </Label>
+            <Label x:Name="label_music" Content="&#xA;" HorizontalAlignment="Left" Margin="82,10,0,0" VerticalAlignment="Top" Height="58" Width="49" RenderTransformOrigin="0.496,0.333">
+                <Label.Background>
+                    <ImageBrush ImageSource="/bunny;component/img/icons/muted.png" Stretch="Uniform"/>
+                </Label.Background>
+            </Label>
         </Grid>
+        <Image x:Name="image" HorizontalAlignment="Left" Height="100" VerticalAlignment="Top" Width="100"/>
     </Grid>
 </Window>

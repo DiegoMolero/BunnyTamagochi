@@ -10,6 +10,7 @@ using bunny.src.presentacion.animations;
 using System.ComponentModel;
 using System.Drawing;
 using System.IO;
+using System;
 
 namespace bunny
 {
@@ -44,6 +45,7 @@ namespace bunny
             Globals.cvCama = cvCama;
             Globals.cvBunny = cvBunny;
             Globals.label_puntuacion = Label_Puntuacion;
+            Globals.label_pause = label_pause;
             Globals.state = 0;
             Globals.cvLago = cvLago;
             //peces
@@ -154,6 +156,19 @@ namespace bunny
             Mouse.SetCursor(customCursor);
             e.Handled = true;
         }
+        private void mouseEnter(object sender, EventArgs e)
+        {
+            cvZanahoriaCampo_Comer.Cursor = Cursors.Hand;
+            cvCama.Cursor = Cursors.Hand;
+            cvBarriDormido.Cursor = Cursors.Hand;
+            Mouse.SetCursor(Cursors.Hand);
+        }
+
+        private void mouseLeave(object sender, EventArgs e)
+        {
+            Mouse.SetCursor(Cursors.Arrow);
+        }
+
     }
 
     public static class Globals
@@ -176,6 +191,7 @@ namespace bunny
         public static ProgressBar ProgressBar_diversion { get; set; }
         public static Label state_label { get;set; }
         public static Juego juego_pescar { get; set; }
+        public static Label label_pause { get; set; }
         public static int cacas { get; internal set; }
         public static int score { get; internal set; }
     }

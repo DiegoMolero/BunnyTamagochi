@@ -20,6 +20,7 @@ namespace bunny.src.presentacion.animations
             this.playing = false;
             this.canplay = false;
             Globals.cvLago.MouseDown += cvLago_MouseDown;
+            Globals.cvLago.MouseEnter += mouseEnter;
         }
 
         public void juegoStart()
@@ -123,6 +124,10 @@ namespace bunny.src.presentacion.animations
                 juegoStop();
 
             }
+        }
+        private void mouseEnter(object sender, EventArgs e)
+        {
+            Globals.cvLago.Cursor = Cursors.Hand;
         }
     }
 

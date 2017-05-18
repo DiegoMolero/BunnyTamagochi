@@ -30,7 +30,6 @@ namespace bunny.src.presentacion.objects_img
             Color color = Color.FromRgb(0,0,0);
             Globals.cacas++;
             this.cvBunny = cvBunny;
-
             this.cvCaca = new Canvas();
             cvCaca.Height = 45.3;
             cvCaca.Width = 74;
@@ -77,6 +76,7 @@ namespace bunny.src.presentacion.objects_img
             cvCaca.Visibility = Visibility.Visible;
 
             cvCaca.MouseUp += clickOnCaca;
+            cvCaca.MouseEnter += mouseEnter;
             cvBunny.Children.Add(cvCaca);
  
 
@@ -137,6 +137,10 @@ namespace bunny.src.presentacion.objects_img
         private void Story_Completed(object sender, EventArgs e)
         {
                 cvBunny.Children.Remove(labelMessage);
+        }
+        private void mouseEnter(object sender, EventArgs e)
+        {
+            cvCaca.Cursor = Cursors.Hand;
         }
     }
 }
