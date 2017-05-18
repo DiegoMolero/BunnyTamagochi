@@ -25,6 +25,8 @@ namespace bunny.src.presentacion.animations
 
         public void juegoStart()
         {
+            Globals.cvBunny.Opacity = 0;
+            Globals.cvPescando.Opacity = 100;
             ani_juego.Begin();
             this.playing = true;
             enableEventsPez();
@@ -35,6 +37,8 @@ namespace bunny.src.presentacion.animations
 
         public void juegoStop()
         {
+            Globals.cvBunny.Opacity = 100;
+            Globals.cvPescando.Opacity = 0;
             ani_juego.Stop();
             this.playing = false;
             this.canplay = false;

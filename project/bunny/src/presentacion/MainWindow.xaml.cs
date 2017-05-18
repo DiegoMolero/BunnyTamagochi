@@ -44,6 +44,7 @@ namespace bunny
             Globals.cvDormido = cvDormido;
             Globals.cvCama = cvCama;
             Globals.cvBunny = cvBunny;
+            Globals.cvPescando = cvPescando;
             Globals.label_puntuacion = Label_Puntuacion;
             Globals.label_pause = label_pause;
             Globals.state = 0;
@@ -194,5 +195,6 @@ namespace bunny
         public static Label label_pause { get; set; }
         public static int cacas { get; internal set; }
         public static int score { get; internal set; }
+        public static Canvas cvPescando { get; internal set; }
     }
 }
