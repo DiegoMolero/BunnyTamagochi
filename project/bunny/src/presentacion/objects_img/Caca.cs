@@ -85,11 +85,14 @@ namespace bunny.src.presentacion.objects_img
         private void clickOnCaca(object sender, MouseButtonEventArgs e)
         {
             cvBunny.Children.Remove(cvCaca);
-            //Globals.score = Int32.Parse(Globals.label_puntuacion.Content.ToString());
-            Globals.score += 5;
-            Globals.label_puntuacion.Content= Globals.score;
-            Globals.cacas--;
-            showPuntuation();
+            if(Globals.ProgressBar_diversion.Value >= 30)
+            {
+                Globals.score += 5;
+                Globals.label_puntuacion.Content = "Puntuación: "+Globals.score;
+                Globals.cacas--;
+                showPuntuation();
+            }
+
         }
         private void showPuntuation()
         {
@@ -112,7 +115,7 @@ namespace bunny.src.presentacion.objects_img
             Storyboard.SetTargetProperty(animacionMoverArriva, new PropertyPath(Canvas.TopProperty));
             Storyboard.SetTargetProperty(animacionMoverAparecer, new PropertyPath(Label.OpacityProperty));
             storyboard.Begin(labelMessage);
-            storyboard.Completed += new EventHandler(Story_Completed);
+            storyboard.Completed += new EventHandler(showCompleted);
     }
         private DoubleAnimation createAnimationUp()
         {
@@ -134,7 +137,7 @@ namespace bunny.src.presentacion.objects_img
             };
             return animation;
         }
-        private void Story_Completed(object sender, EventArgs e)
+        private void showCompleted(object sender, EventArgs e)
         {
                 cvBunny.Children.Remove(labelMessage);
         }

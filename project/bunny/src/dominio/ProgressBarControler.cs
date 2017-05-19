@@ -97,14 +97,14 @@ namespace bunny.src.dominio
                 setBarDiversion(-2);
             }
         }
-        private void updateLabels()
+        public void updateLabels()
         {
             label_baño.Content = Globals.ProgressBar_baño.Value.ToString() + "%";
             label_hambre.Content = Globals.ProgressBar_hambre.Value.ToString() + "%";
             label_sueño.Content = Globals.ProgressBar_sueño.Value.ToString() + "%";
             label_diversion.Content = Globals.ProgressBar_diversion.Value.ToString() + "%";
             Globals.state_label.Content = "State: "+Globals.state.ToString();
-            Globals.label_puntuacion.Content = Globals.score;
+            Globals.label_puntuacion.Content = "Puntuación: "+Globals.score;
         }
         public void setBarBaño(int value)
         {

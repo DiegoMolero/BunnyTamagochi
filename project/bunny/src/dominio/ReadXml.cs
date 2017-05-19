@@ -20,7 +20,8 @@ namespace bunny.src.dominio
             double value = 0;
             int valueInt = 0;
             XmlNodeList nodeList = xmlDoc.DocumentElement.SelectNodes("/Data/bar");
-            foreach (XmlNode node in nodeList)
+                Globals.firstGame = false;
+                foreach (XmlNode node in nodeList)
             {
                 name = node.SelectSingleNode("name").InnerText;
                value = Convert.ToDouble(node.SelectSingleNode("value").InnerText);
@@ -54,6 +55,7 @@ namespace bunny.src.dominio
                         }
                     }
                 }
+
             }
             catch { }
         }

@@ -41,12 +41,14 @@ namespace bunny
             customCursor = new Cursor( path);
             counter = new Counter();
             Timer_counter.Content = 0;
+            Globals.firstGame = true;
             Globals.cvDormido = cvDormido;
             Globals.cvCama = cvCama;
             Globals.cvBunny = cvBunny;
             Globals.cvPescando = cvPescando;
             Globals.label_puntuacion = Label_Puntuacion;
-            Globals.label_pause = label_pause;
+            Globals.img_pause = img_pause;
+            Globals.img_music = img_music;
             Globals.state = 0;
             Globals.cvLago = cvLago;
             //peces
@@ -63,6 +65,7 @@ namespace bunny
             Globals.cacas = 0;
             Globals.score = 0;
             Globals.state_label = Label_State;
+            Globals.cvPause = cvPause;
             //Inicializar animaciones
             ani_respirar = new Respirar(cuerpo);
             ani_parpadear = new Parpadear(parpadoIzq, parpadoDer);
@@ -80,8 +83,11 @@ namespace bunny
       ;
             temporizador = new Temporizador(this);
             temporizador.registrarObservador(progressbar_controler);
-            //Leer XML
+            Globals.pause = new Pause();
             new ReadXml(progressbar_controler);
+            if (Globals.firstGame == true) Globals.pause.showInstruction();
+            //Leer XML
+          
         }
 
         public void update()
@@ -102,6 +108,10 @@ namespace bunny
             {
                 Globals.cvBunny.Opacity = 0;
                 Globals.cvDormido.Opacity = 100;
+            }
+            if (Globals.state == 3)
+            {
+                progressbar_controler.updateLabels();
             }
         }
 
@@ -136,9 +146,13 @@ namespace bunny
 
         private void inicioArrastrarZanahoria(object sender, MouseButtonEventArgs e)
         {
-            DataObject dataO = new DataObject(((Canvas)sender));
-            DragDrop.DoDragDrop((Canvas)sender, dataO, DragDropEffects.Copy);
-            cvZanahoriaCampo_Comer.Opacity = 100;
+            if (Globals.state == 0)
+            {
+                DataObject dataO = new DataObject(((Canvas)sender));
+                DragDrop.DoDragDrop((Canvas)sender, dataO, DragDropEffects.Copy);
+                cvZanahoriaCampo_Comer.Opacity = 100;
+            }
+
         }
 
         private void Label_GiveFeedback(object sender, GiveFeedbackEventArgs e)
@@ -192,9 +206,13 @@ namespace bunny
         public static ProgressBar ProgressBar_diversion { get; set; }
         public static Label state_label { get;set; }
         public static Juego juego_pescar { get; set; }
-        public static Label label_pause { get; set; }
-        public static int cacas { get; internal set; }
-        public static int score { get; internal set; }
-        public static Canvas cvPescando { get; internal set; }
+        public static Image img_pause { get; set; }
+        public static Image img_music { get; set; }
+        public static int cacas { get;  set; }
+        public static int score { get;  set; }
+        public static Canvas cvPescando { get; set; }
+        public static Pause pause { get; set; }
+        public static Canvas cvPause { get; set;} 
+        public static bool firstGame { get; set; }
     }
 }

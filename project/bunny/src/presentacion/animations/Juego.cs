@@ -25,6 +25,7 @@ namespace bunny.src.presentacion.animations
 
         public void juegoStart()
         {
+            if(Globals.state == 0) {
             Globals.cvBunny.Opacity = 0;
             Globals.cvPescando.Opacity = 100;
             ani_juego.Begin();
@@ -32,6 +33,7 @@ namespace bunny.src.presentacion.animations
             enableEventsPez();
             Globals.state = 2;
             disableEventLago();
+            }
 
         }
 
