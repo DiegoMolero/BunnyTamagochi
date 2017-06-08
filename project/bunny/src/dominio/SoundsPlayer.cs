@@ -45,6 +45,42 @@ namespace bunny.src.dominio
             s.Open(new Uri(pathCaca));
             s.Play();
         }
+
+        public void welcomeSound()
+        {
+            String pathWelcome = pathDirectory + "\\bienvenido.wav";
+            s.Open(new Uri(pathWelcome));
+            s.Play();
+        }
+
+        public void tiredSound()
+        {
+            String pathTired = pathDirectory + "\\cansado.wav";
+            s.Open(new Uri(pathTired));
+            s.Play();
+        }
+
+        public void hungrySound()
+        {
+            String pathHungry = pathDirectory + "\\hambriento.wav";
+            s.Open(new Uri(pathHungry));
+            s.Play();
+        }
+
+        public void cleaningSound()
+        {
+            String pathCleaning = pathDirectory + "\\limpiando.wav";
+            s.Open(new Uri(pathCleaning));
+            s.Play();
+        }
+
+        public void ambientalSound()
+        {
+            String pathAmbiental = pathDirectory + "\\ambiental.wav";
+            s.Open(new Uri(pathAmbiental));
+            s.Play();
+        }
+
     }
 }
 
