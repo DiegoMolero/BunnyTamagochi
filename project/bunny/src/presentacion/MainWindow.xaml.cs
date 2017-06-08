@@ -186,7 +186,7 @@ namespace bunny
         }
         private void movimientoNube()
         {
-            Canvas.SetTop(nube1,);
+         //   Canvas.SetLeft(nube1,nube1_pos);
         }
 
     }
@@ -220,10 +220,5 @@ namespace bunny
         public static Pause pause { get; set; }
         public static Canvas cvPause { get; set; }
         public static bool firstGame { get; set; }
-    }
-
-    public static class Nubes
-    {
-
     }
 }
