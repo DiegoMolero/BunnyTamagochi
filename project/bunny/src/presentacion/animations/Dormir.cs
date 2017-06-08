@@ -23,7 +23,10 @@ namespace bunny.src.presentacion.animations
         public void cansancioStart()
         {
             ani_dormir.Begin();
-            s.sleepingSound();
+            if(state == false)
+            {
+                s.sleepingSound();
+            }
             state = true;
         }
         public void cansancioStop()

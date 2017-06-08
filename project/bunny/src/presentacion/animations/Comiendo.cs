@@ -40,6 +40,7 @@ namespace bunny.src.presentacion.animations
         {
             ani_comiendo.Stop();
             ani_comiendo.Remove();
+            s.stopSound();
         }
 
     }
