@@ -67,6 +67,7 @@
     <Compile Include="src\dominio\GenerateXml.cs" />
     <Compile Include="src\dominio\Counter.cs" />
     <Compile Include="src\dominio\ProgressBarControler.cs" />
+    <Compile Include="src\dominio\SoundsPlayer.cs" />
     <Compile Include="src\dominio\Temporizador.cs" />
     <Compile Include="src\presentacion\animations\Comiendo.cs" />
     <Compile Include="src\presentacion\animations\Dormir.cs" />

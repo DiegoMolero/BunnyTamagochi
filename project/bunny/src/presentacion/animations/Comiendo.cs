@@ -1,4 +1,5 @@
-﻿using System;
+﻿using bunny.src.dominio;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -11,25 +12,20 @@ namespace bunny.src.presentacion.animations
 {
     class Comiendo
     {
-
-        private String pathDirectory = Environment.CurrentDirectory.Replace("\\bin\\Debug", "");
         private Storyboard ani_comiendo;
+        private SoundsPlayer s;
 
         public Comiendo(Storyboard ani_comiendo)
         {
             this.ani_comiendo = ani_comiendo;
+            s = new SoundsPlayer();
             ani_comiendo.Completed += comiendoStop;
         }
 
         public void comiendoStart()
         {
             ani_comiendo.Begin();
-
-            String pathComiendo = pathDirectory + "\\comiendo.wav";
-            MediaPlayer s = new MediaPlayer();
-            s.Open(new Uri(pathComiendo));
-            s.Play();
-
+            s.eatingSound();
         }
         public void comiendoStop()
         {

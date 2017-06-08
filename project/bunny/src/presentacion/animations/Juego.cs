@@ -3,7 +3,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows;
+using System.Windows.Controls;
 using System.Windows.Input;
+using System.Windows.Media;
 using System.Windows.Media.Animation;
 
 namespace bunny.src.presentacion.animations
@@ -13,8 +16,10 @@ namespace bunny.src.presentacion.animations
         private Storyboard ani_juego;
         private bool playing;
         private bool canplay;
+        private Label labelMessage;
 
-        public Juego(Storyboard ani_juego)
+
+        public Juego(Storyboard ani_juego, Label label_puntuacion)
         {
             this.ani_juego = ani_juego;
             this.playing = false;

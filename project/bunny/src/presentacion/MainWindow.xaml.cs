@@ -74,7 +74,7 @@ namespace bunny
             ani_hambre = new Hambre(this.FindResource("sbHambre") as Storyboard);
             ani_dormir = new Dormir(this.FindResource("sbDurmiendo") as Storyboard);
             ani_comiendo = new Comiendo(this.FindResource("sbComiendo") as Storyboard);
-            Globals.juego_pescar = new Juego(this.FindResource("movimientoPeces") as Storyboard);
+            Globals.juego_pescar = new Juego(this.FindResource("movimientoPeces") as Storyboard, Label_Puntuacion);
             //Barra de progreso
             progressbar_controler = new ProgressBarControler( //ProgressBars
     Label_hambre, Label_baño, Label_sueño, Label_Puntuacion,Label_diversion, //Labels
