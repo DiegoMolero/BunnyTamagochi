@@ -38,7 +38,7 @@ namespace bunny
         {
             InitializeComponent();
             string path = System.IO.Path.Combine(Directory.GetCurrentDirectory(), "resources\\cursor.cur");
-            customCursor = new Cursor( path);
+            customCursor = new Cursor(path);
             counter = new Counter();
             Timer_counter.Content = 0;
             Globals.firstGame = true;
@@ -78,7 +78,7 @@ namespace bunny
             Globals.juego_pescar = new Juego(this.FindResource("movimientoPeces") as Storyboard, Label_Puntuacion);
             //Barra de progreso
             progressbar_controler = new ProgressBarControler( //ProgressBars
-    Label_hambre, Label_baño, Label_sueño, Label_Puntuacion,Label_diversion, //Labels
+    Label_hambre, Label_baño, Label_sueño, Label_Puntuacion, Label_diversion, //Labels
     ani_cansancio, ani_hambre, ani_dormir,  //Animations
      cvBunny) //Canvas
       ;
@@ -88,7 +88,7 @@ namespace bunny
             new ReadXml(progressbar_controler);
             if (Globals.firstGame == true) Globals.pause.showInstruction();
             //Leer XML
-          
+
         }
 
         public void update()
@@ -118,7 +118,7 @@ namespace bunny
 
         private void goToSleep(object sender, MouseButtonEventArgs e)
         {
-            if(Globals.state == 0) Globals.state = 1;
+            if (Globals.state == 0) Globals.state = 1;
         }
 
         void DataWindow_Closing(object sender, CancelEventArgs e)
@@ -161,7 +161,7 @@ namespace bunny
             if (e.Effects == DragDropEffects.Copy)
             {
                 cvComer.Opacity = 100;
-                
+
             }
             else
             {
@@ -184,6 +184,10 @@ namespace bunny
         {
             Mouse.SetCursor(Cursors.Arrow);
         }
+        private void movimientoNube()
+        {
+            Canvas.SetTop(nube1,);
+        }
 
     }
 
@@ -202,19 +206,24 @@ namespace bunny
         public static System.Windows.Shapes.Path pezAmarillo { get; set; }
         public static System.Windows.Shapes.Path pezRojo { get; set; }
         public static System.Windows.Shapes.Path pezAzul { get; set; }
-        public static ProgressBar ProgressBar_hambre { get;  set; }
-        public static ProgressBar ProgressBar_baño { get;  set; }
-        public static ProgressBar ProgressBar_sueño { get;  set; }
+        public static ProgressBar ProgressBar_hambre { get; set; }
+        public static ProgressBar ProgressBar_baño { get; set; }
+        public static ProgressBar ProgressBar_sueño { get; set; }
         public static ProgressBar ProgressBar_diversion { get; set; }
-        public static Label state_label { get;set; }
+        public static Label state_label { get; set; }
         public static Juego juego_pescar { get; set; }
         public static Image img_pause { get; set; }
         public static Image img_music { get; set; }
-        public static int cacas { get;  set; }
-        public static int score { get;  set; }
+        public static int cacas { get; set; }
+        public static int score { get; set; }
         public static Canvas cvPescando { get; set; }
         public static Pause pause { get; set; }
-        public static Canvas cvPause { get; set;} 
+        public static Canvas cvPause { get; set; }
         public static bool firstGame { get; set; }
+    }
+
+    public static class Nubes
+    {
+
     }
 }
