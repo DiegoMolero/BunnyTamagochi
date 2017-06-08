@@ -37,6 +37,10 @@ namespace bunny.src.dominio
                 {
                     Globals.ProgressBar_baño.Value = value;
                 }
+                else if(name == "diversion")
+                   {
+                        Globals.ProgressBar_diversion.Value = value;
+                    }
             }
             nodeList = xmlDoc.DocumentElement.SelectNodes("/Data/data");
            foreach (XmlNode node in nodeList)

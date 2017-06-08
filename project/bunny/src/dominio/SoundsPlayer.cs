@@ -88,11 +88,26 @@ namespace bunny.src.dominio
             s.Play();
         }
 
+        public void aburridoSound()
+        {
+            String pathAmbiental = pathDirectory + "\\aburrido.wav";
+            s.Open(new Uri(pathAmbiental));
+            s.Play();
+        }
+
         public void stopSound()
         {
             s.Stop();
         }
+        public void silence()
+        {
+            s.Volume = 0;
+        }
 
+        public void notSilence()
+        {
+            s.Volume = 100;
+        }
     }
 }
 

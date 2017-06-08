@@ -62,12 +62,12 @@ namespace bunny.src.dominio
             if(muted == false)
             {
                 Globals.img_music.Source = new BitmapImage(new Uri(@"/img/icons/muted.png", UriKind.Relative));
-                muted = true;
+                Globals.muted = true;
             }
             else
             {
                 Globals.img_music.Source = new BitmapImage(new Uri(@"/img/icons/sound.png", UriKind.Relative));
-                muted = false;
+                Globals.muted = false;
             }
         }
         private void mouseEnter(object sender, EventArgs e)

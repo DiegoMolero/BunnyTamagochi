@@ -10,7 +10,7 @@ namespace bunny.src.dominio
 {
     class GenerateXml
     {
-        public GenerateXml(Double bar_sueño, Double bar_hambre, Double bar_caca,int score, int cacas){
+        public GenerateXml(Double bar_sueño, Double bar_hambre, Double bar_caca,Double bar_diversion,int score, int cacas){
             XmlTextWriter writer = new XmlTextWriter("product.xml", System.Text.Encoding.UTF8);
             writer.WriteStartDocument(true);
             writer.Formatting = Formatting.Indented;
@@ -19,6 +19,7 @@ namespace bunny.src.dominio
             createNode("bar","sueño", bar_sueño.ToString(), writer);
             createNode("bar","hambre", bar_hambre.ToString(), writer);
             createNode("bar","caca", bar_caca.ToString(), writer);
+            createNode("bar", "diversion", bar_diversion.ToString(), writer);
             createNode("data","score", score.ToString(), writer);
             createNode("data","cacas", cacas.ToString(), writer);
             writer.WriteEndElement();

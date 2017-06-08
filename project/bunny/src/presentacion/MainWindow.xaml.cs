@@ -32,6 +32,7 @@ namespace bunny
         private Cursor customCursor;
         private SoundsPlayer s;
         private SoundsPlayer d;
+        private Triste ani_triste;
 
         public object DragSource { get; private set; }
         public bool IsDragging { get; private set; }
@@ -45,6 +46,7 @@ namespace bunny
             Timer_counter.Content = 0;
             Globals.firstGame = true;
             Globals.cvDormido = cvDormido;
+            Globals.cvTriste = cvTriste;
             Globals.cvCama = cvCama;
             Globals.cvBunny = cvBunny;
             Globals.cvPescando = cvPescando;
@@ -77,11 +79,12 @@ namespace bunny
             ani_hambre = new Hambre(this.FindResource("sbHambre") as Storyboard);
             ani_dormir = new Dormir(this.FindResource("sbDurmiendo") as Storyboard);
             ani_comiendo = new Comiendo(this.FindResource("sbComiendo") as Storyboard);
+            ani_triste = new Triste(this.FindResource("sbTristeza") as Storyboard);
             Globals.juego_pescar = new Juego(this.FindResource("movimientoPeces") as Storyboard, Label_Puntuacion);
             //Barra de progreso
             progressbar_controler = new ProgressBarControler( //ProgressBars
     Label_hambre, Label_baño, Label_sueño, Label_Puntuacion, Label_diversion, //Labels
-    ani_cansancio, ani_hambre, ani_dormir,  //Animations
+    ani_cansancio, ani_hambre, ani_dormir,ani_triste,  //Animations
      cvBunny) //Canvas
       ;
             temporizador = new Temporizador(this);
@@ -93,7 +96,6 @@ namespace bunny
             s.ambientalSound();
             d.welcomeSound();
             //Leer XML
-
         }
 
         public void update()
@@ -129,7 +131,7 @@ namespace bunny
         void DataWindow_Closing(object sender, CancelEventArgs e)
         {
             GenerateXml file = new GenerateXml(Globals.ProgressBar_sueño.Value,
-                Globals.ProgressBar_hambre.Value, Globals.ProgressBar_baño.Value,
+                Globals.ProgressBar_hambre.Value, Globals.ProgressBar_baño.Value,Globals.ProgressBar_diversion.Value,
                 Globals.score, Globals.cacas);
         }
 
@@ -224,6 +226,8 @@ namespace bunny
         public static Canvas cvPescando { get; set; }
         public static Pause pause { get; set; }
         public static Canvas cvPause { get; set; }
+        public static Canvas cvTriste { get; set; }
         public static bool firstGame { get; set; }
+        public static bool muted { get; set; }
     }
 }

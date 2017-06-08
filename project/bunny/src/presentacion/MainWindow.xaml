@@ -2913,57 +2913,57 @@
                     </Ellipse.RenderTransform>
                 </Ellipse>
             </Canvas>
-            <Canvas x:Name="cvTriste" Height="49.746" Canvas.Left="103.4" Canvas.Top="214.502" Width="46.733">
-                <Ellipse x:Name="ellipse3" Height="49.746" Canvas.Left="6.6" Stroke="#FF13454C" Width="39.6" Fill="#FF51A9B6" StrokeThickness="3" Opacity="0"/>
-                <Rectangle x:Name="rectangle1" Fill="#FF51A9B6" Height="33.613" Stroke="Black" StrokeThickness="0" Canvas.Top="16.133" Width="46.733" Opacity="0"/>
-            </Canvas>
-            <Canvas x:Name="cvMorrito" Height="48" Canvas.Left="110" Canvas.Top="202" Width="33"  AllowDrop="True" Drop="soltarZanahoria">
+            <Canvas x:Name="cvMorrito" Height="48" Canvas.Left="110" Canvas.Top="202" Width="33"  >
                 <Ellipse Fill="#FF51A9B6" Height="24" Canvas.Left="6" Stroke="#FF13454C" Canvas.Top="15" Width="14" StrokeThickness="2"/>
                 <Ellipse Fill="#FF51A9B6" Height="24" Canvas.Left="15" Stroke="#FF13454C" Canvas.Top="15" Width="16" StrokeThickness="2"/>
                 <Rectangle Fill="#FF51A9B6" Height="26" Stroke="#FF51A9B6" StrokeThickness="3" Width="31"/>
-                <Canvas x:Name="cvComer" Height="45" Canvas.Top="10" Width="38" Opacity="0" RenderTransformOrigin="0.5,0.5">
-                    <Canvas.RenderTransform>
-                        <TransformGroup>
-                            <ScaleTransform/>
-                            <SkewTransform/>
-                            <RotateTransform/>
-                            <TranslateTransform/>
-                        </TransformGroup>
-                    </Canvas.RenderTransform>
-                    <Ellipse Fill="#FF021B1F" Height="41" Stroke="#FF13454C" StrokeThickness="2" Canvas.Top="4" Width="38"/>
-                    <Rectangle Height="18" Canvas.Left="11" Canvas.Top="6" Width="8" Stroke="#FF13454C" StrokeThickness="2">
-                        <Rectangle.Fill>
-                            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
-                                <GradientStop Color="#FF13454C" Offset="0"/>
-                                <GradientStop Color="White" Offset="0.26"/>
-                            </LinearGradientBrush>
-                        </Rectangle.Fill>
-                    </Rectangle>
-                    <Rectangle Height="18" Canvas.Left="19" Canvas.Top="6" Width="8" Stroke="#FF13454C" StrokeThickness="2">
-                        <Rectangle.Fill>
-                            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
-                                <GradientStop Color="#FF13454C" Offset="0"/>
-                                <GradientStop Color="White" Offset="0.26"/>
-                            </LinearGradientBrush>
-                        </Rectangle.Fill>
-                    </Rectangle>
-                    <Rectangle Height="3" Canvas.Left="14" Canvas.Top="5" Width="10" Stroke="#FF13454C" StrokeThickness="2">
-                        <Rectangle.Fill>
-                            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
-                                <GradientStop Color="Black" Offset="0"/>
-                                <GradientStop Color="White" Offset="0.26"/>
-                            </LinearGradientBrush>
-                        </Rectangle.Fill>
-                    </Rectangle>
-                    <Ellipse Height="15" Stroke="#FF13454C" Canvas.Top="29" Width="28" Canvas.Left="5">
-                        <Ellipse.Fill>
-                            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
-                                <GradientStop Color="#FFD41515" Offset="1"/>
-                                <GradientStop Color="#FFD41515"/>
-                            </LinearGradientBrush>
-                        </Ellipse.Fill>
-                    </Ellipse>
-                </Canvas>
+            </Canvas>
+            <Canvas x:Name="cvTriste" Height="50" Canvas.Left="103" Canvas.Top="221" Width="47">
+                <Ellipse x:Name="ellipse3" Height="38" Canvas.Left="7" Stroke="#FF13454C" Width="35" Fill="#FF51A9B6" StrokeThickness="3" Opacity="0"/>
+                <Rectangle x:Name="rectangle1" Fill="#FF51A9B6" Height="22" Stroke="Black" StrokeThickness="0" Canvas.Top="16" Width="47" Opacity="0"/>
+            </Canvas>
+            <Canvas x:Name="cvComer" Height="45" Canvas.Top="213" Width="38" Opacity="0" RenderTransformOrigin="0.5,0.5" Canvas.Left="110" AllowDrop="True" Drop="soltarZanahoria">
+                <Canvas.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </Canvas.RenderTransform>
+                <Ellipse Fill="#FF021B1F" Height="41" Stroke="#FF13454C" StrokeThickness="2" Canvas.Top="4" Width="38"/>
+                <Rectangle Height="18" Canvas.Left="11" Canvas.Top="6" Width="8" Stroke="#FF13454C" StrokeThickness="2">
+                    <Rectangle.Fill>
+                        <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                            <GradientStop Color="#FF13454C" Offset="0"/>
+                            <GradientStop Color="White" Offset="0.26"/>
+                        </LinearGradientBrush>
+                    </Rectangle.Fill>
+                </Rectangle>
+                <Rectangle Height="18" Canvas.Left="19" Canvas.Top="6" Width="8" Stroke="#FF13454C" StrokeThickness="2">
+                    <Rectangle.Fill>
+                        <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                            <GradientStop Color="#FF13454C" Offset="0"/>
+                            <GradientStop Color="White" Offset="0.26"/>
+                        </LinearGradientBrush>
+                    </Rectangle.Fill>
+                </Rectangle>
+                <Rectangle Height="3" Canvas.Left="14" Canvas.Top="5" Width="10" Stroke="#FF13454C" StrokeThickness="2">
+                    <Rectangle.Fill>
+                        <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                            <GradientStop Color="Black" Offset="0"/>
+                            <GradientStop Color="White" Offset="0.26"/>
+                        </LinearGradientBrush>
+                    </Rectangle.Fill>
+                </Rectangle>
+                <Ellipse Height="15" Stroke="#FF13454C" Canvas.Top="29" Width="28" Canvas.Left="5">
+                    <Ellipse.Fill>
+                        <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                            <GradientStop Color="#FFD41515" Offset="1"/>
+                            <GradientStop Color="#FFD41515"/>
+                        </LinearGradientBrush>
+                    </Ellipse.Fill>
+                </Ellipse>
             </Canvas>
             <Canvas x:Name="cvBarriguita" Height="54.133" Canvas.Left="63.709" Canvas.Top="358.267" Width="116.358">
                 <Path Data="M3.5406722,1.5 L127.65932,1.5 127.68196,1.5533257 C128.99934,4.8177261 129.7,8.2399483 129.7,11.766502 129.7,34.336449 101.00145,52.633003 65.599998,52.633003 30.198547,52.633003 1.4999994,34.336449 1.5,11.766502 1.4999994,8.2399483 2.2006475,4.8177261 3.5180377,1.5533257 z" Fill="#FF78D3E0" Height="54.133" Stretch="Fill" Stroke="#FF13454C" StrokeThickness="2" Width="116.358"/>
@@ -3081,9 +3081,9 @@
             </Canvas>
         </Canvas>
         <Grid HorizontalAlignment="Left" Height="100" VerticalAlignment="Top" Width="363">
-            <Label x:Name="Timer_counter" Content="Contador" Background="Transparent" Foreground="Black" Margin="140,10,175,64"/>
+            <Label x:Name="Timer_counter" Content="Contador" Background="Transparent" Foreground="Black" Margin="140,10,175,64" Opacity="0"/>
             <Label x:Name="Label_Puntuacion" Content="Puntuación: 0" Background="Transparent" Foreground="Black" Margin="0,110,-891,-61" HorizontalAlignment="Right" Width="214" AutomationProperties.IsColumnHeader="True" FontFamily="Showcard Gothic" FontSize="18"/>
-            <Label x:Name="Label_State" Content="Contador" Background="Transparent" Foreground="Black" Margin="142,36,173,38"/>
+            <Label x:Name="Label_State" Content="Contador" Background="Transparent" Foreground="Black" Margin="142,36,173,38" Opacity="0"/>
         </Grid>
         <Grid HorizontalAlignment="Left" Height="139" Margin="761,10,0,0" VerticalAlignment="Top" Width="503" >
             <Grid.RowDefinitions>
@@ -3120,11 +3120,10 @@
             <Label x:Name="Label_diversion" Content="Label" HorizontalAlignment="Left" Margin="454,72,0,0" VerticalAlignment="Top" Foreground="Black" Grid.RowSpan="2"/>
 
         </Grid>
-        <Image x:Name="image" HorizontalAlignment="Left" Height="100" VerticalAlignment="Top" Width="100" Margin="130,0,0,0"/>
         <Canvas x:Name="cvPause" HorizontalAlignment="Left" Height="756" Margin="0,0,-0.4,0" VerticalAlignment="Top" Width="1274">
             <Image x:Name="img_pause" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Height="58" Width="49" RenderTransformOrigin="0.496,0.333" Source="/bunny;component/img/icons/pause.png">
             </Image>
-            <Image x:Name="img_music"  HorizontalAlignment="Left" Margin="81,10,0,0" VerticalAlignment="Top" Height="58" Width="49" RenderTransformOrigin="0.496,0.333" Source="/bunny;component/img/icons/sound.png">
+            <Image x:Name="img_music"  HorizontalAlignment="Left" Margin="81,10,0,0" VerticalAlignment="Top" Height="58" Width="49" RenderTransformOrigin="0.496,0.333" Source="/bunny;component/img/icons/sound.png" Opacity="0">
             </Image>
         </Canvas>
     </Grid>

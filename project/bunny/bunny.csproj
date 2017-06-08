@@ -69,6 +69,7 @@
     <Compile Include="src\dominio\ProgressBarControler.cs" />
     <Compile Include="src\dominio\SoundsPlayer.cs" />
     <Compile Include="src\dominio\Temporizador.cs" />
+    <Compile Include="src\presentacion\animations\Triste.cs" />
     <Compile Include="src\presentacion\animations\Comiendo.cs" />
     <Compile Include="src\presentacion\animations\Dormir.cs" />
     <Compile Include="src\presentacion\animations\Hambre.cs" />

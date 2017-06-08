@@ -28,10 +28,11 @@ namespace bunny.src.dominio
         private Canvas cvBunny;
         private Label label_puntuacion;
         private Label label_diversion;
+        private Triste ani_triste;
 
         public ProgressBarControler(
             Label label_hambre, Label label_baño, Label label_sueño,Label label_puntuacion, Label label_diversion,
-            Cansancio ani_cansancio, Hambre ani_hambre, Dormir ani_dormir,
+            Cansancio ani_cansancio, Hambre ani_hambre, Dormir ani_dormir,Triste ani_triste,
             Canvas cvBunny)
         {
             this.label_baño = label_baño;
@@ -43,6 +44,7 @@ namespace bunny.src.dominio
             this.ani_cansancio = ani_cansancio;
             this.ani_hambre = ani_hambre;
             this.ani_dormir = ani_dormir;
+            this.ani_triste = ani_triste;
 
 
             this.cvBunny = cvBunny;
@@ -55,6 +57,13 @@ namespace bunny.src.dominio
                 if (Globals.ProgressBar_hambre.Value >= 20)
                 {
                     setBarBaño(-7); //Si tiene comida entonces puede hacer caca
+                }
+                if (Globals.ProgressBar_diversion.Value < 30 && ani_triste.isStarted()==false)
+                {
+                    ani_triste.tristeStart();
+                }else if (Globals.ProgressBar_diversion.Value >= 30 && ani_triste.isStarted() == true)
+                {
+                    ani_triste.tristeStop();
                 }
                 if (Globals.ProgressBar_sueño.Value <= 20) Globals.juego_pescar.disableEventLago();
                 else Globals.juego_pescar.enableEventLago();
