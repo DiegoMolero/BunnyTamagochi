@@ -147,37 +147,13 @@ namespace bunny {
         
         #line 1008 "..\..\..\..\src\presentacion\MainWindow.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
-        internal System.Windows.Shapes.Path nube7;
-        
-        #line default
-        #line hidden
-        
-        
-        #line 1018 "..\..\..\..\src\presentacion\MainWindow.xaml"
-        [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
-        internal System.Windows.Shapes.Path nube5;
-        
-        #line default
-        #line hidden
-        
-        
-        #line 1028 "..\..\..\..\src\presentacion\MainWindow.xaml"
-        [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
-        internal System.Windows.Shapes.Path nube6;
-        
-        #line default
-        #line hidden
-        
-        
-        #line 1038 "..\..\..\..\src\presentacion\MainWindow.xaml"
-        [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Shapes.Path nube3;
         
         #line default
         #line hidden
         
         
-        #line 1039 "..\..\..\..\src\presentacion\MainWindow.xaml"
+        #line 1009 "..\..\..\..\src\presentacion\MainWindow.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Shapes.Path nube2;
         
@@ -185,7 +161,7 @@ namespace bunny {
         #line hidden
         
         
-        #line 1040 "..\..\..\..\src\presentacion\MainWindow.xaml"
+        #line 1010 "..\..\..\..\src\presentacion\MainWindow.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Shapes.Path nube4;
         
@@ -193,7 +169,7 @@ namespace bunny {
         #line hidden
         
         
-        #line 1041 "..\..\..\..\src\presentacion\MainWindow.xaml"
+        #line 1011 "..\..\..\..\src\presentacion\MainWindow.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Shapes.Path nube1;
         
@@ -201,7 +177,7 @@ namespace bunny {
         #line hidden
         
         
-        #line 1044 "..\..\..\..\src\presentacion\MainWindow.xaml"
+        #line 1014 "..\..\..\..\src\presentacion\MainWindow.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Shapes.Rectangle suelo;
         
@@ -209,7 +185,7 @@ namespace bunny {
         #line hidden
         
         
-        #line 1045 "..\..\..\..\src\presentacion\MainWindow.xaml"
+        #line 1015 "..\..\..\..\src\presentacion\MainWindow.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Shapes.Path campoZanahoria;
         
@@ -217,7 +193,7 @@ namespace bunny {
         #line hidden
         
         
-        #line 1046 "..\..\..\..\src\presentacion\MainWindow.xaml"
+        #line 1016 "..\..\..\..\src\presentacion\MainWindow.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Controls.Canvas cvCama;
         
@@ -225,7 +201,7 @@ namespace bunny {
         #line hidden
         
         
-        #line 1050 "..\..\..\..\src\presentacion\MainWindow.xaml"
+        #line 1020 "..\..\..\..\src\presentacion\MainWindow.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Controls.Canvas filaZanahorias;
         
@@ -233,7 +209,7 @@ namespace bunny {
         #line hidden
         
         
-        #line 1051 "..\..\..\..\src\presentacion\MainWindow.xaml"
+        #line 1021 "..\..\..\..\src\presentacion\MainWindow.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Controls.Canvas cvZanahoriaCampo;
         
@@ -241,7 +217,7 @@ namespace bunny {
         #line hidden
         
         
-        #line 1093 "..\..\..\..\src\presentacion\MainWindow.xaml"
+        #line 1063 "..\..\..\..\src\presentacion\MainWindow.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Controls.Canvas cvZanahoriaCampo_Copy1;
         
@@ -249,7 +225,7 @@ namespace bunny {
         #line hidden
         
         
-        #line 1135 "..\..\..\..\src\presentacion\MainWindow.xaml"
+        #line 1105 "..\..\..\..\src\presentacion\MainWindow.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Controls.Canvas cvZanahoriaCampo_Copy2;
         
@@ -257,7 +233,7 @@ namespace bunny {
         #line hidden
         
         
-        #line 1177 "..\..\..\..\src\presentacion\MainWindow.xaml"
+        #line 1147 "..\..\..\..\src\presentacion\MainWindow.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Controls.Canvas cvZanahoriaCampo_Copy3;
         
@@ -265,7 +241,7 @@ namespace bunny {
         #line hidden
         
         
-        #line 1219 "..\..\..\..\src\presentacion\MainWindow.xaml"
+        #line 1189 "..\..\..\..\src\presentacion\MainWindow.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Controls.Canvas cvZanahoriaCampo_Copy4;
         
@@ -273,7 +249,7 @@ namespace bunny {
         #line hidden
         
         
-        #line 1262 "..\..\..\..\src\presentacion\MainWindow.xaml"
+        #line 1232 "..\..\..\..\src\presentacion\MainWindow.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Controls.Canvas filaZanahorias_Copy;
         
@@ -281,7 +257,7 @@ namespace bunny {
         #line hidden
         
         
-        #line 1263 "..\..\..\..\src\presentacion\MainWindow.xaml"
+        #line 1233 "..\..\..\..\src\presentacion\MainWindow.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Controls.Canvas cvZanahoriaCampo1;
         
@@ -289,7 +265,7 @@ namespace bunny {
         #line hidden
         
         
-        #line 1305 "..\..\..\..\src\presentacion\MainWindow.xaml"
+        #line 1275 "..\..\..\..\src\presentacion\MainWindow.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Controls.Canvas cvZanahoriaCampo_Copy5;
         
@@ -297,7 +273,7 @@ namespace bunny {
         #line hidden
         
         
-        #line 1347 "..\..\..\..\src\presentacion\MainWindow.xaml"
+        #line 1317 "..\..\..\..\src\presentacion\MainWindow.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Controls.Canvas cvZanahoriaCampo_Copy6;
         
@@ -305,7 +281,7 @@ namespace bunny {
         #line hidden
         
         
-        #line 1389 "..\..\..\..\src\presentacion\MainWindow.xaml"
+        #line 1359 "..\..\..\..\src\presentacion\MainWindow.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Controls.Canvas cvZanahoriaCampo_Copy7;
         
@@ -313,7 +289,7 @@ namespace bunny {
         #line hidden
         
         
-        #line 1431 "..\..\..\..\src\presentacion\MainWindow.xaml"
+        #line 1401 "..\..\..\..\src\presentacion\MainWindow.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Controls.Canvas cvZanahoriaCampo_Copy8;
         
@@ -321,7 +297,7 @@ namespace bunny {
         #line hidden
         
         
-        #line 1474 "..\..\..\..\src\presentacion\MainWindow.xaml"
+        #line 1444 "..\..\..\..\src\presentacion\MainWindow.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Controls.Canvas filaZanahorias_Copy1;
         
@@ -329,7 +305,7 @@ namespace bunny {
         #line hidden
         
         
-        #line 1475 "..\..\..\..\src\presentacion\MainWindow.xaml"
+        #line 1445 "..\..\..\..\src\presentacion\MainWindow.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Controls.Canvas cvZanahoriaCampo2;
         
@@ -337,7 +313,7 @@ namespace bunny {
         #line hidden
         
         
-        #line 1517 "..\..\..\..\src\presentacion\MainWindow.xaml"
+        #line 1487 "..\..\..\..\src\presentacion\MainWindow.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Controls.Canvas cvZanahoriaCampo_Copy9;
         
@@ -345,7 +321,7 @@ namespace bunny {
         #line hidden
         
         
-        #line 1559 "..\..\..\..\src\presentacion\MainWindow.xaml"
+        #line 1529 "..\..\..\..\src\presentacion\MainWindow.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Controls.Canvas cvZanahoriaCampo_Copy10;
         
@@ -353,7 +329,7 @@ namespace bunny {
         #line hidden
         
         
-        #line 1601 "..\..\..\..\src\presentacion\MainWindow.xaml"
+        #line 1571 "..\..\..\..\src\presentacion\MainWindow.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Controls.Canvas cvZanahoriaCampo_Copy11;
         
@@ -361,7 +337,7 @@ namespace bunny {
         #line hidden
         
         
-        #line 1643 "..\..\..\..\src\presentacion\MainWindow.xaml"
+        #line 1613 "..\..\..\..\src\presentacion\MainWindow.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Controls.Canvas cvZanahoriaCampo_Copy12;
         
@@ -369,7 +345,7 @@ namespace bunny {
         #line hidden
         
         
-        #line 1686 "..\..\..\..\src\presentacion\MainWindow.xaml"
+        #line 1656 "..\..\..\..\src\presentacion\MainWindow.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Controls.Canvas filaZanahorias_Copy2;
         
@@ -377,7 +353,7 @@ namespace bunny {
         #line hidden
         
         
-        #line 1687 "..\..\..\..\src\presentacion\MainWindow.xaml"
+        #line 1657 "..\..\..\..\src\presentacion\MainWindow.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Controls.Canvas cvZanahoriaCampo3;
         
@@ -385,7 +361,7 @@ namespace bunny {
         #line hidden
         
         
-        #line 1729 "..\..\..\..\src\presentacion\MainWindow.xaml"
+        #line 1699 "..\..\..\..\src\presentacion\MainWindow.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Controls.Canvas cvZanahoriaCampo_Copy13;
         
@@ -393,7 +369,7 @@ namespace bunny {
         #line hidden
         
         
-        #line 1771 "..\..\..\..\src\presentacion\MainWindow.xaml"
+        #line 1741 "..\..\..\..\src\presentacion\MainWindow.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Controls.Canvas cvZanahoriaCampo_Copy14;
         
@@ -401,7 +377,7 @@ namespace bunny {
         #line hidden
         
         
-        #line 1813 "..\..\..\..\src\presentacion\MainWindow.xaml"
+        #line 1783 "..\..\..\..\src\presentacion\MainWindow.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Controls.Canvas cvZanahoriaCampo_Copy15;
         
@@ -409,7 +385,7 @@ namespace bunny {
         #line hidden
         
         
-        #line 1855 "..\..\..\..\src\presentacion\MainWindow.xaml"
+        #line 1825 "..\..\..\..\src\presentacion\MainWindow.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Controls.Canvas cvZanahoriaCampo_Copy16;
         
@@ -417,7 +393,7 @@ namespace bunny {
         #line hidden
         
         
-        #line 1898 "..\..\..\..\src\presentacion\MainWindow.xaml"
+        #line 1868 "..\..\..\..\src\presentacion\MainWindow.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Controls.Canvas cvSembrado;
         
@@ -425,7 +401,7 @@ namespace bunny {
         #line hidden
         
         
-        #line 1900 "..\..\..\..\src\presentacion\MainWindow.xaml"
+        #line 1870 "..\..\..\..\src\presentacion\MainWindow.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Controls.Canvas cvTierraZanahorias;
         
@@ -433,7 +409,7 @@ namespace bunny {
         #line hidden
         
         
-        #line 1915 "..\..\..\..\src\presentacion\MainWindow.xaml"
+        #line 1885 "..\..\..\..\src\presentacion\MainWindow.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Controls.Canvas cvTierraZanahorias_Copy;
         
@@ -441,7 +417,7 @@ namespace bunny {
         #line hidden
         
         
-        #line 1930 "..\..\..\..\src\presentacion\MainWindow.xaml"
+        #line 1900 "..\..\..\..\src\presentacion\MainWindow.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Controls.Canvas cvTierraZanahorias_Copy1;
         
@@ -449,7 +425,7 @@ namespace bunny {
         #line hidden
         
         
-        #line 1945 "..\..\..\..\src\presentacion\MainWindow.xaml"
+        #line 1915 "..\..\..\..\src\presentacion\MainWindow.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Controls.Canvas cvTierraZanahorias_Copy2;
         
@@ -457,7 +433,7 @@ namespace bunny {
         #line hidden
         
         
-        #line 1960 "..\..\..\..\src\presentacion\MainWindow.xaml"
+        #line 1930 "..\..\..\..\src\presentacion\MainWindow.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Controls.Canvas cvTierraZanahorias_Copy3;
         
@@ -465,7 +441,7 @@ namespace bunny {
         #line hidden
         
         
-        #line 1975 "..\..\..\..\src\presentacion\MainWindow.xaml"
+        #line 1945 "..\..\..\..\src\presentacion\MainWindow.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Controls.Canvas cvZanahoriaCampo_Comer;
         
@@ -473,7 +449,7 @@ namespace bunny {
         #line hidden
         
         
-        #line 2068 "..\..\..\..\src\presentacion\MainWindow.xaml"
+        #line 2038 "..\..\..\..\src\presentacion\MainWindow.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Controls.Canvas cvSembrado_Copy;
         
@@ -481,7 +457,7 @@ namespace bunny {
         #line hidden
         
         
-        #line 2070 "..\..\..\..\src\presentacion\MainWindow.xaml"
+        #line 2040 "..\..\..\..\src\presentacion\MainWindow.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Controls.Canvas cvTierraZanahorias1;
         
@@ -489,7 +465,7 @@ namespace bunny {
         #line hidden
         
         
-        #line 2085 "..\..\..\..\src\presentacion\MainWindow.xaml"
+        #line 2055 "..\..\..\..\src\presentacion\MainWindow.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Controls.Canvas cvTierraZanahorias_Copy4;
         
@@ -497,7 +473,7 @@ namespace bunny {
         #line hidden
         
         
-        #line 2100 "..\..\..\..\src\presentacion\MainWindow.xaml"
+        #line 2070 "..\..\..\..\src\presentacion\MainWindow.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Controls.Canvas cvTierraZanahorias_Copy5;
         
@@ -505,7 +481,7 @@ namespace bunny {
         #line hidden
         
         
-        #line 2115 "..\..\..\..\src\presentacion\MainWindow.xaml"
+        #line 2085 "..\..\..\..\src\presentacion\MainWindow.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Controls.Canvas cvTierraZanahorias_Copy6;
         
@@ -513,7 +489,7 @@ namespace bunny {
         #line hidden
         
         
-        #line 2130 "..\..\..\..\src\presentacion\MainWindow.xaml"
+        #line 2100 "..\..\..\..\src\presentacion\MainWindow.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Controls.Canvas cvTierraZanahorias_Copy7;
         
@@ -521,7 +497,7 @@ namespace bunny {
         #line hidden
         
         
-        #line 2146 "..\..\..\..\src\presentacion\MainWindow.xaml"
+        #line 2116 "..\..\..\..\src\presentacion\MainWindow.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Controls.Canvas cvSembrado_Copy1;
         
@@ -529,7 +505,7 @@ namespace bunny {
         #line hidden
         
         
-        #line 2148 "..\..\..\..\src\presentacion\MainWindow.xaml"
+        #line 2118 "..\..\..\..\src\presentacion\MainWindow.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Controls.Canvas cvTierraZanahorias2;
         
@@ -537,7 +513,7 @@ namespace bunny {
         #line hidden
         
         
-        #line 2163 "..\..\..\..\src\presentacion\MainWindow.xaml"
+        #line 2133 "..\..\..\..\src\presentacion\MainWindow.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Controls.Canvas cvTierraZanahorias_Copy8;
         
@@ -545,7 +521,7 @@ namespace bunny {
         #line hidden
         
         
-        #line 2178 "..\..\..\..\src\presentacion\MainWindow.xaml"
+        #line 2148 "..\..\..\..\src\presentacion\MainWindow.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Controls.Canvas cvTierraZanahorias_Copy9;
         
@@ -553,7 +529,7 @@ namespace bunny {
         #line hidden
         
         
-        #line 2193 "..\..\..\..\src\presentacion\MainWindow.xaml"
+        #line 2163 "..\..\..\..\src\presentacion\MainWindow.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Controls.Canvas cvTierraZanahorias_Copy10;
         
@@ -561,7 +537,7 @@ namespace bunny {
         #line hidden
         
         
-        #line 2208 "..\..\..\..\src\presentacion\MainWindow.xaml"
+        #line 2178 "..\..\..\..\src\presentacion\MainWindow.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Controls.Canvas cvTierraZanahorias_Copy11;
         
@@ -569,7 +545,7 @@ namespace bunny {
         #line hidden
         
         
-        #line 2224 "..\..\..\..\src\presentacion\MainWindow.xaml"
+        #line 2194 "..\..\..\..\src\presentacion\MainWindow.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Controls.Canvas cvLago;
         
@@ -577,7 +553,7 @@ namespace bunny {
         #line hidden
         
         
-        #line 2225 "..\..\..\..\src\presentacion\MainWindow.xaml"
+        #line 2195 "..\..\..\..\src\presentacion\MainWindow.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Shapes.Path aguita;
         
@@ -585,7 +561,7 @@ namespace bunny {
         #line hidden
         
         
-        #line 2226 "..\..\..\..\src\presentacion\MainWindow.xaml"
+        #line 2196 "..\..\..\..\src\presentacion\MainWindow.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Shapes.Path pezVerde;
         
@@ -593,7 +569,7 @@ namespace bunny {
         #line hidden
         
         
-        #line 2236 "..\..\..\..\src\presentacion\MainWindow.xaml"
+        #line 2206 "..\..\..\..\src\presentacion\MainWindow.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Shapes.Path pezRojo;
         
@@ -601,7 +577,7 @@ namespace bunny {
         #line hidden
         
         
-        #line 2246 "..\..\..\..\src\presentacion\MainWindow.xaml"
+        #line 2216 "..\..\..\..\src\presentacion\MainWindow.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Shapes.Path pezAmarillo;
         
@@ -609,7 +585,7 @@ namespace bunny {
         #line hidden
         
         
-        #line 2256 "..\..\..\..\src\presentacion\MainWindow.xaml"
+        #line 2226 "..\..\..\..\src\presentacion\MainWindow.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Shapes.Path pezLila;
         
@@ -617,7 +593,7 @@ namespace bunny {
         #line hidden
         
         
-        #line 2266 "..\..\..\..\src\presentacion\MainWindow.xaml"
+        #line 2236 "..\..\..\..\src\presentacion\MainWindow.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Shapes.Path pezAzul;
         
@@ -625,7 +601,7 @@ namespace bunny {
         #line hidden
         
         
-        #line 2277 "..\..\..\..\src\presentacion\MainWindow.xaml"
+        #line 2247 "..\..\..\..\src\presentacion\MainWindow.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Controls.Canvas cvHierbaEntrada_Copy;
         
@@ -633,7 +609,7 @@ namespace bunny {
         #line hidden
         
         
-        #line 2278 "..\..\..\..\src\presentacion\MainWindow.xaml"
+        #line 2248 "..\..\..\..\src\presentacion\MainWindow.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Shapes.Path hierba1;
         
@@ -641,7 +617,7 @@ namespace bunny {
         #line hidden
         
         
-        #line 2288 "..\..\..\..\src\presentacion\MainWindow.xaml"
+        #line 2258 "..\..\..\..\src\presentacion\MainWindow.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Shapes.Path hierba_Copy3;
         
@@ -649,7 +625,7 @@ namespace bunny {
         #line hidden
         
         
-        #line 2289 "..\..\..\..\src\presentacion\MainWindow.xaml"
+        #line 2259 "..\..\..\..\src\presentacion\MainWindow.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Shapes.Path hierba_Copy4;
         
@@ -657,7 +633,7 @@ namespace bunny {
         #line hidden
         
         
-        #line 2299 "..\..\..\..\src\presentacion\MainWindow.xaml"
+        #line 2269 "..\..\..\..\src\presentacion\MainWindow.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Shapes.Path hierba_Copy5;
         
@@ -665,7 +641,7 @@ namespace bunny {
         #line hidden
         
         
-        #line 2310 "..\..\..\..\src\presentacion\MainWindow.xaml"
+        #line 2280 "..\..\..\..\src\presentacion\MainWindow.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Controls.Canvas cvHierbaEntrada_Copy2;
         
@@ -673,7 +649,7 @@ namespace bunny {
         #line hidden
         
         
-        #line 2311 "..\..\..\..\src\presentacion\MainWindow.xaml"
+        #line 2281 "..\..\..\..\src\presentacion\MainWindow.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Shapes.Path hierba3;
         
@@ -681,7 +657,7 @@ namespace bunny {
         #line hidden
         
         
-        #line 2321 "..\..\..\..\src\presentacion\MainWindow.xaml"
+        #line 2291 "..\..\..\..\src\presentacion\MainWindow.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Shapes.Path hierba_Copy9;
         
@@ -689,7 +665,7 @@ namespace bunny {
         #line hidden
         
         
-        #line 2322 "..\..\..\..\src\presentacion\MainWindow.xaml"
+        #line 2292 "..\..\..\..\src\presentacion\MainWindow.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Shapes.Path hierba_Copy10;
         
@@ -697,7 +673,7 @@ namespace bunny {
         #line hidden
         
         
-        #line 2332 "..\..\..\..\src\presentacion\MainWindow.xaml"
+        #line 2302 "..\..\..\..\src\presentacion\MainWindow.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Shapes.Path hierba_Copy11;
         
@@ -705,7 +681,7 @@ namespace bunny {
         #line hidden
         
         
-        #line 2343 "..\..\..\..\src\presentacion\MainWindow.xaml"
+        #line 2313 "..\..\..\..\src\presentacion\MainWindow.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Controls.Canvas cvHierbaEntrada_Copy1;
         
@@ -713,7 +689,7 @@ namespace bunny {
         #line hidden
         
         
-        #line 2352 "..\..\..\..\src\presentacion\MainWindow.xaml"
+        #line 2322 "..\..\..\..\src\presentacion\MainWindow.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Shapes.Path hierba2;
         
@@ -721,7 +697,7 @@ namespace bunny {
         #line hidden
         
         
-        #line 2362 "..\..\..\..\src\presentacion\MainWindow.xaml"
+        #line 2332 "..\..\..\..\src\presentacion\MainWindow.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Shapes.Path hierba_Copy6;
         
@@ -729,7 +705,7 @@ namespace bunny {
         #line hidden
         
         
-        #line 2363 "..\..\..\..\src\presentacion\MainWindow.xaml"
+        #line 2333 "..\..\..\..\src\presentacion\MainWindow.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Shapes.Path hierba_Copy7;
         
@@ -737,7 +713,7 @@ namespace bunny {
         #line hidden
         
         
-        #line 2373 "..\..\..\..\src\presentacion\MainWindow.xaml"
+        #line 2343 "..\..\..\..\src\presentacion\MainWindow.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Shapes.Path hierba_Copy8;
         
@@ -745,7 +721,7 @@ namespace bunny {
         #line hidden
         
         
-        #line 2384 "..\..\..\..\src\presentacion\MainWindow.xaml"
+        #line 2354 "..\..\..\..\src\presentacion\MainWindow.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Controls.Canvas cvSembrado_Copy2;
         
@@ -753,7 +729,7 @@ namespace bunny {
         #line hidden
         
         
-        #line 2386 "..\..\..\..\src\presentacion\MainWindow.xaml"
+        #line 2356 "..\..\..\..\src\presentacion\MainWindow.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Controls.Canvas cvTierraZanahorias3;
         
@@ -761,7 +737,7 @@ namespace bunny {
         #line hidden
         
         
-        #line 2401 "..\..\..\..\src\presentacion\MainWindow.xaml"
+        #line 2371 "..\..\..\..\src\presentacion\MainWindow.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Controls.Canvas cvTierraZanahorias_Copy12;
         
@@ -769,7 +745,7 @@ namespace bunny {
         #line hidden
         
         
-        #line 2416 "..\..\..\..\src\presentacion\MainWindow.xaml"
+        #line 2386 "..\..\..\..\src\presentacion\MainWindow.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Controls.Canvas cvTierraZanahorias_Copy13;
         
@@ -777,7 +753,7 @@ namespace bunny {
         #line hidden
         
         
-        #line 2431 "..\..\..\..\src\presentacion\MainWindow.xaml"
+        #line 2401 "..\..\..\..\src\presentacion\MainWindow.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Controls.Canvas cvTierraZanahorias_Copy14;
         
@@ -785,7 +761,7 @@ namespace bunny {
         #line hidden
         
         
-        #line 2446 "..\..\..\..\src\presentacion\MainWindow.xaml"
+        #line 2416 "..\..\..\..\src\presentacion\MainWindow.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Controls.Canvas cvTierraZanahorias_Copy15;
         
@@ -793,7 +769,7 @@ namespace bunny {
         #line hidden
         
         
-        #line 2462 "..\..\..\..\src\presentacion\MainWindow.xaml"
+        #line 2432 "..\..\..\..\src\presentacion\MainWindow.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Controls.Canvas cvPescando;
         
@@ -801,7 +777,7 @@ namespace bunny {
         #line hidden
         
         
-        #line 2508 "..\..\..\..\src\presentacion\MainWindow.xaml"
+        #line 2478 "..\..\..\..\src\presentacion\MainWindow.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Controls.Canvas cvOjoIzquierdo_Copy;
         
@@ -809,7 +785,7 @@ namespace bunny {
         #line hidden
         
         
-        #line 2593 "..\..\..\..\src\presentacion\MainWindow.xaml"
+        #line 2563 "..\..\..\..\src\presentacion\MainWindow.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Controls.Canvas cvHierbaEntrada;
         
@@ -817,7 +793,7 @@ namespace bunny {
         #line hidden
         
         
-        #line 2594 "..\..\..\..\src\presentacion\MainWindow.xaml"
+        #line 2564 "..\..\..\..\src\presentacion\MainWindow.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Shapes.Path hierba;
         
@@ -825,7 +801,7 @@ namespace bunny {
         #line hidden
         
         
-        #line 2604 "..\..\..\..\src\presentacion\MainWindow.xaml"
+        #line 2574 "..\..\..\..\src\presentacion\MainWindow.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Shapes.Path hierba_Copy;
         
@@ -833,7 +809,7 @@ namespace bunny {
         #line hidden
         
         
-        #line 2605 "..\..\..\..\src\presentacion\MainWindow.xaml"
+        #line 2575 "..\..\..\..\src\presentacion\MainWindow.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Shapes.Path hierba_Copy1;
         
@@ -841,7 +817,7 @@ namespace bunny {
         #line hidden
         
         
-        #line 2615 "..\..\..\..\src\presentacion\MainWindow.xaml"
+        #line 2585 "..\..\..\..\src\presentacion\MainWindow.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Shapes.Path hierba_Copy2;
         
@@ -849,7 +825,7 @@ namespace bunny {
         #line hidden
         
         
-        #line 2626 "..\..\..\..\src\presentacion\MainWindow.xaml"
+        #line 2596 "..\..\..\..\src\presentacion\MainWindow.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Controls.Canvas cvDormido;
         
@@ -857,7 +833,7 @@ namespace bunny {
         #line hidden
         
         
-        #line 2627 "..\..\..\..\src\presentacion\MainWindow.xaml"
+        #line 2597 "..\..\..\..\src\presentacion\MainWindow.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Controls.Canvas cvBarriDormido;
         
@@ -865,7 +841,7 @@ namespace bunny {
         #line hidden
         
         
-        #line 2640 "..\..\..\..\src\presentacion\MainWindow.xaml"
+        #line 2610 "..\..\..\..\src\presentacion\MainWindow.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Controls.Canvas cvPataIzqDormido;
         
@@ -873,7 +849,7 @@ namespace bunny {
         #line hidden
         
         
-        #line 2665 "..\..\..\..\src\presentacion\MainWindow.xaml"
+        #line 2635 "..\..\..\..\src\presentacion\MainWindow.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Controls.Canvas cvPataDerDormido;
         
@@ -881,7 +857,7 @@ namespace bunny {
         #line hidden
         
         
-        #line 2690 "..\..\..\..\src\presentacion\MainWindow.xaml"
+        #line 2660 "..\..\..\..\src\presentacion\MainWindow.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Controls.TextBlock txtSonidoDormir;
         
@@ -889,7 +865,7 @@ namespace bunny {
         #line hidden
         
         
-        #line 2699 "..\..\..\..\src\presentacion\MainWindow.xaml"
+        #line 2669 "..\..\..\..\src\presentacion\MainWindow.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Shapes.Rectangle rectangle;
         
@@ -897,7 +873,7 @@ namespace bunny {
         #line hidden
         
         
-        #line 2715 "..\..\..\..\src\presentacion\MainWindow.xaml"
+        #line 2685 "..\..\..\..\src\presentacion\MainWindow.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Controls.Canvas cvBunny;
         
@@ -905,7 +881,7 @@ namespace bunny {
         #line hidden
         
         
-        #line 2724 "..\..\..\..\src\presentacion\MainWindow.xaml"
+        #line 2694 "..\..\..\..\src\presentacion\MainWindow.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Controls.Canvas cvOrejaDerecha;
         
@@ -913,7 +889,7 @@ namespace bunny {
         #line hidden
         
         
-        #line 2756 "..\..\..\..\src\presentacion\MainWindow.xaml"
+        #line 2726 "..\..\..\..\src\presentacion\MainWindow.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Controls.Canvas cvOrejaIzquierda;
         
@@ -921,7 +897,7 @@ namespace bunny {
         #line hidden
         
         
-        #line 2778 "..\..\..\..\src\presentacion\MainWindow.xaml"
+        #line 2748 "..\..\..\..\src\presentacion\MainWindow.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Shapes.Ellipse cuerpo;
         
@@ -929,7 +905,7 @@ namespace bunny {
         #line hidden
         
         
-        #line 2788 "..\..\..\..\src\presentacion\MainWindow.xaml"
+        #line 2758 "..\..\..\..\src\presentacion\MainWindow.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Shapes.Ellipse cara;
         
@@ -937,7 +913,7 @@ namespace bunny {
         #line hidden
         
         
-        #line 2789 "..\..\..\..\src\presentacion\MainWindow.xaml"
+        #line 2759 "..\..\..\..\src\presentacion\MainWindow.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Shapes.Ellipse ojeraDer;
         
@@ -945,7 +921,7 @@ namespace bunny {
         #line hidden
         
         
-        #line 2790 "..\..\..\..\src\presentacion\MainWindow.xaml"
+        #line 2760 "..\..\..\..\src\presentacion\MainWindow.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Shapes.Ellipse ojeraIzq;
         
@@ -953,7 +929,7 @@ namespace bunny {
         #line hidden
         
         
-        #line 2791 "..\..\..\..\src\presentacion\MainWindow.xaml"
+        #line 2761 "..\..\..\..\src\presentacion\MainWindow.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Controls.Canvas cvOjoDerecho;
         
@@ -961,7 +937,7 @@ namespace bunny {
         #line hidden
         
         
-        #line 2825 "..\..\..\..\src\presentacion\MainWindow.xaml"
+        #line 2795 "..\..\..\..\src\presentacion\MainWindow.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Shapes.Ellipse parpadoDer;
         
@@ -969,7 +945,7 @@ namespace bunny {
         #line hidden
         
         
-        #line 2846 "..\..\..\..\src\presentacion\MainWindow.xaml"
+        #line 2816 "..\..\..\..\src\presentacion\MainWindow.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Controls.Canvas cvOjoIzquierdo;
         
@@ -977,7 +953,7 @@ namespace bunny {
         #line hidden
         
         
-        #line 2935 "..\..\..\..\src\presentacion\MainWindow.xaml"
+        #line 2905 "..\..\..\..\src\presentacion\MainWindow.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Shapes.Ellipse parpadoIzq;
         
@@ -985,7 +961,7 @@ namespace bunny {
         #line hidden
         
         
-        #line 2946 "..\..\..\..\src\presentacion\MainWindow.xaml"
+        #line 2916 "..\..\..\..\src\presentacion\MainWindow.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Controls.Canvas cvMorrito;
         
@@ -993,7 +969,7 @@ namespace bunny {
         #line hidden
         
         
-        #line 2950 "..\..\..\..\src\presentacion\MainWindow.xaml"
+        #line 2920 "..\..\..\..\src\presentacion\MainWindow.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Controls.Canvas cvComer;
         
@@ -1001,7 +977,7 @@ namespace bunny {
         #line hidden
         
         
-        #line 2994 "..\..\..\..\src\presentacion\MainWindow.xaml"
+        #line 2964 "..\..\..\..\src\presentacion\MainWindow.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Controls.Canvas cvBarriguita;
         
@@ -1009,7 +985,7 @@ namespace bunny {
         #line hidden
         
         
-        #line 2998 "..\..\..\..\src\presentacion\MainWindow.xaml"
+        #line 2968 "..\..\..\..\src\presentacion\MainWindow.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Controls.Canvas cvBrazoIzquierdo;
         
@@ -1017,7 +993,7 @@ namespace bunny {
         #line hidden
         
         
-        #line 3007 "..\..\..\..\src\presentacion\MainWindow.xaml"
+        #line 2977 "..\..\..\..\src\presentacion\MainWindow.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Shapes.Ellipse brazoIzq;
         
@@ -1025,7 +1001,7 @@ namespace bunny {
         #line hidden
         
         
-        #line 3020 "..\..\..\..\src\presentacion\MainWindow.xaml"
+        #line 2990 "..\..\..\..\src\presentacion\MainWindow.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Controls.Canvas cvPataIzquierda;
         
@@ -1033,7 +1009,7 @@ namespace bunny {
         #line hidden
         
         
-        #line 3025 "..\..\..\..\src\presentacion\MainWindow.xaml"
+        #line 2995 "..\..\..\..\src\presentacion\MainWindow.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Controls.Canvas cvPataDerecha;
         
@@ -1041,7 +1017,7 @@ namespace bunny {
         #line hidden
         
         
-        #line 3030 "..\..\..\..\src\presentacion\MainWindow.xaml"
+        #line 3000 "..\..\..\..\src\presentacion\MainWindow.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Controls.Canvas cvBrazoDerecho;
         
@@ -1049,7 +1025,7 @@ namespace bunny {
         #line hidden
         
         
-        #line 3039 "..\..\..\..\src\presentacion\MainWindow.xaml"
+        #line 3009 "..\..\..\..\src\presentacion\MainWindow.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Shapes.Ellipse brazoDer;
         
@@ -1057,7 +1033,7 @@ namespace bunny {
         #line hidden
         
         
-        #line 3053 "..\..\..\..\src\presentacion\MainWindow.xaml"
+        #line 3023 "..\..\..\..\src\presentacion\MainWindow.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Controls.Canvas cvCaca;
         
@@ -1065,7 +1041,7 @@ namespace bunny {
         #line hidden
         
         
-        #line 3054 "..\..\..\..\src\presentacion\MainWindow.xaml"
+        #line 3024 "..\..\..\..\src\presentacion\MainWindow.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Controls.Canvas cvMosca;
         
@@ -1073,7 +1049,7 @@ namespace bunny {
         #line hidden
         
         
-        #line 3067 "..\..\..\..\src\presentacion\MainWindow.xaml"
+        #line 3037 "..\..\..\..\src\presentacion\MainWindow.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Controls.Canvas cvHambre;
         
@@ -1081,7 +1057,7 @@ namespace bunny {
         #line hidden
         
         
-        #line 3076 "..\..\..\..\src\presentacion\MainWindow.xaml"
+        #line 3046 "..\..\..\..\src\presentacion\MainWindow.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Controls.Canvas cvTrocitos;
         
@@ -1089,7 +1065,7 @@ namespace bunny {
         #line hidden
         
         
-        #line 3077 "..\..\..\..\src\presentacion\MainWindow.xaml"
+        #line 3047 "..\..\..\..\src\presentacion\MainWindow.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Shapes.Ellipse ellipse1;
         
@@ -1097,7 +1073,7 @@ namespace bunny {
         #line hidden
         
         
-        #line 3087 "..\..\..\..\src\presentacion\MainWindow.xaml"
+        #line 3057 "..\..\..\..\src\presentacion\MainWindow.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Shapes.Ellipse ellipse2;
         
@@ -1105,7 +1081,7 @@ namespace bunny {
         #line hidden
         
         
-        #line 3097 "..\..\..\..\src\presentacion\MainWindow.xaml"
+        #line 3067 "..\..\..\..\src\presentacion\MainWindow.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Shapes.Ellipse ellipse;
         
@@ -1113,7 +1089,7 @@ namespace bunny {
         #line hidden
         
         
-        #line 3108 "..\..\..\..\src\presentacion\MainWindow.xaml"
+        #line 3078 "..\..\..\..\src\presentacion\MainWindow.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Shapes.Ellipse ellipse3;
         
@@ -1121,7 +1097,7 @@ namespace bunny {
         #line hidden
         
         
-        #line 3109 "..\..\..\..\src\presentacion\MainWindow.xaml"
+        #line 3079 "..\..\..\..\src\presentacion\MainWindow.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Shapes.Rectangle rectangle1;
         
@@ -1129,7 +1105,7 @@ namespace bunny {
         #line hidden
         
         
-        #line 3112 "..\..\..\..\src\presentacion\MainWindow.xaml"
+        #line 3082 "..\..\..\..\src\presentacion\MainWindow.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Controls.Label Timer_counter;
         
@@ -1137,7 +1113,7 @@ namespace bunny {
         #line hidden
         
         
-        #line 3113 "..\..\..\..\src\presentacion\MainWindow.xaml"
+        #line 3083 "..\..\..\..\src\presentacion\MainWindow.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Controls.Label Label_Puntuacion;
         
@@ -1145,7 +1121,7 @@ namespace bunny {
         #line hidden
         
         
-        #line 3114 "..\..\..\..\src\presentacion\MainWindow.xaml"
+        #line 3084 "..\..\..\..\src\presentacion\MainWindow.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Controls.Label Label_State;
         
@@ -1153,7 +1129,7 @@ namespace bunny {
         #line hidden
         
         
-        #line 3121 "..\..\..\..\src\presentacion\MainWindow.xaml"
+        #line 3091 "..\..\..\..\src\presentacion\MainWindow.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Controls.ProgressBar ProgressBar_hambre;
         
@@ -1161,7 +1137,7 @@ namespace bunny {
         #line hidden
         
         
-        #line 3122 "..\..\..\..\src\presentacion\MainWindow.xaml"
+        #line 3092 "..\..\..\..\src\presentacion\MainWindow.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Controls.ProgressBar ProgressBar_baño;
         
@@ -1169,7 +1145,7 @@ namespace bunny {
         #line hidden
         
         
-        #line 3123 "..\..\..\..\src\presentacion\MainWindow.xaml"
+        #line 3093 "..\..\..\..\src\presentacion\MainWindow.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Controls.ProgressBar ProgressBar_sueño;
         
@@ -1177,7 +1153,7 @@ namespace bunny {
         #line hidden
         
         
-        #line 3124 "..\..\..\..\src\presentacion\MainWindow.xaml"
+        #line 3094 "..\..\..\..\src\presentacion\MainWindow.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Controls.ProgressBar ProgressBar_diversion;
         
@@ -1185,7 +1161,7 @@ namespace bunny {
         #line hidden
         
         
-        #line 3125 "..\..\..\..\src\presentacion\MainWindow.xaml"
+        #line 3095 "..\..\..\..\src\presentacion\MainWindow.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Controls.Label label;
         
@@ -1193,7 +1169,7 @@ namespace bunny {
         #line hidden
         
         
-        #line 3130 "..\..\..\..\src\presentacion\MainWindow.xaml"
+        #line 3100 "..\..\..\..\src\presentacion\MainWindow.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Controls.Label label_Copy;
         
@@ -1201,7 +1177,7 @@ namespace bunny {
         #line hidden
         
         
-        #line 3135 "..\..\..\..\src\presentacion\MainWindow.xaml"
+        #line 3105 "..\..\..\..\src\presentacion\MainWindow.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Controls.Label label_Copy1;
         
@@ -1209,7 +1185,7 @@ namespace bunny {
         #line hidden
         
         
-        #line 3140 "..\..\..\..\src\presentacion\MainWindow.xaml"
+        #line 3110 "..\..\..\..\src\presentacion\MainWindow.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Controls.Label Label_hambre;
         
@@ -1217,7 +1193,7 @@ namespace bunny {
         #line hidden
         
         
-        #line 3141 "..\..\..\..\src\presentacion\MainWindow.xaml"
+        #line 3111 "..\..\..\..\src\presentacion\MainWindow.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Controls.Label Label_baño;
         
@@ -1225,7 +1201,7 @@ namespace bunny {
         #line hidden
         
         
-        #line 3142 "..\..\..\..\src\presentacion\MainWindow.xaml"
+        #line 3112 "..\..\..\..\src\presentacion\MainWindow.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Controls.Label Label_sueño;
         
@@ -1233,7 +1209,7 @@ namespace bunny {
         #line hidden
         
         
-        #line 3143 "..\..\..\..\src\presentacion\MainWindow.xaml"
+        #line 3113 "..\..\..\..\src\presentacion\MainWindow.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Controls.Label label_imgsmile;
         
@@ -1241,7 +1217,7 @@ namespace bunny {
         #line hidden
         
         
-        #line 3148 "..\..\..\..\src\presentacion\MainWindow.xaml"
+        #line 3118 "..\..\..\..\src\presentacion\MainWindow.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Controls.Label Label_diversion;
         
@@ -1249,7 +1225,7 @@ namespace bunny {
         #line hidden
         
         
-        #line 3151 "..\..\..\..\src\presentacion\MainWindow.xaml"
+        #line 3121 "..\..\..\..\src\presentacion\MainWindow.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Controls.Image image;
         
@@ -1257,7 +1233,7 @@ namespace bunny {
         #line hidden
         
         
-        #line 3152 "..\..\..\..\src\presentacion\MainWindow.xaml"
+        #line 3122 "..\..\..\..\src\presentacion\MainWindow.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Controls.Canvas cvPause;
         
@@ -1265,7 +1241,7 @@ namespace bunny {
         #line hidden
         
         
-        #line 3153 "..\..\..\..\src\presentacion\MainWindow.xaml"
+        #line 3123 "..\..\..\..\src\presentacion\MainWindow.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Controls.Image img_pause;
         
@@ -1273,7 +1249,7 @@ namespace bunny {
         #line hidden
         
         
-        #line 3155 "..\..\..\..\src\presentacion\MainWindow.xaml"
+        #line 3125 "..\..\..\..\src\presentacion\MainWindow.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Controls.Image img_music;
         
@@ -1358,505 +1334,496 @@ namespace bunny {
             this.sol = ((System.Windows.Shapes.Path)(target));
             return;
             case 15:
-            this.nube7 = ((System.Windows.Shapes.Path)(target));
-            return;
-            case 16:
-            this.nube5 = ((System.Windows.Shapes.Path)(target));
-            return;
-            case 17:
-            this.nube6 = ((System.Windows.Shapes.Path)(target));
-            return;
-            case 18:
             this.nube3 = ((System.Windows.Shapes.Path)(target));
             return;
-            case 19:
+            case 16:
             this.nube2 = ((System.Windows.Shapes.Path)(target));
             return;
-            case 20:
+            case 17:
             this.nube4 = ((System.Windows.Shapes.Path)(target));
             return;
-            case 21:
+            case 18:
             this.nube1 = ((System.Windows.Shapes.Path)(target));
             return;
-            case 22:
+            case 19:
             this.suelo = ((System.Windows.Shapes.Rectangle)(target));
             return;
-            case 23:
+            case 20:
             this.campoZanahoria = ((System.Windows.Shapes.Path)(target));
             return;
-            case 24:
+            case 21:
             this.cvCama = ((System.Windows.Controls.Canvas)(target));
             
-            #line 1046 "..\..\..\..\src\presentacion\MainWindow.xaml"
+            #line 1016 "..\..\..\..\src\presentacion\MainWindow.xaml"
             this.cvCama.MouseUp += new System.Windows.Input.MouseButtonEventHandler(this.goToSleep);
             
             #line default
             #line hidden
             
-            #line 1046 "..\..\..\..\src\presentacion\MainWindow.xaml"
+            #line 1016 "..\..\..\..\src\presentacion\MainWindow.xaml"
             this.cvCama.MouseEnter += new System.Windows.Input.MouseEventHandler(this.mouseEnter);
             
             #line default
             #line hidden
             return;
-            case 25:
+            case 22:
             
-            #line 1047 "..\..\..\..\src\presentacion\MainWindow.xaml"
+            #line 1017 "..\..\..\..\src\presentacion\MainWindow.xaml"
             ((System.Windows.Shapes.Path)(target)).MouseUp += new System.Windows.Input.MouseButtonEventHandler(this.goToSleep);
             
             #line default
             #line hidden
             return;
-            case 26:
+            case 23:
             
-            #line 1048 "..\..\..\..\src\presentacion\MainWindow.xaml"
+            #line 1018 "..\..\..\..\src\presentacion\MainWindow.xaml"
             ((System.Windows.Shapes.Path)(target)).MouseUp += new System.Windows.Input.MouseButtonEventHandler(this.goToSleep);
             
             #line default
             #line hidden
             
-            #line 1048 "..\..\..\..\src\presentacion\MainWindow.xaml"
+            #line 1018 "..\..\..\..\src\presentacion\MainWindow.xaml"
             ((System.Windows.Shapes.Path)(target)).MouseEnter += new System.Windows.Input.MouseEventHandler(this.mouseEnter);
             
             #line default
             #line hidden
             return;
-            case 27:
+            case 24:
             this.filaZanahorias = ((System.Windows.Controls.Canvas)(target));
             return;
-            case 28:
+            case 25:
             this.cvZanahoriaCampo = ((System.Windows.Controls.Canvas)(target));
             return;
-            case 29:
+            case 26:
             this.cvZanahoriaCampo_Copy1 = ((System.Windows.Controls.Canvas)(target));
             return;
-            case 30:
+            case 27:
             this.cvZanahoriaCampo_Copy2 = ((System.Windows.Controls.Canvas)(target));
             return;
-            case 31:
+            case 28:
             this.cvZanahoriaCampo_Copy3 = ((System.Windows.Controls.Canvas)(target));
             return;
-            case 32:
+            case 29:
             this.cvZanahoriaCampo_Copy4 = ((System.Windows.Controls.Canvas)(target));
             return;
-            case 33:
+            case 30:
             this.filaZanahorias_Copy = ((System.Windows.Controls.Canvas)(target));
             return;
-            case 34:
+            case 31:
             this.cvZanahoriaCampo1 = ((System.Windows.Controls.Canvas)(target));
             return;
-            case 35:
+            case 32:
             this.cvZanahoriaCampo_Copy5 = ((System.Windows.Controls.Canvas)(target));
             return;
-            case 36:
+            case 33:
             this.cvZanahoriaCampo_Copy6 = ((System.Windows.Controls.Canvas)(target));
             return;
-            case 37:
+            case 34:
             this.cvZanahoriaCampo_Copy7 = ((System.Windows.Controls.Canvas)(target));
             return;
-            case 38:
+            case 35:
             this.cvZanahoriaCampo_Copy8 = ((System.Windows.Controls.Canvas)(target));
             return;
-            case 39:
+            case 36:
             this.filaZanahorias_Copy1 = ((System.Windows.Controls.Canvas)(target));
             return;
-            case 40:
+            case 37:
             this.cvZanahoriaCampo2 = ((System.Windows.Controls.Canvas)(target));
             return;
-            case 41:
+            case 38:
             this.cvZanahoriaCampo_Copy9 = ((System.Windows.Controls.Canvas)(target));
             return;
-            case 42:
+            case 39:
             this.cvZanahoriaCampo_Copy10 = ((System.Windows.Controls.Canvas)(target));
             return;
-            case 43:
+            case 40:
             this.cvZanahoriaCampo_Copy11 = ((System.Windows.Controls.Canvas)(target));
             return;
-            case 44:
+            case 41:
             this.cvZanahoriaCampo_Copy12 = ((System.Windows.Controls.Canvas)(target));
             return;
-            case 45:
+            case 42:
             this.filaZanahorias_Copy2 = ((System.Windows.Controls.Canvas)(target));
             return;
-            case 46:
+            case 43:
             this.cvZanahoriaCampo3 = ((System.Windows.Controls.Canvas)(target));
             return;
-            case 47:
+            case 44:
             this.cvZanahoriaCampo_Copy13 = ((System.Windows.Controls.Canvas)(target));
             return;
-            case 48:
+            case 45:
             this.cvZanahoriaCampo_Copy14 = ((System.Windows.Controls.Canvas)(target));
             return;
-            case 49:
+            case 46:
             this.cvZanahoriaCampo_Copy15 = ((System.Windows.Controls.Canvas)(target));
             return;
-            case 50:
+            case 47:
             this.cvZanahoriaCampo_Copy16 = ((System.Windows.Controls.Canvas)(target));
             return;
-            case 51:
+            case 48:
             this.cvSembrado = ((System.Windows.Controls.Canvas)(target));
             return;
-            case 52:
+            case 49:
             this.cvTierraZanahorias = ((System.Windows.Controls.Canvas)(target));
             return;
-            case 53:
+            case 50:
             this.cvTierraZanahorias_Copy = ((System.Windows.Controls.Canvas)(target));
             return;
-            case 54:
+            case 51:
             this.cvTierraZanahorias_Copy1 = ((System.Windows.Controls.Canvas)(target));
             return;
-            case 55:
+            case 52:
             this.cvTierraZanahorias_Copy2 = ((System.Windows.Controls.Canvas)(target));
             return;
-            case 56:
+            case 53:
             this.cvTierraZanahorias_Copy3 = ((System.Windows.Controls.Canvas)(target));
             return;
-            case 57:
+            case 54:
             this.cvZanahoriaCampo_Comer = ((System.Windows.Controls.Canvas)(target));
             
-            #line 1975 "..\..\..\..\src\presentacion\MainWindow.xaml"
+            #line 1945 "..\..\..\..\src\presentacion\MainWindow.xaml"
             this.cvZanahoriaCampo_Comer.MouseDown += new System.Windows.Input.MouseButtonEventHandler(this.inicioArrastrarZanahoria);
             
             #line default
             #line hidden
             
-            #line 1975 "..\..\..\..\src\presentacion\MainWindow.xaml"
+            #line 1945 "..\..\..\..\src\presentacion\MainWindow.xaml"
             this.cvZanahoriaCampo_Comer.GiveFeedback += new System.Windows.GiveFeedbackEventHandler(this.Label_GiveFeedback);
             
             #line default
             #line hidden
             
-            #line 1975 "..\..\..\..\src\presentacion\MainWindow.xaml"
+            #line 1945 "..\..\..\..\src\presentacion\MainWindow.xaml"
             this.cvZanahoriaCampo_Comer.MouseEnter += new System.Windows.Input.MouseEventHandler(this.mouseEnter);
             
             #line default
             #line hidden
             
-            #line 1975 "..\..\..\..\src\presentacion\MainWindow.xaml"
+            #line 1945 "..\..\..\..\src\presentacion\MainWindow.xaml"
             this.cvZanahoriaCampo_Comer.MouseLeave += new System.Windows.Input.MouseEventHandler(this.mouseLeave);
             
             #line default
             #line hidden
             return;
-            case 58:
+            case 55:
             this.cvSembrado_Copy = ((System.Windows.Controls.Canvas)(target));
             return;
-            case 59:
+            case 56:
             this.cvTierraZanahorias1 = ((System.Windows.Controls.Canvas)(target));
             return;
-            case 60:
+            case 57:
             this.cvTierraZanahorias_Copy4 = ((System.Windows.Controls.Canvas)(target));
             return;
-            case 61:
+            case 58:
             this.cvTierraZanahorias_Copy5 = ((System.Windows.Controls.Canvas)(target));
             return;
-            case 62:
+            case 59:
             this.cvTierraZanahorias_Copy6 = ((System.Windows.Controls.Canvas)(target));
             return;
-            case 63:
+            case 60:
             this.cvTierraZanahorias_Copy7 = ((System.Windows.Controls.Canvas)(target));
             return;
-            case 64:
+            case 61:
             this.cvSembrado_Copy1 = ((System.Windows.Controls.Canvas)(target));
             return;
-            case 65:
+            case 62:
             this.cvTierraZanahorias2 = ((System.Windows.Controls.Canvas)(target));
             return;
-            case 66:
+            case 63:
             this.cvTierraZanahorias_Copy8 = ((System.Windows.Controls.Canvas)(target));
             return;
-            case 67:
+            case 64:
             this.cvTierraZanahorias_Copy9 = ((System.Windows.Controls.Canvas)(target));
             return;
-            case 68:
+            case 65:
             this.cvTierraZanahorias_Copy10 = ((System.Windows.Controls.Canvas)(target));
             return;
-            case 69:
+            case 66:
             this.cvTierraZanahorias_Copy11 = ((System.Windows.Controls.Canvas)(target));
             return;
-            case 70:
+            case 67:
             this.cvLago = ((System.Windows.Controls.Canvas)(target));
             return;
-            case 71:
+            case 68:
             this.aguita = ((System.Windows.Shapes.Path)(target));
             return;
-            case 72:
+            case 69:
             this.pezVerde = ((System.Windows.Shapes.Path)(target));
             return;
-            case 73:
+            case 70:
             this.pezRojo = ((System.Windows.Shapes.Path)(target));
             return;
-            case 74:
+            case 71:
             this.pezAmarillo = ((System.Windows.Shapes.Path)(target));
             return;
-            case 75:
+            case 72:
             this.pezLila = ((System.Windows.Shapes.Path)(target));
             return;
-            case 76:
+            case 73:
             this.pezAzul = ((System.Windows.Shapes.Path)(target));
             return;
-            case 77:
+            case 74:
             this.cvHierbaEntrada_Copy = ((System.Windows.Controls.Canvas)(target));
             return;
-            case 78:
+            case 75:
             this.hierba1 = ((System.Windows.Shapes.Path)(target));
             return;
-            case 79:
+            case 76:
             this.hierba_Copy3 = ((System.Windows.Shapes.Path)(target));
             return;
-            case 80:
+            case 77:
             this.hierba_Copy4 = ((System.Windows.Shapes.Path)(target));
             return;
-            case 81:
+            case 78:
             this.hierba_Copy5 = ((System.Windows.Shapes.Path)(target));
             return;
-            case 82:
+            case 79:
             this.cvHierbaEntrada_Copy2 = ((System.Windows.Controls.Canvas)(target));
             return;
-            case 83:
+            case 80:
             this.hierba3 = ((System.Windows.Shapes.Path)(target));
             return;
-            case 84:
+            case 81:
             this.hierba_Copy9 = ((System.Windows.Shapes.Path)(target));
             return;
-            case 85:
+            case 82:
             this.hierba_Copy10 = ((System.Windows.Shapes.Path)(target));
             return;
-            case 86:
+            case 83:
             this.hierba_Copy11 = ((System.Windows.Shapes.Path)(target));
             return;
-            case 87:
+            case 84:
             this.cvHierbaEntrada_Copy1 = ((System.Windows.Controls.Canvas)(target));
             return;
-            case 88:
+            case 85:
             this.hierba2 = ((System.Windows.Shapes.Path)(target));
             return;
-            case 89:
+            case 86:
             this.hierba_Copy6 = ((System.Windows.Shapes.Path)(target));
             return;
-            case 90:
+            case 87:
             this.hierba_Copy7 = ((System.Windows.Shapes.Path)(target));
             return;
-            case 91:
+            case 88:
             this.hierba_Copy8 = ((System.Windows.Shapes.Path)(target));
             return;
-            case 92:
+            case 89:
             this.cvSembrado_Copy2 = ((System.Windows.Controls.Canvas)(target));
             return;
-            case 93:
+            case 90:
             this.cvTierraZanahorias3 = ((System.Windows.Controls.Canvas)(target));
             return;
-            case 94:
+            case 91:
             this.cvTierraZanahorias_Copy12 = ((System.Windows.Controls.Canvas)(target));
             return;
-            case 95:
+            case 92:
             this.cvTierraZanahorias_Copy13 = ((System.Windows.Controls.Canvas)(target));
             return;
-            case 96:
+            case 93:
             this.cvTierraZanahorias_Copy14 = ((System.Windows.Controls.Canvas)(target));
             return;
-            case 97:
+            case 94:
             this.cvTierraZanahorias_Copy15 = ((System.Windows.Controls.Canvas)(target));
             return;
-            case 98:
+            case 95:
             this.cvPescando = ((System.Windows.Controls.Canvas)(target));
             return;
-            case 99:
+            case 96:
             this.cvOjoIzquierdo_Copy = ((System.Windows.Controls.Canvas)(target));
             return;
-            case 100:
+            case 97:
             this.cvHierbaEntrada = ((System.Windows.Controls.Canvas)(target));
             return;
-            case 101:
+            case 98:
             this.hierba = ((System.Windows.Shapes.Path)(target));
             return;
-            case 102:
+            case 99:
             this.hierba_Copy = ((System.Windows.Shapes.Path)(target));
             return;
-            case 103:
+            case 100:
             this.hierba_Copy1 = ((System.Windows.Shapes.Path)(target));
             return;
-            case 104:
+            case 101:
             this.hierba_Copy2 = ((System.Windows.Shapes.Path)(target));
             return;
-            case 105:
+            case 102:
             this.cvDormido = ((System.Windows.Controls.Canvas)(target));
             return;
-            case 106:
+            case 103:
             this.cvBarriDormido = ((System.Windows.Controls.Canvas)(target));
             
-            #line 2627 "..\..\..\..\src\presentacion\MainWindow.xaml"
+            #line 2597 "..\..\..\..\src\presentacion\MainWindow.xaml"
             this.cvBarriDormido.MouseUp += new System.Windows.Input.MouseButtonEventHandler(this.goToSleep);
             
             #line default
             #line hidden
             
-            #line 2627 "..\..\..\..\src\presentacion\MainWindow.xaml"
+            #line 2597 "..\..\..\..\src\presentacion\MainWindow.xaml"
             this.cvBarriDormido.MouseEnter += new System.Windows.Input.MouseEventHandler(this.mouseEnter);
             
             #line default
             #line hidden
             return;
-            case 107:
+            case 104:
             this.cvPataIzqDormido = ((System.Windows.Controls.Canvas)(target));
             return;
-            case 108:
+            case 105:
             this.cvPataDerDormido = ((System.Windows.Controls.Canvas)(target));
             return;
-            case 109:
+            case 106:
             this.txtSonidoDormir = ((System.Windows.Controls.TextBlock)(target));
             return;
-            case 110:
+            case 107:
             this.rectangle = ((System.Windows.Shapes.Rectangle)(target));
             return;
-            case 111:
+            case 108:
             this.cvBunny = ((System.Windows.Controls.Canvas)(target));
             return;
-            case 112:
+            case 109:
             this.cvOrejaDerecha = ((System.Windows.Controls.Canvas)(target));
             return;
-            case 113:
+            case 110:
             this.cvOrejaIzquierda = ((System.Windows.Controls.Canvas)(target));
             return;
-            case 114:
+            case 111:
             this.cuerpo = ((System.Windows.Shapes.Ellipse)(target));
             return;
-            case 115:
+            case 112:
             this.cara = ((System.Windows.Shapes.Ellipse)(target));
             return;
-            case 116:
+            case 113:
             this.ojeraDer = ((System.Windows.Shapes.Ellipse)(target));
             return;
-            case 117:
+            case 114:
             this.ojeraIzq = ((System.Windows.Shapes.Ellipse)(target));
             return;
-            case 118:
+            case 115:
             this.cvOjoDerecho = ((System.Windows.Controls.Canvas)(target));
             return;
-            case 119:
+            case 116:
             this.parpadoDer = ((System.Windows.Shapes.Ellipse)(target));
             return;
-            case 120:
+            case 117:
             this.cvOjoIzquierdo = ((System.Windows.Controls.Canvas)(target));
             return;
-            case 121:
+            case 118:
             this.parpadoIzq = ((System.Windows.Shapes.Ellipse)(target));
             return;
-            case 122:
+            case 119:
             this.cvMorrito = ((System.Windows.Controls.Canvas)(target));
             
-            #line 2946 "..\..\..\..\src\presentacion\MainWindow.xaml"
+            #line 2916 "..\..\..\..\src\presentacion\MainWindow.xaml"
             this.cvMorrito.Drop += new System.Windows.DragEventHandler(this.soltarZanahoria);
             
             #line default
             #line hidden
             return;
-            case 123:
+            case 120:
             this.cvComer = ((System.Windows.Controls.Canvas)(target));
             return;
-            case 124:
+            case 121:
             this.cvBarriguita = ((System.Windows.Controls.Canvas)(target));
             return;
-            case 125:
+            case 122:
             this.cvBrazoIzquierdo = ((System.Windows.Controls.Canvas)(target));
             return;
-            case 126:
+            case 123:
             this.brazoIzq = ((System.Windows.Shapes.Ellipse)(target));
             return;
-            case 127:
+            case 124:
             this.cvPataIzquierda = ((System.Windows.Controls.Canvas)(target));
             return;
-            case 128:
+            case 125:
             this.cvPataDerecha = ((System.Windows.Controls.Canvas)(target));
             return;
-            case 129:
+            case 126:
             this.cvBrazoDerecho = ((System.Windows.Controls.Canvas)(target));
             return;
-            case 130:
+            case 127:
             this.brazoDer = ((System.Windows.Shapes.Ellipse)(target));
             return;
-            case 131:
+            case 128:
             this.cvCaca = ((System.Windows.Controls.Canvas)(target));
             return;
-            case 132:
+            case 129:
             this.cvMosca = ((System.Windows.Controls.Canvas)(target));
             return;
-            case 133:
+            case 130:
             this.cvHambre = ((System.Windows.Controls.Canvas)(target));
             return;
-            case 134:
+            case 131:
             this.cvTrocitos = ((System.Windows.Controls.Canvas)(target));
             return;
-            case 135:
+            case 132:
             this.ellipse1 = ((System.Windows.Shapes.Ellipse)(target));
             return;
-            case 136:
+            case 133:
             this.ellipse2 = ((System.Windows.Shapes.Ellipse)(target));
             return;
-            case 137:
+            case 134:
             this.ellipse = ((System.Windows.Shapes.Ellipse)(target));
             return;
-            case 138:
+            case 135:
             this.ellipse3 = ((System.Windows.Shapes.Ellipse)(target));
             return;
-            case 139:
+            case 136:
             this.rectangle1 = ((System.Windows.Shapes.Rectangle)(target));
             return;
-            case 140:
+            case 137:
             this.Timer_counter = ((System.Windows.Controls.Label)(target));
             return;
-            case 141:
+            case 138:
             this.Label_Puntuacion = ((System.Windows.Controls.Label)(target));
             return;
-            case 142:
+            case 139:
             this.Label_State = ((System.Windows.Controls.Label)(target));
             return;
-            case 143:
+            case 140:
             this.ProgressBar_hambre = ((System.Windows.Controls.ProgressBar)(target));
             return;
-            case 144:
+            case 141:
             this.ProgressBar_baño = ((System.Windows.Controls.ProgressBar)(target));
             return;
-            case 145:
+            case 142:
             this.ProgressBar_sueño = ((System.Windows.Controls.ProgressBar)(target));
             return;
-            case 146:
+            case 143:
             this.ProgressBar_diversion = ((System.Windows.Controls.ProgressBar)(target));
             return;
-            case 147:
+            case 144:
             this.label = ((System.Windows.Controls.Label)(target));
             return;
-            case 148:
+            case 145:
             this.label_Copy = ((System.Windows.Controls.Label)(target));
             return;
-            case 149:
+            case 146:
             this.label_Copy1 = ((System.Windows.Controls.Label)(target));
             return;
-            case 150:
+            case 147:
             this.Label_hambre = ((System.Windows.Controls.Label)(target));
             return;
-            case 151:
+            case 148:
             this.Label_baño = ((System.Windows.Controls.Label)(target));
             return;
-            case 152:
+            case 149:
             this.Label_sueño = ((System.Windows.Controls.Label)(target));
             return;
-            case 153:
+            case 150:
             this.label_imgsmile = ((System.Windows.Controls.Label)(target));
             return;
-            case 154:
+            case 151:
             this.Label_diversion = ((System.Windows.Controls.Label)(target));
             return;
-            case 155:
+            case 152:
             this.image = ((System.Windows.Controls.Image)(target));
             return;
-            case 156:
+            case 153:
             this.cvPause = ((System.Windows.Controls.Canvas)(target));
             return;
-            case 157:
+            case 154:
             this.img_pause = ((System.Windows.Controls.Image)(target));
             return;
-            case 158:
+            case 155:
             this.img_music = ((System.Windows.Controls.Image)(target));
             return;
             }

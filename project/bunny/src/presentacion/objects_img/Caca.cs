@@ -21,6 +21,7 @@ namespace bunny.src.presentacion.objects_img
         private int top;
         private int left;
         private Label labelMessage;
+        private SoundsPlayer s;
 
         public Caca(Canvas cvBunny,Label label_puntuacion)
         {
@@ -78,7 +79,10 @@ namespace bunny.src.presentacion.objects_img
             cvCaca.MouseUp += clickOnCaca;
             cvCaca.MouseEnter += mouseEnter;
             cvBunny.Children.Add(cvCaca);
- 
+            s = new SoundsPlayer();
+            s.toiletSound();
+
+
 
 
         }
