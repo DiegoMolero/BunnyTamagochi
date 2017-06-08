@@ -74,6 +74,13 @@ namespace bunny.src.dominio
             s.Play();
         }
 
+        public void fishedSound()
+        {
+            String pathFished = pathDirectory + "\\pescado.wav";
+            s.Open(new Uri(pathFished));
+            s.Play();
+        }
+
         public void ambientalSound()
         {
             String pathAmbiental = pathDirectory + "\\ambiental.wav";

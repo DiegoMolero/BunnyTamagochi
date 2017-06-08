@@ -89,16 +89,15 @@ namespace bunny.src.presentacion.objects_img
         private void clickOnCaca(object sender, MouseButtonEventArgs e)
         {
             s = new SoundsPlayer();
-            s.cleaningSound();
             cvBunny.Children.Remove(cvCaca);
             if(Globals.ProgressBar_diversion.Value >= 30)
             {
+                s.cleaningSound();
                 Globals.score += 5;
                 Globals.label_puntuacion.Content = "Puntuación: "+Globals.score;
                 Globals.cacas--;
                 showPuntuation();               
             }
-            s.stopSound();
 
         }
         private void showPuntuation()

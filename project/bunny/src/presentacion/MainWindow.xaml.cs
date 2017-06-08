@@ -31,6 +31,7 @@ namespace bunny
         private Comiendo ani_comiendo;
         private Cursor customCursor;
         private SoundsPlayer s;
+        private SoundsPlayer d;
 
         public object DragSource { get; private set; }
         public bool IsDragging { get; private set; }
@@ -87,9 +88,10 @@ namespace bunny
             temporizador.registrarObservador(progressbar_controler);
             Globals.pause = new Pause();
             new ReadXml(progressbar_controler);
-            if (Globals.firstGame == true) Globals.pause.showInstruction();
             s = new SoundsPlayer();
+            d = new SoundsPlayer();
             s.ambientalSound();
+            d.welcomeSound();
             //Leer XML
 
         }

@@ -81,7 +81,7 @@ namespace bunny.src.dominio
             if (Globals.state == 1 && Globals.juego_pescar.isPlaying() == false){ //Cuando duerme
                 setBarSueño(10);
                 ani_dormir.cansancioStart();
-                if (Globals.ProgressBar_sueño.Value == 100)
+                if (Globals.ProgressBar_sueño.Value >= 100)
                 {
                     Globals.state = 0;
                     ani_dormir.cansancioStop();

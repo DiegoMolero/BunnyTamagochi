@@ -20,6 +20,7 @@ namespace bunny.src.presentacion.animations
         private int timegame;
         private Label labelMessage;
         private SoundsPlayer s;
+        private SoundsPlayer d;
 
         public Juego(Storyboard ani_juego, Label label_puntuacion)
         {
@@ -29,6 +30,7 @@ namespace bunny.src.presentacion.animations
             Globals.cvLago.MouseDown += cvLago_MouseDown;
             Globals.cvLago.MouseEnter += mouseEnter;
             s = new SoundsPlayer();
+            d = new SoundsPlayer();
         }
 
         public void juegoStart()
@@ -72,30 +74,35 @@ namespace bunny.src.presentacion.animations
         private void pezVerde_MouseDown(object sender, MouseButtonEventArgs e)
         {
             Globals.pezVerde.Opacity = 0;
+            d.fishedSound();
             checkWin();
         }
 
         private void pezLila_MouseDown(object sender, MouseButtonEventArgs e)
         {
             Globals.pezLila.Opacity = 0;
+            d.fishedSound();
             checkWin();
         }
 
         private void pezAzul_MouseDown(object sender, MouseButtonEventArgs e)
         {
             Globals.pezAzul.Opacity = 0;
+            d.fishedSound();
             checkWin();
         }
 
         private void pezAmarillo_MouseDown(object sender, MouseButtonEventArgs e)
         {
             Globals.pezAmarillo.Opacity = 0;
+            d.fishedSound();
             checkWin();
         }
 
         private void pezRojo_MouseDown(object sender, MouseButtonEventArgs e)
         {
             Globals.pezRojo.Opacity = 0;
+            d.fishedSound();
             checkWin();
         }
 
