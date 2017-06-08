@@ -941,6 +941,17 @@
                 <EasingDoubleKeyFrame KeyTime="0:0:2" Value="187.867"/>
             </DoubleAnimationUsingKeyFrames>
         </Storyboard>
+        <Storyboard x:Key="sbTristeza">
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="cvMorrito">
+                <EasingDoubleKeyFrame KeyTime="0" Value="0"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="ellipse3">
+                <EasingDoubleKeyFrame KeyTime="0:0:0.1" Value="1"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="rectangle1">
+                <EasingDoubleKeyFrame KeyTime="0:0:0.1" Value="1"/>
+            </DoubleAnimationUsingKeyFrames>
+        </Storyboard>
     </Window.Resources>
 
     <Grid x:Name ="gdEscenario">
@@ -3094,6 +3105,8 @@
                     </Ellipse.RenderTransform>
                 </Ellipse>
             </Canvas>
+            <Ellipse x:Name="ellipse3" Height="49.746" Canvas.Left="110" Stroke="#FF13454C" Canvas.Top="214.502" Width="39.6" Fill="#FF51A9B6" StrokeThickness="3" Opacity="0"/>
+            <Rectangle x:Name="rectangle1" Fill="#FF51A9B6" Height="33.613" Canvas.Left="103.4" Stroke="Black" StrokeThickness="0" Canvas.Top="230.635" Width="46.733" Opacity="0"/>
         </Canvas>
         <Grid HorizontalAlignment="Left" Height="100" VerticalAlignment="Top" Width="363">
             <Label x:Name="Timer_counter" Content="Contador" Background="Transparent" Foreground="Black" Margin="140,10,175,64"/>
