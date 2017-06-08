@@ -51,6 +51,7 @@ namespace bunny
             Globals.img_music = img_music;
             Globals.state = 0;
             Globals.cvLago = cvLago;
+            Globals.cvFondo = cvFondo;
             //peces
             Globals.pezVerde = pezVerde;
             Globals.pezAmarillo = pezAmarillo;
@@ -192,6 +193,7 @@ namespace bunny
         public static Canvas cvDormido { get; set; }
         public static Canvas cvCama { get; set; }
         public static Canvas cvBunny { get; set; }
+        public static Canvas cvFondo { get; set; }
         public static int state { get; set; }
         public static int counter { get; set; }
         public static Canvas cvLago { get; set; }

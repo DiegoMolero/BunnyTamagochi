@@ -95,6 +95,7 @@ namespace bunny.src.dominio
                 setBarHambre(-5);
                 setBarSueño(-6);
                 setBarDiversion(-2);
+                Globals.juego_pescar.setTimerGame();
             }
         }
         public void updateLabels()

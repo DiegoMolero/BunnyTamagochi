@@ -16,8 +16,8 @@ namespace bunny.src.presentacion.animations
         private Storyboard ani_juego;
         private bool playing;
         private bool canplay;
+        private int timegame;
         private Label labelMessage;
-
 
         public Juego(Storyboard ani_juego, Label label_puntuacion)
         {
@@ -38,6 +38,8 @@ namespace bunny.src.presentacion.animations
             enableEventsPez();
             Globals.state = 2;
             disableEventLago();
+            timegame = 10;
+            showContador();
             }
 
         }
@@ -51,6 +53,8 @@ namespace bunny.src.presentacion.animations
             this.canplay = false;
             disableEventsPez();
             Globals.state = 0;
+            Globals.cvFondo.Children.Remove(labelMessage);
+
         }
         private void pezVerde_MouseDown(object sender, MouseButtonEventArgs e)
         {
@@ -139,6 +143,30 @@ namespace bunny.src.presentacion.animations
         private void mouseEnter(object sender, EventArgs e)
         {
             Globals.cvLago.Cursor = Cursors.Hand;
+        }
+        private void showContador()
+        {
+            labelMessage = new Label();
+            labelMessage.Content = "Tiempo:"+timegame;
+            labelMessage.Width = 300;
+            labelMessage.FontFamily = new FontFamily("Showcard Gothic");
+            labelMessage.FontSize = 20;
+            Canvas.SetTop(labelMessage, 250);
+            Canvas.SetLeft(labelMessage, 800);
+            Globals.cvFondo.Children.Add(labelMessage);
+        }
+        public void setTimerGame()
+        {
+            if (timegame > 0)
+            {
+                timegame--;
+                labelMessage.Content = "Tiempo:" + timegame;
+            }
+            else
+            {
+                juegoStop();
+            }
+           
         }
     }
 

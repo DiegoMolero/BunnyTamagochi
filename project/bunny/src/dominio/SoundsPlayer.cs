@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -15,7 +16,7 @@ namespace bunny.src.dominio
             this.s = new MediaPlayer();
         }
 
-        private String pathDirectory = Environment.CurrentDirectory.Replace("\\bin\\Debug", "");
+        private String pathDirectory = System.IO.Path.Combine(Directory.GetCurrentDirectory(), "sound");
 
         public void eatingSound()
         {
