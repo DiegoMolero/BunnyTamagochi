@@ -30,6 +30,7 @@ namespace bunny.src.presentacion.animations
         {
             ani_dormir.Stop();
             state = false;
+            s.stopSound();
         }
         public Boolean isStarted()
         {

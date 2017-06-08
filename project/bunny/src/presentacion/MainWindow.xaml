@@ -943,7 +943,7 @@
         </Storyboard>
         <Storyboard x:Key="sbTristeza">
             <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="cvMorrito">
-                <EasingDoubleKeyFrame KeyTime="0" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.1" Value="0"/>
             </DoubleAnimationUsingKeyFrames>
             <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="ellipse3">
                 <EasingDoubleKeyFrame KeyTime="0:0:0.1" Value="1"/>
@@ -1012,7 +1012,7 @@
                 </Canvas>
             </Canvas>
             <Rectangle x:Name="suelo" Fill="#FF39B131" Height="411" Stroke="Black" Canvas.Top="356" Width="1274"/>
-            <Path x:Name="campoZanahoria" Data="M70.804665,0.5 L344.45801,0.5 277.89999,0.50000706 277.89999,382.66336 272.98227,410.9 0.5,410.9 0.5,404.17603 z" Fill="#FF5BDF51" Height="411.4" Canvas.Left="1001.6" Stretch="Fill" Stroke="Black" Canvas.Top="345.4" Width="344.958"/>
+            <Path x:Name="campoZanahoria" Data="M70.804665,0.5 L344.45801,0.5 277.89999,0.50000706 277.89999,382.66336 272.98227,410.9 0.5,410.9 0.5,404.17603 z" Fill="#FF5BDF51" Height="411.4" Canvas.Left="993.733" Stretch="Fill" Stroke="Black" Canvas.Top="355.6" Width="344.958"/>
             <Canvas x:Name="cvCama" Height="217" Canvas.Left="31" Canvas.Top="424" Width="258" MouseUp="goToSleep" MouseEnter="mouseEnter">
                 <Path Data="M141.6,0.5 C147.6734,0.5 153.42339,1.5695267 158.55147,3.4780426 L159.90087,4.0118561 160.91342,3.5683441 C165.73485,1.5925598 171.03573,0.49999237 176.6,0.5 191.20621,0.49999237 203.99753,8.02845 211.06564,19.298744 L211.39754,19.857994 212.07539,20.02253 C228.19559,24.256546 239.7,35.359528 239.7,48.389999 239.7,49.855927 239.5544,51.297459 239.27299,52.707565 L239.10095,53.445385 239.7858,53.735317 C249.68645,58.16481 256.3,66.180973 256.3,75.334494 256.3,77.949787 255.76012,80.472233 254.75793,82.844707 L254.52477,83.352123 254.94388,83.549934 C265.96576,89.020797 273.09999,97.752424 273.09999,107.59 273.09999,109.1433 272.92213,110.66903 272.57919,112.1587 L272.27687,113.28226 273.82529,113.9462 C283.2345,118.18959 288.7,123.2528 288.7,128.69 288.7,143.65691 247.28633,155.79 196.2,155.79 172.25327,155.79 150.4319,153.12403 134.00509,148.74991 L133.24455,148.53747 131.27539,149.62802 C123.76962,153.49941 114.47024,155.79 104.4,155.79 96.616235,155.79 89.293027,154.42149 82.90266,152.01226 L82.635191,151.90553 81.492987,152.17745 C74.518074,153.73095 66.849545,154.59 58.799995,154.59001 26.601799,154.59 0.5,140.84515 0.5,123.89 0.5,114.88258 7.8666229,106.78119 19.600395,101.1653 L21.301422,100.3894 21.454224,99.564429 C23.218132,91.644323 29.085968,84.650717 37.522133,79.637138 L37.908501,79.417376 37.904961,79.398693 C37.769424,78.50448 37.699997,77.597174 37.699997,76.678999 37.699997,66.120003 46.882225,56.997963 60.1884,52.702045 L60.396423,52.63903 60.417629,52.567337 C62.633789,45.846371 68.001366,40.112411 75.218048,36.381638 L76.357542,35.818207 76.289478,35.403732 C76.164183,34.449005 76.099998,33.480301 76.1,32.5 76.099998,16.815109 92.531148,4.0999985 112.8,4.0999908 115.25443,4.0999985 117.65259,4.2864456 119.9721,4.6420441 L121.31951,4.8749847 121.32522,4.8721466 C127.23703,2.0976944 134.17695,0.49999237 141.6,0.5 z" Fill="#FFB3AD7B" Height="245.09" Stretch="Fill" Stroke="Black" Width="289.2" Canvas.Top="-37.2" MouseUp="goToSleep"/>
                 <Path Data="M90.000002,0.5 C139.42949,0.50000212 179.5,46.480356 179.5,103.2 179.5,126.24236 172.8868,147.51232 161.71953,164.64705 L161.40999,165.09902 157.44197,165.45648 C151.42044,165.93743 145.18578,166.19 138.79999,166.19 114.85327,166.19 93.031893,162.63819 76.605089,156.81063 L75.844545,156.52761 73.875383,157.98052 C66.369615,163.13831 57.070238,166.19 46.999998,166.19 39.216234,166.19 31.893024,164.36678 25.502659,161.157 L25.235187,161.0148 24.092985,161.37708 C22.349256,161.8945 20.562178,162.3541 18.736629,162.75246 L17.285522,163.04155 15.785195,160.62055 C6.1349181,144.22952 0.50000176,124.46987 0.5,103.2 0.50000176,46.480356 40.570516,0.50000212 90.000002,0.5 z" Fill="#FF080807" Height="197.89" Canvas.Left="57.467" Stretch="Fill" Stroke="Black" Canvas.Top="9.6" Width="180" MouseUp="goToSleep" MouseEnter="mouseEnter"/>
@@ -2913,6 +2913,10 @@
                     </Ellipse.RenderTransform>
                 </Ellipse>
             </Canvas>
+            <Canvas x:Name="cvTriste" Height="49.746" Canvas.Left="103.4" Canvas.Top="214.502" Width="46.733">
+                <Ellipse x:Name="ellipse3" Height="49.746" Canvas.Left="6.6" Stroke="#FF13454C" Width="39.6" Fill="#FF51A9B6" StrokeThickness="3" Opacity="0"/>
+                <Rectangle x:Name="rectangle1" Fill="#FF51A9B6" Height="33.613" Stroke="Black" StrokeThickness="0" Canvas.Top="16.133" Width="46.733" Opacity="0"/>
+            </Canvas>
             <Canvas x:Name="cvMorrito" Height="48" Canvas.Left="110" Canvas.Top="202" Width="33"  AllowDrop="True" Drop="soltarZanahoria">
                 <Ellipse Fill="#FF51A9B6" Height="24" Canvas.Left="6" Stroke="#FF13454C" Canvas.Top="15" Width="14" StrokeThickness="2"/>
                 <Ellipse Fill="#FF51A9B6" Height="24" Canvas.Left="15" Stroke="#FF13454C" Canvas.Top="15" Width="16" StrokeThickness="2"/>
@@ -3075,8 +3079,6 @@
                     </Ellipse.RenderTransform>
                 </Ellipse>
             </Canvas>
-            <Ellipse x:Name="ellipse3" Height="49.746" Canvas.Left="110" Stroke="#FF13454C" Canvas.Top="214.502" Width="39.6" Fill="#FF51A9B6" StrokeThickness="3" Opacity="0"/>
-            <Rectangle x:Name="rectangle1" Fill="#FF51A9B6" Height="33.613" Canvas.Left="103.4" Stroke="Black" StrokeThickness="0" Canvas.Top="230.635" Width="46.733" Opacity="0"/>
         </Canvas>
         <Grid HorizontalAlignment="Left" Height="100" VerticalAlignment="Top" Width="363">
             <Label x:Name="Timer_counter" Content="Contador" Background="Transparent" Foreground="Black" Margin="140,10,175,64"/>

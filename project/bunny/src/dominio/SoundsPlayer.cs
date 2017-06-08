@@ -81,6 +81,11 @@ namespace bunny.src.dominio
             s.Play();
         }
 
+        public void stopSound()
+        {
+            s.Stop();
+        }
+
     }
 }
 
