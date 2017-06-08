@@ -20,6 +20,7 @@ namespace bunny.src.dominio
         private Label labelMessage;
         private Image imgInstruction;
         private Label labelMessageInstruction;
+        private Label butoInstruction;
 
         public Pause()
         {
@@ -77,7 +78,7 @@ namespace bunny.src.dominio
 
         private void mouseEnterImgIns(object sender, EventArgs e)
         {
-            imgInstruction.Cursor = Cursors.Hand;
+            butoInstruction.Cursor = Cursors.Hand;
         }
         
         private void showPause()
@@ -121,14 +122,16 @@ namespace bunny.src.dominio
         }
         private void createButonInstruction()
         {
-            imgInstruction = new Image();
-            imgInstruction.Width = 150;
-            imgInstruction.Source = new BitmapImage(new Uri(@"/img/icons/instrucciones.png", UriKind.Relative));
-            imgInstruction.MouseUp += showInstruction;
-            imgInstruction.MouseEnter += mouseEnterImgIns;
-            Canvas.SetTop(imgInstruction, 680);
-            Canvas.SetLeft(imgInstruction, 0);
-            Globals.cvPause.Children.Add(imgInstruction);
+            butoInstruction = new Label();
+            butoInstruction.Content = "INSTRUCCIONES";
+            butoInstruction.Width = 200;
+            butoInstruction.FontFamily = new FontFamily("Showcard Gothic");
+            butoInstruction.FontSize = 25;
+            butoInstruction.MouseUp += showInstruction;
+            butoInstruction.MouseEnter += mouseEnterImgIns;
+            Canvas.SetTop(butoInstruction, 700);
+            Canvas.SetLeft(butoInstruction, 10);
+            Globals.cvPause.Children.Add(butoInstruction);
         }
         private void showInstruction(object sender, MouseButtonEventArgs e) {
             showInstruction();

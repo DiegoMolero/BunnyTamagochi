@@ -1,4 +1,5 @@
-﻿using System;
+﻿using bunny.src.dominio;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -18,6 +19,7 @@ namespace bunny.src.presentacion.animations
         private bool canplay;
         private int timegame;
         private Label labelMessage;
+        private SoundsPlayer s;
 
         public Juego(Storyboard ani_juego, Label label_puntuacion)
         {
@@ -26,6 +28,7 @@ namespace bunny.src.presentacion.animations
             this.canplay = false;
             Globals.cvLago.MouseDown += cvLago_MouseDown;
             Globals.cvLago.MouseEnter += mouseEnter;
+            s = new SoundsPlayer();
         }
 
         public void juegoStart()
@@ -34,6 +37,10 @@ namespace bunny.src.presentacion.animations
             Globals.cvBunny.Opacity = 0;
             Globals.cvPescando.Opacity = 100;
             ani_juego.Begin();
+            if (playing == false)
+            {
+                s.fishingSound();
+            }
             this.playing = true;
             enableEventsPez();
             Globals.state = 2;
@@ -54,6 +61,7 @@ namespace bunny.src.presentacion.animations
             disableEventsPez();
             Globals.state = 0;
             Globals.cvFondo.Children.Remove(labelMessage);
+            s.stopSound();
 
         }
         private void pezVerde_MouseDown(object sender, MouseButtonEventArgs e)

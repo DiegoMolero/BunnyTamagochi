@@ -88,6 +88,7 @@ namespace bunny.src.presentacion.objects_img
         }
         private void clickOnCaca(object sender, MouseButtonEventArgs e)
         {
+            s = new SoundsPlayer();
             s.cleaningSound();
             cvBunny.Children.Remove(cvCaca);
             if(Globals.ProgressBar_diversion.Value >= 30)
