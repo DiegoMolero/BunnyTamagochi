@@ -62,6 +62,11 @@ namespace bunny.src.presentacion.animations
             Globals.state = 0;
             Globals.cvFondo.Children.Remove(labelMessage);
             s.stopSound();
+            Globals.pezVerde.Opacity = 100;
+            Globals.pezLila.Opacity = 100;
+            Globals.pezAzul.Opacity = 100;
+            Globals.pezAmarillo.Opacity = 100;
+            Globals.pezRojo.Opacity = 100;
 
         }
         private void pezVerde_MouseDown(object sender, MouseButtonEventArgs e)
@@ -139,11 +144,6 @@ namespace bunny.src.presentacion.animations
     Globals.pezAmarillo.Opacity == 0 && Globals.pezRojo.Opacity == 0 && playing == true)
             {
                 Globals.ProgressBar_diversion.Value += 80;
-                Globals.pezVerde.Opacity = 100;
-                Globals.pezLila.Opacity = 100;
-                Globals.pezAzul.Opacity = 100;
-                Globals.pezAmarillo.Opacity = 100;
-                Globals.pezRojo.Opacity = 100;
                 juegoStop();
 
             }
