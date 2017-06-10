@@ -74,6 +74,18 @@ namespace bunny
             Globals.score = 0;
             Globals.state_label = Label_State;
             Globals.cvPause = cvPause;
+
+            //Decoracion
+            Globals.cvEstructuraCasa = cvEstructuraCasa;
+            Globals.cvPuerta = cvPuerta;
+            Globals.cvVentana = cvVentana;
+            Globals.cvChimenea = cvChimenea;
+            Globals.cvCarretera = cvCarretera;
+            Globals.cvPajarillos = cvPajarillos;
+            Globals.cvGafasSol = cvGafasSol;
+            Globals.cvCampoFlores = cvCampoFlores;
+            Globals.cvCampoFlores2 = cvCampoFlores2;
+
             //Inicializar animaciones
             ani_respirar = new Respirar(cuerpo);
             ani_parpadear = new Parpadear(parpadoIzq, parpadoDer);
@@ -239,5 +251,16 @@ namespace bunny
         public static Label progressbarnivel_label;
         public static Label label_nivel;
         public static int nivel;
+
+        //DECORACIÓN
+        public static Canvas cvCampoFlores { get; set; }
+        public static Canvas cvCarretera { get; set; }
+        public static Canvas cvEstructuraCasa { get; set; }
+        public static Canvas cvPuerta { get; set; }
+        public static Canvas cvVentana { get; set; }
+        public static Canvas cvGafasSol { get; set; }
+        public static Canvas cvCampoFlores2 { get; set; }
+        public static Canvas cvPajarillos { get; set; }
+        public static Canvas cvChimenea { get; set; }
     }
 }

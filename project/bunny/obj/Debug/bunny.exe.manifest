@@ -42,14 +42,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="bunny.exe" size="540160">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="bunny.exe" size="559104">
       <assemblyIdentity name="bunny" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>60toy9fm/A4sqBm+fImhB23KrY6yL4SIUbduI12H6UI=</dsig:DigestValue>
+        <dsig:DigestValue>iPCNMdp+9q7xkzOqDUWc75pWfgYjY5PS8srDj4ZWSsY=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
