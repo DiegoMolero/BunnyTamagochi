@@ -76,3 +76,7 @@ C:\Users\User\Documents\BunnyTamagochi\project\bunny\obj\Debug\bunny.Properties.
 C:\Users\User\Documents\BunnyTamagochi\project\bunny\obj\Debug\bunny.csproj.GenerateResource.Cache
 C:\Users\User\Documents\BunnyTamagochi\project\bunny\obj\Debug\bunny.exe
 C:\Users\User\Documents\BunnyTamagochi\project\bunny\obj\Debug\bunny.pdb
+C:\Users\User\Documents\BunnyTamagochi\project\bunny\bin\Debug\bunny.exe.manifest
+C:\Users\User\Documents\BunnyTamagochi\project\bunny\bin\Debug\bunny.application
+C:\Users\User\Documents\BunnyTamagochi\project\bunny\obj\Debug\bunny.exe.manifest
+C:\Users\User\Documents\BunnyTamagochi\project\bunny\obj\Debug\bunny.application

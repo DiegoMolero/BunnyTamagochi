@@ -58,6 +58,10 @@ namespace bunny.src.dominio
                             progressbar_controler.crearCaca();
                         }
                     }
+                    else if(name == "nivel")
+                    {
+                        Globals.nivel = valueInt;
+                    }
                 }
 
             }

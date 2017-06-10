@@ -3082,10 +3082,11 @@
         </Canvas>
         <Grid HorizontalAlignment="Left" Height="100" VerticalAlignment="Top" Width="363">
             <Label x:Name="Timer_counter" Content="Contador" Background="Transparent" Foreground="Black" Margin="140,10,175,64" Opacity="0"/>
-            <Label x:Name="Label_Puntuacion" Content="Puntuación: 0" Background="Transparent" Foreground="Black" Margin="0,110,-891,-61" HorizontalAlignment="Right" Width="214" AutomationProperties.IsColumnHeader="True" FontFamily="Showcard Gothic" FontSize="18"/>
+            <Label x:Name="Label_Puntuacion" Content="Puntuación: 0" Background="Transparent" Foreground="Black" Margin="0,148,-906,-99" HorizontalAlignment="Right" Width="214" AutomationProperties.IsColumnHeader="True" FontFamily="Showcard Gothic" FontSize="18"/>
             <Label x:Name="Label_State" Content="Contador" Background="Transparent" Foreground="Black" Margin="142,36,173,38" Opacity="0"/>
+            <Label x:Name="Label_Nivel" Content="NIVEL: 0" Background="Transparent" Foreground="Black" Margin="0,115,-740,-66" HorizontalAlignment="Right" Width="133" AutomationProperties.IsColumnHeader="True" FontFamily="Showcard Gothic" FontSize="14"/>
         </Grid>
-        <Grid HorizontalAlignment="Left" Height="139" Margin="761,10,0,0" VerticalAlignment="Top" Width="503" >
+        <Grid HorizontalAlignment="Left" Height="187" Margin="761,10,0,0" VerticalAlignment="Top" Width="503" >
             <Grid.RowDefinitions>
                 <RowDefinition Height="82*"/>
                 <RowDefinition Height="57*"/>
@@ -3118,6 +3119,7 @@
                 </Label.Background>
             </Label>
             <Label x:Name="Label_diversion" Content="Label" HorizontalAlignment="Left" Margin="454,72,0,0" VerticalAlignment="Top" Foreground="Black" Grid.RowSpan="2"/>
+            <ProgressBar x:Name="ProgressBar_nivel" HorizontalAlignment="Left" Height="13" Margin="272,110,0,0" VerticalAlignment="Top" Width="177" Cursor="" Value="100" Foreground="#FF64E200" Grid.RowSpan="2" Maximum="10"/>
 
         </Grid>
         <Canvas x:Name="cvPause" HorizontalAlignment="Left" Height="756" Margin="0,0,-0.4,0" VerticalAlignment="Top" Width="1274">

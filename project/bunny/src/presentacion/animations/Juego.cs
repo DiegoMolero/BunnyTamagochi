@@ -47,7 +47,8 @@ namespace bunny.src.presentacion.animations
             enableEventsPez();
             Globals.state = 2;
             disableEventLago();
-            timegame = 10;
+            timegame = 20-Globals.nivel;
+                if (timegame < 2) timegame = 2;
             showContador();
             }
 

@@ -56,6 +56,9 @@ namespace bunny
             Globals.state = 0;
             Globals.cvLago = cvLago;
             Globals.cvFondo = cvFondo;
+            //nivel
+            Globals.progressbar_nivel = ProgressBar_nivel;
+            Globals.label_nivel = Label_Nivel;
             //peces
             Globals.pezVerde = pezVerde;
             Globals.pezAmarillo = pezAmarillo;
@@ -87,8 +90,10 @@ namespace bunny
     ani_cansancio, ani_hambre, ani_dormir,ani_triste,  //Animations
      cvBunny) //Canvas
       ;
+            Nivel nivel_controller = new Nivel();
             temporizador = new Temporizador(this);
             temporizador.registrarObservador(progressbar_controler);
+            temporizador.registrarObservador(nivel_controller);
             Globals.pause = new Pause();
             new ReadXml(progressbar_controler);
             s = new SoundsPlayer();
@@ -132,7 +137,7 @@ namespace bunny
         {
             GenerateXml file = new GenerateXml(Globals.ProgressBar_sueño.Value,
                 Globals.ProgressBar_hambre.Value, Globals.ProgressBar_baño.Value,Globals.ProgressBar_diversion.Value,
-                Globals.score, Globals.cacas);
+                Globals.score, Globals.cacas,Globals.nivel);
         }
 
         //CURSOR-ZANAHORIA
@@ -229,5 +234,10 @@ namespace bunny
         public static Canvas cvTriste { get; set; }
         public static bool firstGame { get; set; }
         public static bool muted { get; set; }
+        //NIVEL
+        public static ProgressBar progressbar_nivel;
+        public static Label progressbarnivel_label;
+        public static Label label_nivel;
+        public static int nivel;
     }
 }
