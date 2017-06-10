@@ -80,3 +80,7 @@ C:\Users\User\Documents\BunnyTamagochi\project\bunny\bin\Debug\bunny.exe.manifes
 C:\Users\User\Documents\BunnyTamagochi\project\bunny\bin\Debug\bunny.application
 C:\Users\User\Documents\BunnyTamagochi\project\bunny\obj\Debug\bunny.exe.manifest
 C:\Users\User\Documents\BunnyTamagochi\project\bunny\obj\Debug\bunny.application
+C:\Users\Clara\Documents\GitHub\BunnyTamagochi\project\bunny\bin\Debug\bunny.exe.manifest
+C:\Users\Clara\Documents\GitHub\BunnyTamagochi\project\bunny\bin\Debug\bunny.application
+C:\Users\Clara\Documents\GitHub\BunnyTamagochi\project\bunny\obj\Debug\bunny.exe.manifest
+C:\Users\Clara\Documents\GitHub\BunnyTamagochi\project\bunny\obj\Debug\bunny.application
