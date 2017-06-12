@@ -7,14 +7,14 @@
     <framework targetVersion="4.5" profile="Full" supportedRuntime="4.0.30319" />
   </compatibleFrameworks>
   <dependency>
-    <dependentAssembly dependencyType="install" codebase="bunny.exe.manifest" size="3441">
+    <dependentAssembly dependencyType="install" codebase="bunny.exe.manifest" size="3512">
       <assemblyIdentity name="bunny.exe" version="1.0.0.0" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="msil" type="win32" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>wzw6Gz/BetRV8vu7aydfXMND4x42LA4IzPRcjCIEvBA=</dsig:DigestValue>
+        <dsig:DigestValue>RFpCy5JM+QEjgE/drjjXSBjt8SfmK0lkEzK/nOqJUG0=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

@@ -14,7 +14,7 @@ using bunny.src.dominio;
 
 namespace bunny.src.presentacion.objects_img
 {
-    class Caca
+    public class Caca
     {
         private Canvas cvCaca;
         private Canvas cvBunny;
@@ -22,6 +22,7 @@ namespace bunny.src.presentacion.objects_img
         private int left;
         private Label labelMessage;
         private SoundsPlayer s;
+        private bool isCreated;
 
         public Caca(Canvas cvBunny,Label label_puntuacion)
         {
@@ -30,6 +31,7 @@ namespace bunny.src.presentacion.objects_img
             left = rnd.Next(-40, 40);
             Color color = Color.FromRgb(0,0,0);
             Globals.cacas++;
+            isCreated = true;
             this.cvBunny = cvBunny;
             this.cvCaca = new Canvas();
             cvCaca.Height = 45.3;
@@ -89,6 +91,7 @@ namespace bunny.src.presentacion.objects_img
         private void clickOnCaca(object sender, MouseButtonEventArgs e)
         {
             s = new SoundsPlayer();
+            isCreated = false;
             cvBunny.Children.Remove(cvCaca);
             if(Globals.ProgressBar_diversion.Value >= 30)
             {
@@ -151,6 +154,15 @@ namespace bunny.src.presentacion.objects_img
         private void mouseEnter(object sender, EventArgs e)
         {
             cvCaca.Cursor = Cursors.Hand;
+        }
+        public void deleteCaca()
+        {
+            //if (isCreated == true)
+            //{
+                cvBunny.Children.Remove(cvCaca);
+                isCreated = false;
+            //}
+           
         }
     }
 }

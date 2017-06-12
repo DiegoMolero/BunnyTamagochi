@@ -11,6 +11,8 @@ using System.ComponentModel;
 using System.Drawing;
 using System.IO;
 using System;
+using bunny.src.presentacion.objects_img;
+using System.Collections.Generic;
 
 namespace bunny
 {
@@ -54,6 +56,7 @@ namespace bunny
             Globals.img_pause = img_pause;
             Globals.img_music = img_music;
             Globals.state = 0;
+            Globals.listCaca = new List<Caca>();
             Globals.cvLago = cvLago;
             Globals.cvFondo = cvFondo;
             //nivel
@@ -106,7 +109,7 @@ namespace bunny
             temporizador = new Temporizador(this);
             temporizador.registrarObservador(progressbar_controler);
             temporizador.registrarObservador(nivel_controller);
-            Globals.pause = new Pause();
+            new Pause();
             new ReadXml(progressbar_controler);
             s = new SoundsPlayer();
             d = new SoundsPlayer();
@@ -208,10 +211,6 @@ namespace bunny
         {
             Mouse.SetCursor(Cursors.Arrow);
         }
-        private void movimientoNube()
-        {
-         //   Canvas.SetLeft(nube1,nube1_pos);
-        }
 
     }
 
@@ -224,34 +223,36 @@ namespace bunny
         public static Canvas cvFondo { get; set; }
         public static int state { get; set; }
         public static int counter { get; set; }
+        //JUEGO PECES
         public static Canvas cvLago { get; set; }
+        public static Juego juego_pescar { get; set; }
         public static System.Windows.Shapes.Path pezVerde { get; set; }
         public static System.Windows.Shapes.Path pezLila { get; set; }
         public static System.Windows.Shapes.Path pezAmarillo { get; set; }
         public static System.Windows.Shapes.Path pezRojo { get; set; }
         public static System.Windows.Shapes.Path pezAzul { get; set; }
+        //PROGRESSBAR
         public static ProgressBar ProgressBar_hambre { get; set; }
         public static ProgressBar ProgressBar_baño { get; set; }
         public static ProgressBar ProgressBar_sueño { get; set; }
         public static ProgressBar ProgressBar_diversion { get; set; }
         public static Label state_label { get; set; }
-        public static Juego juego_pescar { get; set; }
         public static Image img_pause { get; set; }
         public static Image img_music { get; set; }
         public static int cacas { get; set; }
         public static int score { get; set; }
         public static Canvas cvPescando { get; set; }
-        public static Pause pause { get; set; }
+        //public static Pause pause { get; set; }
         public static Canvas cvPause { get; set; }
         public static Canvas cvTriste { get; set; }
         public static bool firstGame { get; set; }
         public static bool muted { get; set; }
+        public static List<Caca> listCaca { get; set; }
         //NIVEL
-        public static ProgressBar progressbar_nivel;
-        public static Label progressbarnivel_label;
-        public static Label label_nivel;
-        public static int nivel;
-
+        public static ProgressBar progressbar_nivel { get; set; }
+        public static Label progressbarnivel_label { get; set; }
+        public static Label label_nivel { get; set; }
+        public static int nivel { get; set; }
         //DECORACIÓN
         public static Canvas cvCampoFlores { get; set; }
         public static Canvas cvCarretera { get; set; }

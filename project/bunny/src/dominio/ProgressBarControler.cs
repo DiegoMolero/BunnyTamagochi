@@ -72,7 +72,7 @@ namespace bunny.src.dominio
                         setBarDiversion(-2);
                         if (Globals.ProgressBar_baño.Value == 0)
                         {
-                            new Caca(cvBunny, label_puntuacion);
+                    crearCaca();
                             setBarBaño(100);
                         }
                 if (Globals.ProgressBar_sueño.Value <= 20)
@@ -106,6 +106,7 @@ namespace bunny.src.dominio
                 setBarDiversion(-2);
                 Globals.juego_pescar.setTimerGame();
             }
+            doChangeColor();
         }
         public void updateLabels()
         {
@@ -145,6 +146,13 @@ namespace bunny.src.dominio
             if (value + valueBar > 100 || value + valueBar < 0) return false;
             return true;
         }
+        private void doChangeColor()
+        {
+            changeColor(Globals.ProgressBar_diversion);
+            changeColor(Globals.ProgressBar_sueño);
+            changeColor(Globals.ProgressBar_hambre);
+            changeColor(Globals.ProgressBar_baño);
+        }
         private void changeColor(ProgressBar a)
         {
             if (a.Value >= 70) a.Foreground = Brushes.Green;
@@ -157,7 +165,7 @@ namespace bunny.src.dominio
         }
         public void crearCaca()
         {
-            new Caca(cvBunny, label_puntuacion);
+            Globals.listCaca.Add(new Caca(cvBunny, label_puntuacion));
         }
     }
 }

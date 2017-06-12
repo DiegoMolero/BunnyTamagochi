@@ -1,11 +1,10 @@
-﻿using System;
+﻿
+using bunny.src.presentacion.objects_img;
+using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading;
-using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
+using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Animation;
@@ -21,6 +20,8 @@ namespace bunny.src.dominio
         private Image imgInstruction;
         private Label labelMessageInstruction;
         private Label butoInstruction;
+        private bool botonReset;
+        private Label labelReset;
 
         public Pause()
         {
@@ -31,12 +32,12 @@ namespace bunny.src.dominio
             createButonInstruction();
             muted = false;
             previousState = 0;
+            botonReset = false;
         }
-
         private void changeState(object sender, MouseButtonEventArgs e)
         {
             //Si no estaba en modo pause antes
-            if(Globals.state != 3) 
+            if (Globals.state != 3)
             {
                 previousState = Globals.state;
                 Globals.state = 3;
@@ -44,22 +45,31 @@ namespace bunny.src.dominio
                 Globals.cvPause.Background = new SolidColorBrush(Colors.Black);
                 Globals.cvPause.Background.Opacity = 0.5;
                 showPause();
-                
+                if (previousState == 0)
+                {
+                    showReset();
+                    botonReset = true;
+                }
+
             }
             //Si SI estaba en modo pause antes
-            else if(Globals.state== 3)
+            else if (Globals.state == 3)
             {
                 Globals.img_pause.Source = new BitmapImage(new Uri(@"/img/icons/pause.png", UriKind.Relative));
                 Globals.cvPause.Background = null;
                 Globals.state = previousState;
-                deletePauseConetent();
+                deletePauseContent();
+                if (botonReset == true)
+                {
+                    deleteResetContent();
+                }
 
             }
-           
+
         }
         private void changeMusic(object sender, MouseButtonEventArgs e)
         {
-            if(muted == false)
+            if (muted == false)
             {
                 Globals.img_music.Source = new BitmapImage(new Uri(@"/img/icons/muted.png", UriKind.Relative));
                 Globals.muted = true;
@@ -80,7 +90,7 @@ namespace bunny.src.dominio
         {
             butoInstruction.Cursor = Cursors.Hand;
         }
-        
+
         private void showPause()
         {
             labelMessage = new Label();
@@ -88,7 +98,7 @@ namespace bunny.src.dominio
             labelMessage.Width = 300;
             labelMessage.FontFamily = new FontFamily("Showcard Gothic");
             labelMessage.FontSize = 75;
-            Canvas.SetTop(labelMessage, 150 );
+            Canvas.SetTop(labelMessage, 150);
             Canvas.SetLeft(labelMessage, 550);
             Globals.cvPause.Children.Add(labelMessage);
 
@@ -99,6 +109,35 @@ namespace bunny.src.dominio
             Storyboard.SetTargetProperty(animacionMoverAparecer, new PropertyPath(Label.OpacityProperty));
             storyboard.Begin(labelMessage);
             storyboard.Completed += new EventHandler(showCompleted);
+        }
+        private void showReset()
+        {
+            labelReset = new Label();
+            labelReset.Content = "RESET";
+            labelReset.Width = 300;
+            labelReset.FontFamily = new FontFamily("Showcard Gothic");
+            labelReset.FontSize = 35;
+            Canvas.SetTop(labelReset, 8);
+            Canvas.SetLeft(labelReset, 75);
+            labelReset.MouseUp += resetStats;
+            labelReset.MouseEnter += mouseEnterReset;
+            Globals.cvPause.Children.Add(labelReset);
+        }
+
+        private void resetStats(object sender, EventArgs e)
+        {
+            Globals.nivel = 1;
+            Globals.score = 0;
+            Globals.ProgressBar_baño.Value = 100;
+            Globals.ProgressBar_diversion.Value = 100;
+            Globals.ProgressBar_sueño.Value = 100;
+            Globals.ProgressBar_hambre.Value = 100;
+            Globals.cacas = 0;
+            foreach (Caca b in Globals.listCaca)
+            {
+                b.deleteCaca();
+            }
+              
         }
 
         private DoubleAnimation createAnimationAppear()
@@ -111,9 +150,13 @@ namespace bunny.src.dominio
             };
             return animation;
         }
-        private void deletePauseConetent()
+        private void deletePauseContent()
         {
             Globals.cvPause.Children.Remove(labelMessage);
+        }
+        private void deleteResetContent()
+        {
+            Globals.cvPause.Children.Remove(labelReset);
         }
         private void showCompleted(object sender, EventArgs e)
         {
@@ -133,7 +176,8 @@ namespace bunny.src.dominio
             Canvas.SetLeft(butoInstruction, 10);
             Globals.cvPause.Children.Add(butoInstruction);
         }
-        private void showInstruction(object sender, MouseButtonEventArgs e) {
+        private void showInstruction(object sender, MouseButtonEventArgs e)
+        {
             showInstruction();
 
         }
@@ -173,12 +217,16 @@ namespace bunny.src.dominio
         {
             labelMessageInstruction.Cursor = Cursors.Hand;
         }
+        private void mouseEnterReset(object sender, EventArgs e)
+        {
+            labelReset.Cursor = Cursors.Hand;
+        }
 
         private void removeInstruction(object sender, MouseButtonEventArgs e)
         {
             Globals.cvPause.Children.Remove(labelMessageInstruction);
             Globals.cvPause.Children.Remove(imgInstruction);
-            if(Globals.state == 3)
+            if (Globals.state == 3)
             {
                 Globals.img_pause.Source = new BitmapImage(new Uri(@"/img/icons/play.png", UriKind.Relative));
                 Globals.cvPause.Background = new SolidColorBrush(Colors.Black);
@@ -190,6 +238,6 @@ namespace bunny.src.dominio
             }
         }
 
-
     }
 }
+

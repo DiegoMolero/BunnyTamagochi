@@ -20,8 +20,6 @@ namespace bunny.src.dominio
         public void update()
         {
 
-            Globals.progressbar_nivel.Value = Globals.score;
-            Globals.label_nivel.Content = "NIVEL: " + Globals.nivel;
             if (Globals.progressbar_nivel.Maximum <= Globals.score)
             {
                 Globals.nivel++;
@@ -104,7 +102,8 @@ namespace bunny.src.dominio
                 Globals.cvCampoFlores.Opacity = 100;
                 Globals.cvCampoFlores2.Opacity = 100;
             }
-
+            Globals.progressbar_nivel.Value = Globals.score;
+            Globals.label_nivel.Content = "NIVEL: " + Globals.nivel;
 
 
         }
